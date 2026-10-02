@@ -8,6 +8,7 @@
 | Câu hỏi / việc | Đọc theo thứ tự |
 |---|---|
 | **Luật cứng của dự án** (tiếng Trung, 3 phần, "T1 to 9") | `P/core/00_PROJECT_CONTRACT.md` → `P/core/03_PROMPT_COMPILER.md` |
+| **Chọn trục chính / phụ cho một brief** | `mindset/M1_BRIEF_TO_PRIMARY_AXIS.md` → `mindset/M2_IMAGE_MODES.md` → `writing/W1_AXIS_BUDGET_AND_MAPPING.md` → `writing/W2_WORKED_EXAMPLES.md` |
 | **Viết 1 prompt ảnh từ brief** | `P/core/13_RUNTIME_ROUTER.md` (PATCH/STANDARD/DEEP) → `P/core/02_DECISION_WORKFLOW.md` → `P/library/13_FAMILY_REGISTRY.md` + 1 family → `P/core/03` → `P/core/09` |
 | **Đọc / phân tích ảnh reference** | `K/FINE_ARTS_PERCEPTION_AND_FORM_KNOWLEDGE_BASE.md` → `P/core/04_REFERENCE_ANALYZER.md` → `K/VISUAL_ANALYSIS_CASEBOOK_2026-09.md` → `P/templates/TEMPLATE_REFERENCE_WORKSHEET.md` |
 | **Ánh sáng** | `knowledge/K1_LIGHT.md` → `P/library/11_CAMERA_LIGHT_OPTICS.md` §3–7, §11 → `notes/2026-10_LIGHT_POSTER_CINEMA.md` §3 |
@@ -212,6 +213,15 @@
 | [`knowledge/K1_LIGHT.md`](knowledge/K1_LIGHT.md) | K1 Ánh sáng: 6 câu hỏi, vật lý, tỷ lệ chính:phụ, nhiệt màu, thời điểm, bằng chứng, câu tiếng Trung, attractor |
 | [`knowledge/K2_CAMERA.md`](knowledge/K2_CAMERA.md) | K2 Máy ảnh: thẻ máy 5 câu, khoảng cách vs tiêu cự, độ cao/chân trời, DoF, cỡ cảnh, góc máy, poster vs cinema, attractor (máy trên cầu), câu tiếng Trung |
 | [`knowledge/K3_COMPOSITION.md`](knowledge/K3_COMPOSITION.md) | K3 Bố cục: thẻ đường đọc 5 câu, hai giai đoạn chú ý, đường dẫn, trọng lượng, lớp sâu, không gian âm, attractor, câu tiếng Trung |
+| [`knowledge/K4_COLOR.md`](knowledge/K4_COLOR.md) | K4 Màu: giá trị gánh cấu trúc, H–K, tương phản đồng thời, màu bóng theo nguồn, hoà sắc (quy ước), attractor bão hoà (có nghiên cứu) |
+| [`knowledge/K5_MATERIAL.md`](knowledge/K5_MATERIAL.md) | K5 Chất liệu: gương/khuếch tán, Fresnel, kim loại, điểm sáng khớp khối, SSS, vải, mòn, ướt, da sáp |
+| [`knowledge/K6_ATMOSPHERE.md`](knowledge/K6_ATMOSPHERE.md) | K6 Không khí: phối cảnh không khí, sương/mù, 4 điều kiện tia sáng, mưa, tuyết, bụi, luật nhất quán |
+| [`knowledge/K7_MOMENT_GESTURE_GAZE.md`](knowledge/K7_MOMENT_GESTURE_GAZE.md) | K7 Khoảnh khắc: Lessing/Cartier-Bresson, chuyển động ngụ ý, contrapposto, tay có chức năng, gaze cueing, Duchenne |
+| [`knowledge/K8_WORLD.md`](knowledge/K8_WORLD.md) | K8 Thế giới: gist, vật lạc chỗ, kể chuyện bằng môi trường, nền bối cảnh/hào quang, một phi lý, đúng thời đại |
+| [`mindset/M1_BRIEF_TO_PRIMARY_AXIS.md`](mindset/M1_BRIEF_TO_PRIMARY_AXIS.md) | Tầng 2: brief → mục đích → thời gian xem → đọc đầu tiên → trục chính/phụ/để ngỏ |
+| [`mindset/M2_IMAGE_MODES.md`](mindset/M2_IMAGE_MODES.md) | Tầng 2: poster / cinema / candid / siêu thực — test, trục mặc định, lỗi |
+| [`writing/W1_AXIS_BUDGET_AND_MAPPING.md`](writing/W1_AXIS_BUDGET_AND_MAPPING.md) | Tầng 3: ngân sách trục, câu trục chính, map 8 trục → 母版锁/分镜/负面 |
+| [`writing/W2_WORKED_EXAMPLES.md`](writing/W2_WORKED_EXAMPLES.md) | Tầng 3: 3 prompt đầy đủ có chú thích trục + phản ví dụ |
 | [`notes/2026-10_LIGHT_POSTER_CINEMA.md`](notes/2026-10_LIGHT_POSTER_CINEMA.md) | CANDIDATE: poster vs cinema, độ bắt mắt khi ghép nhân vật + sinh vật, ánh sáng có bằng chứng, attractor bố cục |
 | [`AGENTS.md`](AGENTS.md) | Hướng dẫn cho AI |
 | [`tools/verify_manifest.py`](tools/verify_manifest.py) | Kiểm byte-identity với `SOURCE_MANIFEST.json` |

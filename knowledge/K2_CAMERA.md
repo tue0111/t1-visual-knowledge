@@ -81,7 +81,7 @@ Chi tiết khung 47/46/48 ở notes §2.
 | # | Attractor | Bằng chứng | Chặn thử |
 |---|---|---|---|
 | A1 | Có cầu/đường/hành lang → máy đứng **trên chính vật đó**, đường dẫn thẳng giữa khung | ông lão xe bánh mì (2026-09): ghi "bờ đầu cầu", ra máy trên mặt cầu, lan can sai phía | ghi vị trí máy bằng điểm tham chiếu **+ câu phủ định**: 相机在桥外的河岸上，不在桥面上，画面中桥只露出一侧栏杆 |
-| A2 | Series cùng một góc sát đất ngửa lên | bộ 3 ảnh Pokémon | đổi ≥2/4 trục mỗi ảnh (độ cao, khoảng cách, hướng, cỡ cảnh) — casebook C01 |
+| A2 | Series cùng một góc sát đất ngửa lên | bộ 3 ảnh Pokémon | casebook C01: đổi ≥2/4 trục mỗi ảnh (khoảng cách, góc máy, hành động, chủ tiêu điểm); về máy riêng: đổi độ cao, khoảng cách, hướng hoặc cỡ cảnh |
 | A3 | Chủ thể luôn căn giữa, đối xứng | quan sát chung, chưa có số liệu | chỉ định chủ thể lệch + hướng nhìn có không gian phía trước |
 | A4 | Ống rộng sát mặt → méo tỷ lệ mặt/tay | quan sát chung | tăng khoảng cách và dùng khung hẹp, hoặc nói rõ phần gần máy chỉ là bàn tay/vật |
 | A5 | Nền nhoè đều khắp, "ảnh chân dung" dù brief là cảnh | hay gặp | nêu rõ lớp nào nét (tiền/trung/hậu) |
@@ -110,7 +110,7 @@ Quy tắc:
 4. Khoảng cách đúng: tỷ lệ gần/xa giữa chủ thể và vật nền hợp lý?
 5. Mặt/tay gần máy có méo bất thường?
 6. Nét/nhoè đúng lớp đã nêu?
-7. Series: ≥2/4 trục đã đổi?
+7. Series: ≥2/4 trục C01 (khoảng cách, góc máy, hành động, chủ tiêu điểm) đã đổi?
 
 ## 8. OPEN — cần test, chưa kết luận
 - **O1** Ghi số khoảng cách ("十米") vs ghi cảm giác ("人物占画面三分之一") — cái nào model theo chắc hơn? Test cùng cảnh, 6 mẫu mỗi nhánh.

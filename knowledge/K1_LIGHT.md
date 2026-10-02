@@ -107,7 +107,7 @@ Cách viết: 晴天阴影带天空的冷蓝色调 / 草地的绿色反光轻微
 | Nguồn | ~Kelvin | Đọc thành |
 |---|---|---|
 | Nến, lửa | ~1800 K | cam đỏ, thân mật |
-| Bóng đèn sợi đốt | ~3200 K | vàng ấm, trong nhà |
+| Bóng sợi đốt gia dụng / đèn phim tungsten | ~2400–2700 K / 3200 K | vàng ấm, trong nhà |
 | Mặt trời thấp (golden hour) | ~2500–3500 K | vàng cam |
 | Nắng trưa | ~5500–5600 K | trắng trung tính |
 | Trời âm u | ~6500 K | trắng hơi lạnh |
@@ -134,7 +134,7 @@ Cách viết: 逆光下耳廓与指缘透出温暖的红色透光 / 花瓣与叶
 Phối cảnh khí quyển: vật càng xa thì **giảm tương phản, giảm bão hoà, ngả về màu của không khí**. Ban ngày ngả xanh, bình minh và hoàng hôn ngả đỏ. Nguyên nhân là ánh sáng bị tán xạ vào đường nhìn, tạo một lớp sáng phủ lên vật.
 
 - Đây là **bằng chứng khoảng cách** mạnh nhất cho cảnh rộng, và là bằng chứng tỷ lệ cho vật khổng lồ (xem notes §1).
-- Tia sáng (god rays) chỉ thấy được khi có đủ ba thứ: **nguồn cứng có hướng + hạt trong không khí (sương, khói, bụi) + nền tối hơn phía sau tia**. Thiếu một thứ là tia sáng vô lý.
+- Luồng sáng thấy được trong không khí cần ba thứ: **nguồn cứng có hướng + hạt trong không khí (sương, khói, bụi) + nền tối hơn phía sau**. Thiếu một thứ là tia sáng vô lý. Muốn **nhiều tia tách nhau** (god rays) thì cần thêm khe/vật che chia luồng; không có khe thì chỉ ra một khối/luồng sáng (đèn pha trong sương). Xem K6 §2.3.
 
 Cách viết: 远山随距离逐层降低对比与饱和，染上空气的淡蓝 / 香炉的烟雾使斜射阳光形成可见光束，光束后方为较暗的殿内
 
@@ -248,10 +248,10 @@ Câu nào sai thì sửa đúng câu ánh sáng tương ứng trong prompt, rồ
 
 ## 9. OPEN — cần test hoặc nghiên cứu tiếp
 
-- Model có phản ứng khác nhau với "4:1" và với mô tả trạng thái vùng tối không? Giả thuyết: chỉ mô tả mới có tác dụng.
-- Viết màu vùng tối có làm ảnh thật hơn rõ rệt không? Test A/B: cùng prompt, có và không có câu về màu vùng tối.
-- Ghi nhiệt màu bằng số Kelvin (3200K) hay bằng tên nguồn (钨丝灯) thì hiệu quả hơn?
-- Giới hạn số nguồn: viết 3 nguồn trở lên thì model có bắt đầu bỏ nguồn không?
+- **O1** Model có phản ứng khác nhau với "4:1" và với mô tả trạng thái vùng tối không? Giả thuyết: chỉ mô tả mới có tác dụng.
+- **O2** Viết màu vùng tối có làm ảnh thật hơn rõ rệt không? Test A/B: cùng prompt, có và không có câu về màu vùng tối.
+- **O3** Ghi nhiệt màu bằng số Kelvin (3200K) hay bằng tên nguồn (钨丝灯) thì hiệu quả hơn?
+- **O4** Giới hạn số nguồn: viết 3 nguồn trở lên thì model có bắt đầu bỏ nguồn không?
 
 ---
 

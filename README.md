@@ -5,7 +5,7 @@ Không gắn với bot, model hay nền tảng nào. Người, Claude, GPT, Grok
 
 - Nguồn: release `t1gb_r0003` (canonical `t1to9_os_3_2_1_20260925`), ngày 2026-09-25.
 - 119 file tri thức được **chép nguyên văn từng byte**. Bằng chứng: `SOURCE_MANIFEST.json` (sha256 từng file), kiểm lại bằng `python tools/verify_manifest.py`.
-- Lớp mới (do Claude viết): `README.md`, `INDEX.md`, `AGENTS.md`, `knowledge/`, `notes/`, `tools/`.
+- Lớp mới (do Claude viết): `README.md`, `INDEX.md`, `AGENTS.md`, `knowledge/`, `mindset/`, `writing/`, `notes/`, `tools/`.
 
 ## Cấu trúc
 
@@ -16,7 +16,9 @@ AGENTS.md                      hướng dẫn cho AI khi dùng repo
 SOURCE_MANIFEST.json           sha256 của mọi file chép nguyên văn
 Knowledge_Mindset/             lớp hình thành tư duy (mỹ thuật, cinema, connoisseurship, fusion, casebook…)
 T1_TO_9_VISUAL_PROMPT_OS_v2/   hệ prompt: core (luật, quy trình, compiler, validator), library, families, templates, examples, generators, schemas
-knowledge/                     Tầng 1: module kiến thức theo trục (K1 Ánh sáng…) — xem knowledge/README.md
+knowledge/                     Tầng 1: kiến thức theo 8 trục K1–K8 — xem knowledge/README.md
+mindset/                       Tầng 2: tư duy — brief → trục chính, chế độ ảnh
+writing/                       Tầng 3: viết prompt trục chính/phụ, ví dụ đầy đủ
 notes/                         tri thức mới, trạng thái CANDIDATE (chưa qua promotion)
 tools/verify_manifest.py       kiểm tính nguyên văn
 ```
