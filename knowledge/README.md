@@ -10,7 +10,7 @@ Nhãn độ tin cậy: [VẬT LÝ] · [THỰC HÀNH] · [GIẢ THUYẾT-AI].
 |---|---|
 | [K1 Ánh sáng](K1_LIGHT.md) | v0.1 |
 | [K2 Máy ảnh](K2_CAMERA.md) | v0.1 |
-| K3 Bố cục & đường đọc mắt | chưa |
+| [K3 Bố cục & đường đọc mắt](K3_COMPOSITION.md) | v0.1 |
 | K4 Màu | chưa |
 | K5 Chất liệu & bề mặt | chưa |
 | K6 Không khí & thời tiết | chưa |

@@ -211,6 +211,7 @@
 | [`knowledge/README.md`](knowledge/README.md) | Lộ trình 3 tầng: Kiến thức → Tư duy → Viết prompt trục chính/phụ |
 | [`knowledge/K1_LIGHT.md`](knowledge/K1_LIGHT.md) | K1 Ánh sáng: 6 câu hỏi, vật lý, tỷ lệ chính:phụ, nhiệt màu, thời điểm, bằng chứng, câu tiếng Trung, attractor |
 | [`knowledge/K2_CAMERA.md`](knowledge/K2_CAMERA.md) | K2 Máy ảnh: thẻ máy 5 câu, khoảng cách vs tiêu cự, độ cao/chân trời, DoF, cỡ cảnh, góc máy, poster vs cinema, attractor (máy trên cầu), câu tiếng Trung |
+| [`knowledge/K3_COMPOSITION.md`](knowledge/K3_COMPOSITION.md) | K3 Bố cục: thẻ đường đọc 5 câu, hai giai đoạn chú ý, đường dẫn, trọng lượng, lớp sâu, không gian âm, attractor, câu tiếng Trung |
 | [`notes/2026-10_LIGHT_POSTER_CINEMA.md`](notes/2026-10_LIGHT_POSTER_CINEMA.md) | CANDIDATE: poster vs cinema, độ bắt mắt khi ghép nhân vật + sinh vật, ánh sáng có bằng chứng, attractor bố cục |
 | [`AGENTS.md`](AGENTS.md) | Hướng dẫn cho AI |
 | [`tools/verify_manifest.py`](tools/verify_manifest.py) | Kiểm byte-identity với `SOURCE_MANIFEST.json` |
