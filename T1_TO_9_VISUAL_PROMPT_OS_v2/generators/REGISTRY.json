@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1.0",
+  "registry_status": "VERIFIED_OFFICIAL_DOCS_NOT_LIVE",
+  "default_profile": "gpt-image-2.5-sunburst",
+  "generic_fallback": "generic-image",
+  "profiles": [
+    {"id":"gpt-image-2.5-sunburst","family":"gpt-image-2.5","path":"gpt_image_2_5/capabilities.json","profile_path":"gpt_image_2_5/PROFILE.md","status":"REGISTERED_UNTESTED"},
+    {"id":"gpt-image-2.5-flare","family":"gpt-image-2.5","path":"gpt_image_2_5/capabilities.json","profile_path":"gpt_image_2_5/PROFILE.md","status":"REGISTERED_UNTESTED"},
+    {"id":"generic-image","family":"generic-image","path":"generic/capabilities.json","profile_path":"GENERIC_IMAGE_PROFILE.md","status":"FALLBACK_EXECUTABLE"}
+  ],
+  "selection_rules": [
+    "The chat host (Grok, ChatGPT, Claude, Kimi, Grok Build) is not a generator id and must not select a profile by itself.",
+    "Do not default Grok to GPT Image 2.5. Bind generate/edit only to tools actually present in the session.",
+    "Use Sunburst for complex/reference-sensitive work only when the session tool is a registered 2.5 profile or the user explicitly requests that model.",
+    "Use Flare when faster everyday generation is the declared trade-off and the session tool is a registered 2.5 profile.",
+    "If the requested model/surface is not a registered 2.5 profile, use generic-image and omit unverified parameters.",
+    "Pass only parameters the bound tool accepts. Do not invent model IDs, settings, or untested capabilities.",
+    "Do not use a streaming mode for registered 2.5 profiles without a live proof that resolves the source conflict.",
+    "Do not claim input_fidelity behavior; it is UNKNOWN/UNTESTED."
+  ]
+}

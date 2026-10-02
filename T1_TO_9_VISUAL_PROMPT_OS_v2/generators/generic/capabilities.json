@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "family": "generic-image",
+  "profiles": [
+    {
+      "id": "generic-image",
+      "model_id": "generic-image",
+      "role": "fallback_when_gpt_image_2_5_unavailable",
+      "surfaces": ["generic_tool", "ui"],
+      "supports": {"generation": true, "editing": false, "streaming": false, "transparent_background": false},
+      "quality_values": ["auto"],
+      "size": {"standard": ["auto", "1024x1024"], "custom": {"multiple": 16, "max_edge": 2048, "min_pixels": 1, "max_pixels": 4194304, "aspect_ratio_min": 0.3333333333, "aspect_ratio_max": 3.0}},
+      "output_formats": ["png"],
+      "transparent_formats": ["png"],
+      "input_fidelity": {"value": "UNKNOWN", "status": "UNTESTED"},
+      "streaming": {"documented": {"status": "UNKNOWN"}, "execution_policy": "omit_streaming"},
+      "live_verification": "NOT_RUN"
+    }
+  ]
+}
