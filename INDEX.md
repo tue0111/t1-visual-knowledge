@@ -11,7 +11,7 @@
 | **Viết 1 prompt ảnh từ brief** | `P/core/13_RUNTIME_ROUTER.md` (PATCH/STANDARD/DEEP) → `P/core/02_DECISION_WORKFLOW.md` → `P/library/13_FAMILY_REGISTRY.md` + 1 family → `P/core/03` → `P/core/09` |
 | **Đọc / phân tích ảnh reference** | `K/FINE_ARTS_PERCEPTION_AND_FORM_KNOWLEDGE_BASE.md` → `P/core/04_REFERENCE_ANALYZER.md` → `K/VISUAL_ANALYSIS_CASEBOOK_2026-09.md` → `P/templates/TEMPLATE_REFERENCE_WORKSHEET.md` |
 | **Ánh sáng** | `knowledge/K1_LIGHT.md` → `P/library/11_CAMERA_LIGHT_OPTICS.md` §3–7, §11 → `notes/2026-10_LIGHT_POSTER_CINEMA.md` §3 |
-| **Máy ảnh, ống kính, DOF, sương** | `P/library/11_CAMERA_LIGHT_OPTICS.md` → `K/PHOTOGRAPHIC_MEDIA_AND_IMAGING_PROCESSES_KB.md` → `notes/2026-10_LIGHT_POSTER_CINEMA.md` §3 |
+| **Máy ảnh, ống kính, DOF, sương** | `knowledge/K2_CAMERA.md` → `P/library/11_CAMERA_LIGHT_OPTICS.md` → `K/PHOTOGRAPHIC_MEDIA_AND_IMAGING_PROCESSES_KB.md` → `notes/2026-10_LIGHT_POSTER_CINEMA.md` §3 |
 | **Tư duy cinema / dựng lại ảnh kiểu phim** | `K/CINEMATIC_VISUAL_STORYTELLING_KB.md` → `P/library/20_CINEMATIC_DISCUSSION_AND_REBUILD_WORKFLOW.md` → `P/templates/TEMPLATE_CINEMATIC_REBUILD.md` → `notes/2026-10_LIGHT_POSTER_CINEMA.md` §2 |
 | **Poster / key visual, độ bắt mắt, ghép nhân vật + sinh vật** | `notes/2026-10_LIGHT_POSTER_CINEMA.md` §1 → `P/families/FAMILY_ACG_REALISTIC_COSPLAY.md` → `P/families/FAMILY_COUTURE_ENTITY.md` |
 | **Ảnh chụp đời thường / candid / chụp lại** | `P/library/14_CANDID_PHOTOGRAPHY_PRESETS.md` → `P/library/15_PHOTOGRAPHY_RESHOOT_WORKFLOW.md` → `P/families/FAMILY_OUTDOOR_SNAPSHOT_PHOTOBOOK.md` |
@@ -210,6 +210,7 @@
 |---|---|
 | [`knowledge/README.md`](knowledge/README.md) | Lộ trình 3 tầng: Kiến thức → Tư duy → Viết prompt trục chính/phụ |
 | [`knowledge/K1_LIGHT.md`](knowledge/K1_LIGHT.md) | K1 Ánh sáng: 6 câu hỏi, vật lý, tỷ lệ chính:phụ, nhiệt màu, thời điểm, bằng chứng, câu tiếng Trung, attractor |
+| [`knowledge/K2_CAMERA.md`](knowledge/K2_CAMERA.md) | K2 Máy ảnh: thẻ máy 5 câu, khoảng cách vs tiêu cự, độ cao/chân trời, DoF, cỡ cảnh, góc máy, poster vs cinema, attractor (máy trên cầu), câu tiếng Trung |
 | [`notes/2026-10_LIGHT_POSTER_CINEMA.md`](notes/2026-10_LIGHT_POSTER_CINEMA.md) | CANDIDATE: poster vs cinema, độ bắt mắt khi ghép nhân vật + sinh vật, ánh sáng có bằng chứng, attractor bố cục |
 | [`AGENTS.md`](AGENTS.md) | Hướng dẫn cho AI |
 | [`tools/verify_manifest.py`](tools/verify_manifest.py) | Kiểm byte-identity với `SOURCE_MANIFEST.json` |
