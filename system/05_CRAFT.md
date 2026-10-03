@@ -139,13 +139,92 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 
 **4.8 Trang điểm chỉ cần neo nhận dạng nhỏ nhất:** một câu tổng + 2–3 chi tiết. [nhiều nguồn] Liệt kê mắt, mi, môi, má, sống mũi sẽ ra ảnh quảng cáo mỹ phẩm.
 
-**4.8a Gợi cảm có chủ quyền.** [nhiều nguồn] Hợp với gu T1.
-- Không liệt kê bộ phận cơ thể. Viết ngôn ngữ chụp: vải chịu lực thật trên dáng, chất liệu rõ (lụa, da, tóc ướt, lớp xuyên thấu), một nguồn sáng có hướng, góc máy, và nhân cách.
-- Ảnh rẻ tiền là ảnh chỉ có tính từ về thân thể. Ảnh cao cấp là ảnh có vật liệu và ánh sáng.
+**4.8a Gợi cảm:** xem §4b.
 
 **4.9 Động vật:** phản ứng phải do một sự kiện thấy được, đọc qua tai, mắt, đầu, dáng thân cùng lúc. [giả thuyết]
 
 **4.10 Hành động mạnh:** viết chuỗi nhân quả (chuẩn bị → tiếp xúc → phản ứng): ai ra lực, hướng nào, chạm ở đâu, thân kia phản ứng ra sao. [nhiều nguồn] Hiệu ứng chỉ bám vào chi thể thật; chạm trước, rung sau.
+
+## 4b. Gợi cảm người lớn, an toàn
+
+**Phạm vi.**
+- Ảnh cho người lớn xem nhưng **an toàn**: nhân vật rõ là người trưởng thành, nhân vật tự tạo (không mượn mặt người thật), trang phục đầy đủ, không lộ bộ phận nhạy cảm, không hành vi tình dục.
+- Bộ lọc của generator vẫn là cổng cuối. Mục này dạy làm ảnh **đẹp bên trong cổng đó**, không dạy cách lách.
+- Sức gợi đến từ **sức căng**, không đến từ độ hở. [nhiều nguồn]
+
+**Thang ổn định.** Chọn từ trên xuống. [nhiều nguồn]
+
+| Hướng | Gánh bởi | Ổn định |
+|---|---|---|
+| Thời trang gợi cảm | trang phục, dáng, ánh sáng, khí chất | cao |
+| Đồ bơi kiểu quảng cáo | đường nét, nắng, mặt nước, chất thương mại | cao |
+| Đêm, flash thẳng | cảm giác bắt khoảnh khắc, đời sống đêm | khá |
+| Nhân vật khiêu khích | biểu cảm, nhân cách, lực động tác | vừa |
+| Lộ liễu | — | ngoài phạm vi T1 |
+
+**Công thức.** Chủ thể người lớn tự tạo + đường phong cách + **sức căng trang phục** + dáng và biểu cảm + ống kính + ánh sáng + chất liệu + **nhân cách** + câu biên.
+
+**Sức căng trang phục.**
+- Áo ôm dáng nhưng mặc đầy đủ. Vải có lực kéo thật, nếp gấp do cơ thể và động tác, vân dệt thấy được.
+- Chất liệu gánh không khí: lụa, da, tóc ướt, giọt nước, sương mỏng, kim loại, vải phản quang, len mềm, lớp ngoài xuyên thấu chồng lên lớp trong.
+- Hướng trang phục kéo theo cả cảnh:
+
+| Trang phục | Kéo theo |
+|---|---|
+| Váy hai dây cao cấp | đêm trong nhà, lười nhác |
+| Đồ bơi thiết kế | nắng, nước, khoẻ |
+| Đồ thể thao ôm | đường cơ thể khi vận động |
+| Da / latex | lạnh, phản quang, viền rõ |
+| Sơ mi rộng | nửa kín nửa hở, đời thường |
+| Đồ sân khấu | bão hoà, ánh mạnh, chất nhân vật |
+
+**Dáng và biểu cảm.**
+- Viết **cảm xúc và tư thế**, không viết hành vi.
+- Dáng: trọng tâm lệch một hông, vai cổ thả lỏng, nghiêng đầu nhẹ, cúi đầu ngước mắt, quay lại khi tựa tường, ngồi nghiêng người tới trước, tay vén tóc, nửa nằm mà vẫn thanh lịch.
+- Tay không che mặt.
+
+**Nhân cách thay cho chữ "gợi cảm".** [nhiều nguồn] Nó kéo theo biểu cảm, dáng, màu, đạo cụ, nền, ánh sáng.
+
+| Nhân cách | Kéo theo |
+|---|---|
+| Lười nhác | trong nhà, đèn ấm, thả lỏng |
+| Tinh quái | cười nửa miệng khiêu khích, bão hoà cao |
+| Lạnh lùng | đen trắng, ánh cứng, viền rõ |
+| "Thánh nữ" giả | trắng–vàng, ánh mềm, tương phản tính cách |
+| Điên đẹp | tương phản cao, tối, áp lực |
+| Lập dị | neon, hiệu ứng lỗi, kỳ quặc dễ thương |
+
+**Ống kính.** Không có ống kính thì ảnh thành poster ngẫu nhiên.
+
+| Cách chụp | Hiệu ứng |
+|---|---|
+| Cận, góc thấp | mạnh, dáng kéo dài |
+| Cận, từ trên xuống | gần gũi, va chạm thị giác |
+| Ba phần tư nửa người, ngược sáng nghiêng | sang, viền rõ |
+| Flash thẳng | đời đêm, sống sượng |
+| 35mm phố | thật, có chuyện |
+| 85mm | tinh, nền nén |
+
+Khung nhìn qua khe cửa hoặc bình phong tạo cảm giác riêng tư mà không cần hở (thủ pháp từ tranh khắc cổ, chuyển sang ảnh an toàn).
+
+**Ánh sáng quyết định "đắt".** Highlight có kiểm soát, vùng tối sâu nhưng còn lớp, đối lập ấm–lạnh có nguồn, chút hạt phim. Xem K1 về phân bổ độ sáng.
+
+**Bốn lý do ảnh rẻ tiền.** [nhiều nguồn]
+1. Chồng tính từ về thân thể mà không tả bức ảnh.
+2. Không có ống kính.
+3. Không có chất liệu.
+4. Không có nhân cách.
+
+**Câu biên (đặt ở 母版锁 và negative):**
+```text
+原创成年角色，服装完整穿着；性感来自布料张力、姿态、光影与材质，而非裸露。
+```
+```text
+露骨内容，明确性行为，暴露敏感部位，以身体部位为中心的构图，廉价影楼感，塑料皮肤。
+```
+Negative giữ 8–12 mục then chốt; nhiều hơn thì các mục tự đánh nhau.
+
+**Gu T1 vẫn áp dụng:** người trưởng thành, không khung vào bộ phận cơ thể, không mặt búp bê, không đồ hoá trang rẻ. Thiếu một điều kiện ở mục Phạm vi thì không làm.
 
 ## 5. Độ thật và candid
 

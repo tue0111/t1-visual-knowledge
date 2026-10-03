@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v2.3.0 — 2026-10-04
+- `05_CRAFT.md` thêm mục §4b "Gợi cảm người lớn, an toàn":
+  - Phạm vi: người trưởng thành tự tạo, mặc đầy đủ, không lộ liễu; bộ lọc generator là cổng cuối, không dạy lách.
+  - Thang ổn định, công thức, sức căng trang phục, dáng, bảng nhân cách, bảng ống kính, ánh sáng.
+  - Bốn lý do ảnh rẻ tiền; câu biên tiếng Trung cho 母版锁 và negative.
+- Chuyển thủ pháp khung riêng tư (nhìn qua khe cửa, bình phong) từ tranh khắc cổ sang ảnh an toàn; không lấy nội dung lộ liễu.
+
 ## v2.2.0 — 2026-10-03
 - Chưng cất thêm một kho cộng đồng thực hành (~50 bài; bỏ bài khoá trả phí, bài thuần video/plugin, danh sách prompt).
 - `05_CRAFT.md`:
