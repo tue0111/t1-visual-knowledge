@@ -2,7 +2,7 @@
 
 `02_KNOWLEDGE` trả lời "trục này viết thế nào". File này trả lời các vấn đề **không nằm gọn trong một trục**: phong cách, ảnh tham chiếu, câu chuyện, nhiều người, độ thật, series, vệ sinh prompt, sửa lỗi.
 
-Nguồn: chưng cất từ khoảng 400 kinh nghiệm thực hành đọc được (2026), viết lại thành nguyên tắc của T1.
+Nguồn: chưng cất từ khoảng 450 kinh nghiệm thực hành đọc được (2026, nhiều cộng đồng), viết lại thành nguyên tắc của T1.
 Mỗi mục có nhãn độ tin:
 - **[đã thấy]** — có ví dụ đối chứng.
 - **[nhiều nguồn]** — nhiều người độc lập cùng nói.
@@ -30,6 +30,21 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 
 **1.5 Phong cách "thô cố ý" phải tách ba tầng:** phong cách nét, biến dạng hình, nội dung. [giả thuyết] Lệnh "thô một chút" thì model vẽ bẩn; "biến dạng cơ thể" thì mọc thêm tay.
 
+**1.6a Khái niệm dày nghĩa là "bản brief nén".** [nhiều nguồn]
+- Vài cụm đúng loại có thể thay cả trăm chữ. Ví dụ: một cụm lo cách chụp người (editorial), một cụm lo cách dàn trang (bìa tạp chí tối giản), một cụm lo lý do tồn tại (key visual của một dự án nghệ thuật), cộng một danh tính rõ.
+- Chúng hiệu quả vì **không tranh cùng một chiều**. Dấu × hay dấu phẩy không có phép màu.
+- Một từ phong cách cộng một nhân vật đôi khi đủ, nhưng chỉ khi:
+  1. từ đó "dày", tức chỉ một loại tác phẩm có quy ước ổn định;
+  2. nhân vật có nhận dạng mạnh;
+  3. hai thứ hợp nhau.
+- Đây là cách nén cao, dao động cao. Lặp nhiều lần, đổi nhân vật mà vẫn đứng thì mới là hướng ổn định.
+
+**1.6b Khám phá phong cách có hệ thống.** [giả thuyết]
+- Công thức: chủ thể + **1** phong cách gốc + 0–1 lớp bề mặt/ánh sáng + 0–1 lớp dàn trang/không gian + 0–1 lớp lỗi phương tiện + câu chống trôi (giữ nhận dạng chủ thể, không chữ thừa).
+- Kho nhãn hiếm lấy từ tám ngăn: chất liệu, thời đại, phương tiện, ánh sáng, không gian, cách in, lỗi hình ảnh, tiểu văn hoá.
+- Câu hỏi đúng không phải "làm sao đẹp hơn" mà là "chủ thể này còn vào được những hệ hình nào": đồ chơi, poster phim cũ, quảng cáo tạp chí cũ, đồ vật trong game đa giác thấp.
+- Tên tác giả hoặc người nổi tiếng (nhiếp ảnh gia, nhà thiết kế, nhà văn) là công cụ **khám phá** nén rất mạnh. Khi khoá bản sản xuất thì giải mã ra cơ chế (§1.3).
+
 **1.6 Ghi rõ "ảnh thật" khi cần ảnh thật.** [đã thấy] Tên phong cách hay tên nhân vật không đổi được chất liệu ảnh. Thiếu câu 真人写实摄影 thì model hay trả về anime, CG hoặc minh hoạ.
 
 ## 2. Ảnh tham chiếu
@@ -49,6 +64,21 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 - Chỉ ghi điều thấy được. Không bịa tên ống kính, thương hiệu. Phần tự thêm thì đánh dấu là bổ sung.
 
 **2.5 Không dùng ảnh vừa sinh làm tham chiếu mới.** [nhiều nguồn] Mỗi vòng sửa quay về tham chiếu gốc và biên dịch lại prompt đầy đủ; ảnh vòng trước chỉ để chẩn đoán. Nếu không, sai lệch sẽ khuếch đại qua từng vòng.
+
+**2.5a Sửa ảnh có sẵn: liệt kê thứ khoá, chỉ làm một việc.** [nhiều nguồn]
+- Ghi tường minh mọi chiều giữ nguyên: bố cục, vị trí máy, tiêu cự, độ sâu trường ảnh, glow, sương, grade màu, tương phản, hướng sáng, nền, đạo cụ.
+- Rồi nói "chỉ đổi đúng một việc" (ví dụ chất liệu người từ CG sang người thật) và tả việc đó bằng vi chi tiết nhìn thấy.
+- Kết bằng: 不重新设计、不改变风格、不重新构图.
+
+**2.5b Chép lại "kế hoạch chụp" của ảnh mẫu, không chép ảnh.** [nhiều nguồn]
+- Ảnh nhận dạng chỉ cho nét mặt cố định. Biểu cảm do sự kiện trong cảnh mới quyết định.
+- Dựng lại thứ bậc rõ nét của mẫu: vùng nét chính → mảng lớn chi phối → chi tiết phụ → vùng ít chi tiết. "Cảnh phong phú" không có nghĩa mọi lớp đều rõ.
+- Mẫu dựa vào thiếu sáng, lệch nét, đen đặc thì kiểm xem model có tự "đánh bóng thương mại" không (§5.6). Mẫu editorial tinh thì đừng làm bẩn đều tay.
+
+**2.5c Nhân vật tự tạo, không mượn mặt người thật.** [nhiều nguồn]
+- Tạo mặt bằng **cấu trúc xương**: khuôn mặt, cung mày, gò má, sống mũi, độ dày môi. Không viết "giống diễn viên X".
+- Từ mặt đó dựng tấm thẻ nhân vật nhiều góc, nhiều biểu cảm làm tham chiếu cho cả series.
+- Vừa giữ nhất quán, vừa tránh rủi ro chân dung và nền tảng chặn.
 
 **2.6 Ảnh tham chiếu quá chi tiết có thể làm dáng cứng.** [giả thuyết] Muốn dáng sống thì giao cho tham chiếu đúng phần cần giữ.
 
@@ -72,6 +102,8 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 - Cảm xúc kép: sự kiện + cảm xúc chính/phụ + vì sao che giấu + dấu hiệu lộ ra.
 - Khi chỉ muốn đổi nét mặt, thêm câu: "sự kiện chỉ để giải thích biểu cảm, giữ nguyên cảnh và trang phục". Nếu không, model vẽ luôn cả sự kiện. [đã thấy]
 - Không dùng emoji để điều khiển biểu cảm. [giả thuyết]
+
+**3.4a Nhân cách điều khiển biểu cảm tốt hơn nhãn cảm xúc.** [nhiều nguồn] "Lười nhác", "lạnh lùng", "tinh quái" kéo theo cả dáng, ánh mắt, nhịp. "Gợi cảm" hay "đẹp" thì về mặt trung bình.
 
 **3.5 Từ trạng thái mơ hồ cần từ chặn đi kèm.** [giả thuyết] Chồng "mơ màng, chếnh choáng, ngập ngừng" làm mặt nhờn và trượt. Viết dấu hiệu: ánh mắt khựng lại, miệng mở rồi dừng.
 
@@ -106,6 +138,10 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 **4.7 Cận mặt cực gần** dễ mất ngũ quan và sinh "bóng ma" ở nửa mặt kia. Thêm mức sàn: 面部结构自然，眼睛位置准确. [giả thuyết]
 
 **4.8 Trang điểm chỉ cần neo nhận dạng nhỏ nhất:** một câu tổng + 2–3 chi tiết. [nhiều nguồn] Liệt kê mắt, mi, môi, má, sống mũi sẽ ra ảnh quảng cáo mỹ phẩm.
+
+**4.8a Gợi cảm có chủ quyền.** [nhiều nguồn] Hợp với gu T1.
+- Không liệt kê bộ phận cơ thể. Viết ngôn ngữ chụp: vải chịu lực thật trên dáng, chất liệu rõ (lụa, da, tóc ướt, lớp xuyên thấu), một nguồn sáng có hướng, góc máy, và nhân cách.
+- Ảnh rẻ tiền là ảnh chỉ có tính từ về thân thể. Ảnh cao cấp là ảnh có vật liệu và ánh sáng.
 
 **4.9 Động vật:** phản ứng phải do một sự kiện thấy được, đọc qua tai, mắt, đầu, dáng thân cùng lúc. [giả thuyết]
 
@@ -148,7 +184,45 @@ Gọi tên thiết bị ("chụp bằng camera gốc điện thoại, tự chụ
 
 **6.3 Neo nhận dạng bắt mắt giữ tốt; chi tiết nhỏ và trạng thái thì trôi.** [nhiều nguồn] Dây buộc tóc đỏ, áo len đỏ giữ ổn qua nhiều ảnh. Giày cũ bạc màu thì không. Muốn giữ cái gì thì làm nó to và tương phản.
 
+**6.3a Nhân vật hoặc IP dùng lâu thì làm "bộ nhận dạng", không làm prompt lẻ.** [nhiều nguồn]
+1. Rút lõi nhân vật: nguyên mẫu, tính cách, điểm nhớ.
+2. Lập **danh sách bất biến**: viền ngoài, tỷ lệ, mắt, miệng, vùng màu, chi tiết đặc trưng. Ghi cả những gì cấm thêm.
+3. Định quy cách phong cách chung.
+4. Liệt kê ma trận ảnh cần có: chính diện, ba góc nhìn, biểu cảm, dáng, cảnh đời thường, cảnh ứng dụng.
+5. Mỗi loại ảnh có một prompt riêng.
+6. Có checklist đối chiếu sau khi sinh: viền ngoài, mắt, vùng màu, tỷ lệ, góc nghiêng có khớp chính diện không.
+
+Áp vào T1: danh sách bất biến nằm trong 母版锁; checklist chạy ở bước Vòng sửa.
+
+**6.3b Một thế giới, nhiều lát cắt.** [nhiều nguồn] Prompt tả một bức ảnh; series cần định nghĩa **thế giới làm bức ảnh đó có thể tồn tại**.
+- Khoá: nhân dạng, phương tiện chụp, luật thế giới, hệ màu.
+- Thay đổi có mục đích: cảnh, trang điểm, động tác, biểu cảm, tiêu cự, lát cắt thời gian.
+
 **6.4 Ảnh model tự sinh không phải tài sản tham chiếu tốt.** [nhiều nguồn] Từng tấm đẹp nhưng tỷ lệ, mặt, áo, ngôn ngữ máy khác nhau; đưa vào vòng sau chỉ khuếch đại bất nhất.
+
+## 6b. Thủ pháp đặc biệt
+
+**Phơi sáng kép.** [giả thuyết]
+- Lớp chính (người, dáng, mặt, áo, ánh sáng) phải tự đứng được.
+- Lớp thứ hai **giấu** ở đúng một vùng chính và tối đa một vùng phụ: trong vùng tối của tóc, trong sương nền, trong vân áo, trong con ngươi.
+- Nội dung lớp thứ hai chỉ một khái niệm, không nhồi trăng, hoa, lửa, thành phố cùng lúc.
+
+**Vật khổng lồ trong tay người** (thời trang siêu thực). [nhiều nguồn]
+- Người bình thường điều khiển vật nặng bất khả **một cách hờ hững**: kéo lê như kéo túi xách.
+- Sức nặng được đóng đinh bằng bằng chứng tiếp xúc: vết cào trên nền, tia lửa, biến dạng, bóng tiếp xúc, dấu dùng trên vật.
+- Chất liệu vật càng công nghiệp và cũ thì độ thật càng cao.
+
+**Tương phản tỷ lệ để kể quan hệ.** [giả thuyết] Một nhân vật lớn điềm tĩnh, những nhân vật tí hon đầy cảm xúc trên người hoặc xung quanh (leo, bị kẹt, cắm trại, giao chiến). Thành hài kịch quan hệ. Nhân vật lớn phải giữ vẻ thản nhiên.
+
+**Poster ý niệm = một ẩn dụ hình.** [nhiều nguồn]
+- Nén chủ đề vào **một** quan hệ hình: một đường chỉ làm ranh giới số phận, hai phía trọng lực ngược, hai hoá thân của cùng một người.
+- Người nhỏ lại, khoảng trống lớn ra; khoảng cách không chạm được chính là cảm xúc.
+- Mọi phần tử khác phục vụ ẩn dụ đó.
+
+**Poster đội hình.** [giả thuyết]
+- Xếp lớp rõ: tiền cảnh đội viên → trung tâm đội trưởng → hai cánh → vật khổng lồ phía sau → bối cảnh xa.
+- Bố cục tam giác kiểu tranh cổ động. Nền và vật lớn tiết chế màu, nhân vật mới được nhiều màu; mỗi người một màu và một tính cách.
+- Neo thời đại bằng một cụm dày, ví dụ "poster phim Nhật thập niên 90" hay "hộp mô hình anime cũ".
 
 ## 7. Vệ sinh prompt
 
@@ -169,6 +243,8 @@ Khoá quá sớm tầng tự do làm model cứng.
 - **Khám phá:** prompt ngắn, cấp cao rõ (thành phẩm, chủ thể, thế giới, mục đích), cấp thấp tự do, chạy nhiều mẫu.
 - **Khoá:** giải mã cái làm ảnh đẹp, tách thành quyết định, viết lại đầy đủ.
 - Đừng khoá khi chưa biết mình muốn gì.
+
+**7.3a Rộng trước, sâu sau.** [giả thuyết] Khám phá nhiều hướng thì rẻ. Giá trị thật đến khi chọn 1–2 hướng có sức sống rồi đào sâu thành series và giọng riêng. Hôm nay làm khác tháng trước được thì mới là sáng tác.
 
 **7.4 Số đếm phải ghi tường minh:** "đúng chín cái đuôi tách rời", "một sinh vật duy nhất", "không có chân thừa". [nhiều nguồn] Nhiều chi tiết nhỏ không đảm bảo đúng số lượng: bàn cờ vẫn sai số quân, sơ đồ vẫn sai nhãn.
 
@@ -195,6 +271,8 @@ Khoá quá sớm tầng tự do làm model cứng.
 3. Quan hệ ánh sáng – vật liệu.
 
 [nhiều nguồn]
+
+**8.2a Phóng to (upscale) có thể mài da.** [giả thuyết] Phần mềm tăng độ phân giải không thêm vi chi tiết thì sẽ làm da thành bản chỉnh mịn. Chỉ upscale khi nó thật sự bổ sung chi tiết.
 
 **8.3 Da vẫn nhựa thì kiểm theo thứ tự:** highlight có phủ cả vùng không → ánh sáng có hướng và chuyển bóng không → lúc đó mới xem texture. [nhiều nguồn]
 

@@ -26,6 +26,13 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Gel hai màu thường chỉ bám tóc và mép mặt; giữa mặt vẫn trung tính. Muốn nửa mặt mỗi màu thì phải đặt hai nguồn sát hai bên và nói rõ vùng mặt nhận màu.
 - Ánh sáng cực đoan (một mảng nắng nhỏ trên mặt, người đứng đúng ranh sáng–tối, nền sáng hơn người) tạo ảnh có tác giả hơn "ánh sáng đẹp".
 - Bloom/泛朦 chỉ ở mép sáng; giữ nét mắt, sống mũi, đường môi.
+- **Phân bổ độ sáng thay cho "sáng/tối".** Viết ai nhận sáng, ai lùi vào tối, và hai bên được tách bằng gì:
+  - Chủ thể nhận nguồn chính, sáng hơn hẳn môi trường.
+  - Nền thiếu sáng. Việc của bóng tối là **lùi**, không phải đen.
+  - Mép chủ thể được tách bằng một nguồn sau có thật, hoặc bằng không khí sáng phía sau.
+  - Khói và sương là vật mang ánh sáng: tạo chiều sâu, lộ hướng sáng, nhưng không giành chủ thể.
+  - Tương phản mạnh là chênh lệch có kiểm soát: highlight không cháy, vùng tối còn một lớp.
+- Kiểm A/B nhanh: giữ nguyên độ sáng chủ thể, chỉ đổi độ sáng nền và đèn viền.
 
 **Chặn:**
 
@@ -96,6 +103,7 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Chống **phân bố đều**: có vùng dày và vùng thở; chi tiết, nhiễu, trang trí phải tập trung ở chỗ chọn.
 - **Nền tối ≠ nền yên.** Cành nhỏ, gân lá, đốm sáng dày dù tối vẫn nuốt chủ thể. Ghi cái gì nét (mắt, tay, sự kiện) và cái gì chỉ là mảng.
 - Ghi vị trí bằng vùng khung: 头部位于画面右上三分之一. Cắt táo bạo vật tiền cảnh ở mép khung cộng thu nhỏ viễn cảnh là đòn bẩy chống căn giữa.
+- Thứ bậc độ rõ: vùng nét chính → mảng lớn chi phối → chi tiết phụ → vùng ít chi tiết. Viết rõ bốn tầng khi cảnh nhiều thứ.
 - Mỗi ảnh chỉ một bố cục chính. Hai kiểu bố cục chính (ví dụ hai tấm ghép và một điểm tụ) thì gộp hoặc bỏ một.
 
 **Chặn:**

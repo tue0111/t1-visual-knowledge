@@ -63,4 +63,4 @@ Xem thêm `05_CRAFT.md` §8 (thang sửa theo tầng, kiểm da nhựa, khuôn q
 - Ghi rõ trong 母版锁 những biến nào được phép đổi.
 
 ## Chế độ nhanh
-Người dùng chỉ cần thăm dò ý tưởng: viết một prompt nén (một kiểu ảnh dày nghĩa + chủ thể + luật cứng). Khi ra ảnh ưng, giải mã cái gì làm nó đẹp rồi khoá lại bằng bảng quyết định.
+Người dùng chỉ cần thăm dò ý tưởng: viết một prompt nén (vài khái niệm dày nghĩa, mỗi cái một việc + chủ thể + luật cứng; xem `05_CRAFT.md` §1.6a). Muốn tìm hướng mới thì sinh nhiều tổ hợp theo §1.6b. Khi ra ảnh ưng, giải mã cái gì làm nó đẹp rồi khoá lại bằng bảng quyết định.

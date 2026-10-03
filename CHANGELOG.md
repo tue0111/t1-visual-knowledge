@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## v2.2.0 — 2026-10-03
+- Chưng cất thêm một kho cộng đồng thực hành (~50 bài; bỏ bài khoá trả phí, bài thuần video/plugin, danh sách prompt).
+- `05_CRAFT.md`:
+  - Khái niệm dày nghĩa như bản brief nén; khám phá phong cách có hệ thống.
+  - Sửa ảnh có sẵn: khoá tường minh, chỉ làm một việc. Chép kế hoạch chụp của mẫu. Nhân vật tự tạo từ cấu trúc xương.
+  - Nhân cách điều khiển biểu cảm; gợi cảm có chủ quyền.
+  - Bộ nhận dạng IP; một thế giới, nhiều lát cắt.
+  - Mục mới 6b về thủ pháp: phơi sáng kép, vật khổng lồ, tương phản tỷ lệ, poster ý niệm, poster đội hình.
+  - Rộng trước sâu sau; upscale mài da.
+- `02_KNOWLEDGE.md`: K1 phân bổ độ sáng (chủ thể nhận sáng, nền lùi, mép tách); K3 thứ bậc độ rõ.
+- `01_MINDSET.md`: thêm nguyên lý 11–12.
+
 ## v2.1.0 — 2026-10-03
 - Thêm `system/05_CRAFT.md`: chưng cất ~400 kinh nghiệm thực hành thành nguyên tắc T1, có nhãn độ tin (phong cách, tham chiếu, câu chuyện, người, độ thật/candid, series, vệ sinh prompt, sửa lỗi, ghi chú generator).
 - `02_KNOWLEDGE.md`: bổ sung mẹo theo trục (K1, K2, K3, K4, K5, K8).

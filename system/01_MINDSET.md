@@ -1,6 +1,6 @@
 # 01 — MINDSET: cách nghĩ trước khi viết
 
-## 1. Mười nguyên lý
+## 1. Mười hai nguyên lý
 
 1. **Một ảnh tồn tại vì một lý do.** Trục chính là trục mà nếu hỏng thì ảnh hỏng dù mọi thứ khác đúng. Viết đều tay cho cả 8 trục thì ra ảnh "đúng mà vô danh".
 2. **Chọn chế độ trước, chọn trục sau.** Chế độ là quan hệ giữa ảnh và người xem. Nó quyết định ánh nhìn, chỗ đặt máy, mức dàn dựng.
@@ -11,7 +11,10 @@
 7. **Mọi thứ thuộc cùng một thế giới.** Ảnh AI kém thường không xấu, mà là người, đồ, ánh sáng, đạo cụ đến từ những thế giới khác nhau. Tạo móc nối giữa chúng (màu áo lấy từ sinh vật, bóng lá in lên mũ).
 8. **Ý đồ quyết định thế nào là đúng.** Vùng đen chìm là lỗi ở ảnh cần đọc chi tiết, là thành công ở ảnh low-key. Luôn ghi rõ vùng nào phải đọc được, vùng nào được phép chìm.
 9. **Một phi lý thôi.** Siêu thực tốt có đúng một điều sai, còn mọi thứ khác tuân vật lý. Vật mang phi lý phải có tiếp xúc, tải trọng và bóng thật.
-10. **Prompt ngắn và nhất quán thắng prompt dài mà tự mâu thuẫn.** Không đòi cùng lúc "chụp lén" với "quảng cáo xa xỉ", hay "hạt phim" với "8K sắc nét".
+10. **Prompt ngắn và nhất quán thắng prompt dài mà tự mâu thuẫn.** Vài khái niệm dày nghĩa, mỗi khái niệm giữ một việc, có thể bằng một bản brief. Không đòi cùng lúc "chụp lén" với "quảng cáo xa xỉ", hay "hạt phim" với "8K sắc nét".
+11. **Viết thế giới, không chỉ viết bức ảnh.** Một bức ảnh đúng là một lát cắt của một thế giới có luật (người, phương tiện chụp, ánh sáng, màu). Khoá thế giới, thay lát cắt.
+12. **Rộng trước, sâu sau.** Khám phá nhiều hướng là rẻ; giọng riêng đến từ việc đào sâu một hai hướng có sức sống.
+
 
 ## 2. Bốn chế độ ảnh
 
