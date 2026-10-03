@@ -34,6 +34,8 @@ CHẶN: attractor ___ ở trục ___
 - [ ] Trục chính có bằng chứng ở chủ thể **và** môi trường, có mức sàn?
 - [ ] Ánh nhìn có đích? Tay có điểm cầm?
 - [ ] Máy có điểm tham chiếu thế giới? Nếu cảnh có cầu, đường hay hành lang, hình học có loại trừ được chỗ đứng sai không?
+- [ ] [giả thuyết] Điểm đọc đầu tiên có đúng anchor của brief, kể cả khi đó là vật hoặc khoảng trống chứ không phải mặt? Thu về cỡ hiển thị cuối để kiểm; phóng lớn không thay kiểm thumbnail.
+
 - [ ] Ý đồ vùng tối đã ghi rõ?
 - [ ] Có cụm tính từ rỗng không? (高品质, 大师作品, 8K, 氛围感, 电影感 đứng một mình) Có thì xoá hoặc thay bằng bằng chứng.
 - [ ] Có mâu thuẫn không? (dương và âm; phong cách với phong cách; dấu vết sinh ra chữ trong khi brand cấm chữ)

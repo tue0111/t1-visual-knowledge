@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.4.0 — 2026-10-04
+- chưng cất vòng 2 bởi Astra: bổ sung kiểm sai lệch tham chiếu, vùng chất liệu, chuyển động từng vật, silhouette và biến điều khiển độc lập.
+- Bổ sung chuyển cấu trúc đồ vật thành chức năng tạo hình; kiểm điểm neo ở kích thước xem thực tế. Mọi mục mới mang nhãn giả thuyết, chưa kiểm bằng ảnh T1.
+- Soát mâu thuẫn grain/độ phân giải, ánh sáng, candid, hệ quy chiếu; sửa diễn đạt tiếng Trung và các khẳng định quá mức.
+- Hiệu chỉnh nhãn độ tin, bỏ xếp hạng ổn định và ngưỡng negative thiếu bằng chứng; giữ brand, luật ba phần và phạm vi người lớn không lộ liễu.
+
 ## v2.3.0 — 2026-10-04
 - `05_CRAFT.md` thêm mục §4b "Gợi cảm người lớn, an toàn":
   - Phạm vi: người trưởng thành tự tạo, mặc đầy đủ, không lộ liễu; bộ lọc generator là cổng cuối, không dạy lách.
