@@ -1,54 +1,32 @@
 # T1 Visual Knowledge
 
-Kho tri thức thuần cho việc **đọc ảnh, ra quyết định thị giác và viết prompt ảnh** của dự án T1 to 9.
-Không gắn với bot, model hay nền tảng nào. Người, Claude, GPT, Grok hay AI khác đều đọc được.
+Hệ agent viết prompt ảnh cho dự án **T1 to 9**: tiếng Trung, 3 phần 【母版锁】【分镜】【通用负面提示词】, ra ảnh đúng ý ngay lần đầu và sửa đúng chỗ khi hỏng.
 
-- Nguồn: release `t1gb_r0003` (canonical `t1to9_os_3_2_1_20260925`), ngày 2026-09-25.
-- 119 file tri thức được **chép nguyên văn từng byte**. Bằng chứng: `SOURCE_MANIFEST.json` (sha256 từng file), kiểm lại bằng `python tools/verify_manifest.py`.
-- Lớp mới (do Claude viết): `README.md`, `INDEX.md`, `AGENTS.md`, `knowledge/`, `mindset/`, `writing/`, `notes/`, `tools/`.
+Ba tầng, mỗi tầng một file:
 
-## Cấu trúc
+| Tầng | File | Nội dung |
+|---|---|---|
+| Mindset | `system/01_MINDSET.md` | 10 nguyên lý, 4 chế độ ảnh, chọn trục chính |
+| Knowledge | `system/02_KNOWLEDGE.md` | 8 trục (ánh sáng, máy, bố cục, màu, chất liệu, không khí, khoảnh khắc, thế giới): hỏi gì, viết gì, model hỏng ở đâu |
+| Workflow | `system/03_WORKFLOW.md` | 5 bước từ brief đến prompt, vòng sửa ảnh lỗi |
+| Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 3 ví dụ đầy đủ |
+| Thực chiến | `system/LEARNINGS.md` | lỗi đã thấy trên ảnh thật; lớn dần theo thời gian |
 
+## Dùng
+
+- **Codex:** mở repo, `AGENTS.md` tự nạp. Đưa ý tưởng ảnh.
+- **Claude Code:** `CLAUDE.md` trỏ về `AGENTS.md`; skill `.claude/skills/t1-visual-prompt` tự kích hoạt khi xin prompt ảnh.
+- **Chat khác (ChatGPT, Claude.ai):** dán `AGENTS.md` + `system/01`, `03`, `LEARNINGS` làm ngữ cảnh; tra `02` khi cần.
+
+Kiểm luật cứng của một prompt (chỉ cần Python 3.9+, không thư viện ngoài):
+
+```bash
+python tools/t1lint.py my_prompt.txt          # thêm --strict để cảnh báo cũng fail
+python -m unittest discover -s tests          # chạy test của linter
 ```
-README.md                      file này
-INDEX.md                       mục lục theo chủ đề + danh mục toàn bộ file  ← bắt đầu ở đây
-AGENTS.md                      hướng dẫn cho AI khi dùng repo
-SOURCE_MANIFEST.json           sha256 của mọi file chép nguyên văn
-Knowledge_Mindset/             lớp hình thành tư duy (mỹ thuật, cinema, connoisseurship, fusion, casebook…)
-T1_TO_9_VISUAL_PROMPT_OS_v2/   hệ prompt: core (luật, quy trình, compiler, validator), library, families, templates, examples, generators, schemas
-knowledge/                     Tầng 1: kiến thức theo 8 trục K1–K8 — xem knowledge/README.md
-mindset/                       Tầng 2: tư duy — brief → trục chính, chế độ ảnh
-writing/                       Tầng 3: viết prompt trục chính/phụ, ví dụ đầy đủ
-notes/                         tri thức mới, trạng thái CANDIDATE (chưa qua promotion)
-tools/verify_manifest.py       kiểm tính nguyên văn
-```
 
-Tên thư mục `Knowledge_Mindset/` và `T1_TO_9_VISUAL_PROMPT_OS_v2/` giữ nguyên như bản gốc để mọi đường dẫn tham chiếu chéo bên trong file vẫn đúng.
+## Vòng học
+Sinh ảnh → thấy lỗi → sửa 1–2 câu → ghi một dòng vào `system/LEARNINGS.md`. Bài học lặp ≥ 3 lần ở các brief khác nhau thì chuyển vào `02_KNOWLEDGE.md`.
 
-## Thứ tự thẩm quyền
-
-Khi hai nguồn mâu thuẫn, nguồn đứng trước thắng:
-
-1. yêu cầu / reference / chỉnh sửa mới nhất của người dùng
-2. project profile hiện tại (nếu có)
-3. `T1_TO_9_VISUAL_PROMPT_OS_v2/core/00_PROJECT_CONTRACT.md`
-4. `core/01_CORE_LAWS.md`
-5. family khớp (`families/`)
-6. engine / library
-7. `Knowledge_Mindset/` theo phạm vi bằng chứng
-8. examples
-9. `notes/` (candidate — chỉ là giả thuyết có lý do)
-
-## Cố ý KHÔNG đưa vào
-
-Hạ tầng riêng của Grok Bot và vận hành: `Runtime_Source/`, `Releases/`, `bot_profiles/`, `tools/*.py|ps1` của bản gốc, `pilot/`, `migration/`, `BOOTSTRAP.md`, `manifest.json`, `VALIDATION_REPORT.md`, `MIGRATION_MAP.md`, `PROJECT_PROFILE.md`, `EGGBOT_LAB_CHANGELOG`. Chúng vẫn nằm nguyên ở repo build `T1_GrokBot_OS_r0003`.
-
-**Không bao giờ đưa lên đây:** đáp án pilot (`pilot_gold`), ảnh của người khác, token/khoá.
-
-Hệ quả: một số file nguyên văn nhắc tới đường dẫn không có trong repo này (ví dụ `BOOTSTRAP.md`, `tools/validate_pack.ps1`, `Portable_Agent_OS/`, `Visual_Resource_Library/`). Đó là tham chiếu lịch sử, không phải file bị thiếu. Danh sách đầy đủ ở cuối `INDEX.md`.
-
-## Cập nhật tri thức
-
-- File nguyên văn: chỉ sửa qua thay đổi có duyệt; sửa xong chạy lại `tools/verify_manifest.py --update` và ghi lý do trong commit.
-- Tri thức mới: viết vào `notes/` với trạng thái `CANDIDATE`, kèm bằng chứng và phản ví dụ. Chỉ chuyển sang lớp canonical theo `core/11_EVIDENCE_AND_PROMOTION_ENGINE.md`.
-- Không chấm "gu cá nhân" như sự thật; gu hình thành dần qua sử dụng.
+## Lịch sử
+Bản trước (OS v2, Knowledge_Mindset, K1–K8/M/W, notes, ~1.3MB) được giữ nguyên ở tag [`legacy-v1`](../../tree/legacy-v1). Bản này chưng cất từ đó cùng với bài học test W2 (2026-10-03).
