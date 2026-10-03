@@ -58,7 +58,7 @@ Nguyên tắc từ `core/03`: **ổn định qua các shot → 母版锁; riêng
 ## 4. Thứ tự câu trong 分镜 khi có trục chính
 
 `core/03` §2 cho thứ tự lắp ráp chuẩn (để dễ kiểm). Trong khuôn đó, **câu trục chính đứng sớm nhất có thể trong khối của nó** và không bị câu trục phụ chen ngang. Nếu trục chính là K1, câu ánh sáng có bằng chứng đi trước câu màu; nếu trục chính là K7, câu khoảnh khắc đi trước câu ánh sáng.
-Ngoại lệ có chủ ý so với `core/03` §2: khi trục chính thuộc một khối đứng sau (ví dụ K1 đứng sau tư thế), câu trục chính được kéo lên ngay sau câu khung/máy. Ngoại lệ này chỉ áp dụng cho trục chính; trục phụ giữ thứ tự chuẩn.
+~~Ngoại lệ có chủ ý so với `core/03` §2~~ — **tạm dừng (2026-10-03)**: đẩy câu trục chính lên trước chưa có bằng chứng và mâu thuẫn thứ tự lắp ráp của `core/03` (Astra chỉ ra khi lập kế hoạch TASK_01). Prompt mới giữ thứ tự `core/03`; nhấn trục chính bằng **số quyết định và bằng chứng**, không bằng vị trí. Ví dụ W2 giữ nguyên làm lịch sử vì đã đăng ký trước.
 Hiệu ứng thứ tự trên generator **chưa được chứng minh** (`core/03` §2 nói rõ); đây là quy ước để người đọc thấy ngay trục chính.
 
 ## 5. Negative bảo vệ trục chính

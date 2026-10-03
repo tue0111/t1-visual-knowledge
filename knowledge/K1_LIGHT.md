@@ -66,6 +66,8 @@ Cách viết: 硬光，阴影边缘清晰锐利 / 大面积柔光，阴影边缘
 
 Cách viết: 烛光只照亮面部与双手，光线在肩部迅速衰减，身后墙面沉入黑暗 / 阳光均匀照亮从前景到远景的整个场景
 
+⚠ W2 (2026-10-03): "迅速衰减成深暗" làm 6/6 ảnh **mất chi tiết vùng tối môi trường** (cột, lan can thành mảng đen). Nếu cần vùng tối còn đọc được, thêm mức sàn cho môi trường, ví dụ: 暗部仍可辨认栏杆与木柱的轮廓和纹理. Chỉ để "沉入黑暗" khi thật sự muốn mất chi tiết.
+
 ### 2.3 Tỷ lệ sáng chính:phụ — phần repo còn thiếu [VẬT LÝ + THỰC HÀNH]
 
 Định nghĩa (công thức ASC): tỷ lệ = (chính + phụ) : phụ. Mỗi stop chênh lệch là gấp đôi lượng sáng:

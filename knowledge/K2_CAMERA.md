@@ -80,7 +80,7 @@ Chi tiết khung 47/46/48 ở notes §2.
 ## 5. Attractor của model (hay kéo về) [GIẢ THUYẾT-AI]
 | # | Attractor | Bằng chứng | Chặn thử |
 |---|---|---|---|
-| A1 | Có cầu/đường/hành lang → máy đứng **trên chính vật đó**, đường dẫn thẳng giữa khung | ông lão xe bánh mì (2026-09): ghi "bờ đầu cầu", ra máy trên mặt cầu, lan can sai phía | ghi vị trí máy bằng điểm tham chiếu **+ câu phủ định**: 相机在桥外的河岸上，不在桥面上，画面中桥只露出一侧栏杆 |
+| A1 | Có cầu/đường/hành lang → máy đứng **trên chính vật đó**, đường dẫn thẳng giữa khung | ông lão xe bánh mì (2026-09): ghi "bờ đầu cầu", ra máy trên mặt cầu, lan can sai phía. **W2 (2026-10-03): prompt P3 có cả câu vị trí khẳng định (河岸人行道) lẫn 相机不在桥面上 → cả 3 ảnh máy vẫn ở trên dốc/lòng đường cầu** (`notes/2026-10-03_W2_TEST_RESULT.md`) | câu phủ định **chưa đủ** (bằng chứng chống). Thử tiếp: mô tả hình học khẳng định mạnh hơn — máy ở bờ đối diện / dưới thấp nhìn lên, cầu nằm ở nửa trên khung, người đi trên cầu nhỏ trong khung; hoặc bỏ cây cầu khỏi vùng dưới khung |
 | A2 | Series cùng một góc sát đất ngửa lên | bộ 3 ảnh Pokémon | casebook C01: đổi ≥2/4 trục mỗi ảnh (khoảng cách, góc máy, hành động, chủ tiêu điểm); về máy riêng: đổi độ cao, khoảng cách, hướng hoặc cỡ cảnh |
 | A3 | Chủ thể luôn căn giữa, đối xứng | quan sát chung, chưa có số liệu | chỉ định chủ thể lệch + hướng nhìn có không gian phía trước |
 | A4 | Ống rộng sát mặt → méo tỷ lệ mặt/tay | quan sát chung | tăng khoảng cách và dùng khung hẹp, hoặc nói rõ phần gần máy chỉ là bàn tay/vật |
@@ -114,7 +114,7 @@ Quy tắc:
 
 ## 8. OPEN — cần test, chưa kết luận
 - **O1** Ghi số khoảng cách ("十米") vs ghi cảm giác ("人物占画面三分之一") — cái nào model theo chắc hơn? Test cùng cảnh, 6 mẫu mỗi nhánh.
-- **O2** Câu phủ định vị trí máy có giảm A1 không, hay làm model vẽ chính vật bị cấm? (có thể tác dụng ngược)
+- **O2** Câu phủ định vị trí máy có giảm A1 không, hay làm model vẽ chính vật bị cấm? (có thể tác dụng ngược) — *W2: 0/3 ảnh thoát A1 khi có câu phủ định; chưa có nhánh đối chứng không phủ định → chưa biết phủ định vô tác dụng hay phản tác dụng. Kế hoạch TASK_01 đợt B01.*
 - **O3** Tên ống kính (24mm/85mm) có đổi gì không khi đã có khoảng cách và cỡ cảnh?
 - **O4** Hiệu ứng tiền cảnh che (cột, lá): model có đặt đúng phía và tỷ lệ không?
 - **O5** Với model chỉ nhận prompt rất dài, câu máy đặt đầu hay cuối thì được tuân thủ tốt hơn?

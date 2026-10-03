@@ -223,6 +223,7 @@
 | [`writing/W1_AXIS_BUDGET_AND_MAPPING.md`](writing/W1_AXIS_BUDGET_AND_MAPPING.md) | Tầng 3: ngân sách trục, câu trục chính, map 8 trục → 母版锁/分镜/负面 |
 | [`writing/W2_WORKED_EXAMPLES.md`](writing/W2_WORKED_EXAMPLES.md) | Tầng 3: 3 prompt đầy đủ có chú thích trục + phản ví dụ |
 | [`notes/2026-10_LIGHT_POSTER_CINEMA.md`](notes/2026-10_LIGHT_POSTER_CINEMA.md) | CANDIDATE: poster vs cinema, độ bắt mắt khi ghép nhân vật + sinh vật, ánh sáng có bằng chứng, attractor bố cục |
+| [`notes/2026-10-03_W2_TEST_RESULT.md`](notes/2026-10-03_W2_TEST_RESULT.md) | Bằng chứng đợt 1 (18 ảnh, quan sát mù Astra+Sol, JEV, luật đăng ký trước): kết quả ràng buộc, chẩn đoán đo lường, tín hiệu thăm dò (nhìn ống kính, máy trên cầu, vùng tối) |
 | [`AGENTS.md`](AGENTS.md) | Hướng dẫn cho AI |
 | [`tools/verify_manifest.py`](tools/verify_manifest.py) | Kiểm byte-identity với `SOURCE_MANIFEST.json` |
 

@@ -1,5 +1,7 @@
 # W2 — VÍ DỤ ĐẦY ĐỦ (có chú thích trục)
 
+> **Kết quả test 2026-10-03** (`notes/2026-10-03_W2_TEST_RESULT.md`): theo luật đăng ký trước, H-W2 *không ủng hộ* (đo lường còn lỗi). Tín hiệu thăm dò: ví dụ 1 tránh nhìn ống kính 6/6 (bản đều tay 0/6) nhưng vùng tối mất chi tiết 6/6; ví dụ 3 **vẫn đặt máy trên dốc cầu** dù có câu phủ định. Ngoại lệ thứ tự câu (W1 §4) đã tạm dừng. Dùng các ví dụ như minh hoạ cách chia trục, chưa phải mẫu đã kiểm.
+
 status: v0.1 CANDIDATE · author: Claude · date: 2026-10-02
 Các prompt dưới đây **chưa chạy thử**; chúng minh hoạ cách phân cấp trục, không phải bằng chứng. Chú thích `[K…·chính/phụ]` chỉ để học — **xoá khi dùng thật**.
 Brand rule và câu negative brand chép từ `core/00_PROJECT_CONTRACT.md`.

@@ -63,7 +63,7 @@ Liên quan: `notes/2026-10_LIGHT_POSTER_CINEMA.md` §2 (khung 47), `K3_COMPOSITI
 |---|---|---|---|
 | G-A1 | Tay dị dạng | **Có nghiên cứu** (CHI 2025; arxiv 2411.04332) | giữ tay đơn giản, ít ngón lộ, cầm vật rõ hình |
 | G-A2 | Cầm nắm không thể (vật xuyên tay, cầm sai chỗ) | **Có nghiên cứu**: loại lỗi khó phát hiện nhất | ghi điểm cầm và cách đỡ trọng lượng |
-| G-A3 | Mọi người nhìn ống kính | quan sát | cinema/candid: 视线落向画外 / 看着手中的… |
+| G-A3 | Mọi người nhìn ống kính | **W2 (2026-10-03): prompt viết đều tay 6/6 nhìn ống kính; prompt có ánh nhìn có đích + người xem là kẻ đứng ngoài 0/6** (Fisher p≈0.002, một brief, một generator) | cinema/candid: 视线落向画外 / 看着手中的… — câu có **đích** nhìn hiệu quả trong đợt này |
 | G-A4 | Dáng đối xứng đứng thẳng | quan sát | ghi trọng lượng một chân, vai-hông nghiêng |
 | G-A5 | Cười chung chung | quan sát | Duchenne bằng dấu hiệu, hoặc biểu cảm trung tính có lý do |
 | G-A6 | Người và sinh vật đứng cạnh nhau không quan hệ | casebook C05 | tiếp xúc / chức năng / ánh nhìn |
