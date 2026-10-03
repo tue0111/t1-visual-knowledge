@@ -22,6 +22,10 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Ánh sáng xuyên rèm hoặc khe để lại vệt trên mặt, áo **và** tường, mà phía tối vẫn đọc được mắt. Phải có bằng chứng ở môi trường, không chỉ ghi "noir".
 - Khi đổi góc máy so với ảnh mẫu, model chép vị trí sáng 2D của mẫu (má trái sáng), làm ánh sáng "đi theo máy". Sửa bằng cách cố định nguồn **trong cảnh**: nguồn ở đâu, bị gì che.
 - Số nhiệt màu (3200K) đứng một mình bị bỏ qua hoặc chỉ ra filter vàng. Viết kết quả: "ánh hổ phách ấm trong nhà, ngoài cửa còn chút lạnh hoàng hôn".
+- Đèn hắt thì gọi tên **bề mặt hắt** (白色天花板反射的柔光), đừng chỉ ghi tên kỹ thuật "跳闪".
+- Gel hai màu thường chỉ bám tóc và mép mặt; giữa mặt vẫn trung tính. Muốn nửa mặt mỗi màu thì phải đặt hai nguồn sát hai bên và nói rõ vùng mặt nhận màu.
+- Ánh sáng cực đoan (một mảng nắng nhỏ trên mặt, người đứng đúng ranh sáng–tối, nền sáng hơn người) tạo ảnh có tác giả hơn "ánh sáng đẹp".
+- Bloom/泛朦 chỉ ở mép sáng; giữ nét mắt, sống mũi, đường môi.
 
 **Chặn:**
 
@@ -54,6 +58,11 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Thông số máy (f/1.4, ISO, tên body) không được tính như vật lý. Viết kết quả nhìn thấy trước, số làm phụ.
 - Cỡ cảnh ghi bằng chỗ cắt (从腰部以上), model hiểu tốt hơn "中景".
 - Cảm xúc mặt không ra thường vì mặt quá nhỏ trong khung. Kéo máy lại gần trước khi tả mắt kỹ hơn.
+- 平视 một mình chỉ làm mắt nhìn thẳng. Muốn máy thật sự ngang mặt thì viết 相机与面部中心同高，镜头水平对准鼻梁. Góc máy tính theo **mắt nhân vật**.
+- Chồng nhiều thứ khuếch đại méo (flash thẳng + rất gần + máy thấp + ống rộng) làm hỏng tỷ lệ cơ thể. Chỉ chọn một.
+- Tỷ lệ khổng lồ cần **thước quen**: người tí hon, mái nhà, cây cầu, lá cờ nhỏ đặt cạnh. Chữ "巨大" không đủ.
+- Máy cầm tay, vác vai, chân máy để lại dấu vết khác nhau (nghiêng nhẹ, rung, khung chuẩn). Ghi dấu vết nếu muốn cảm giác đó.
+- Nghiêng khung (Dutch) phải có lý do trong cảnh.
 
 **Chặn:**
 
@@ -84,6 +93,10 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Khoảng trống không có nghĩa là trống rỗng: có thể giữ bóng cây hay một cử chỉ, miễn ghi rõ vùng và vật được phép.
 - Đừng nói một thông tin bằng nhiều hệ quy chiếu cùng lúc (toạ độ thế giới, trái/phải khung, hướng giữa nhân vật). Chọn **trái/phải theo khung hình**.
 - Viết đúng lệch vị trí mà ảnh vẫn bị "chuẩn hoá" về chân dung chính diện giữa khung là do model kéo về khuôn quen. Tăng bằng chứng (vật chắn ở mép, đường chéo có vật mang), đừng chỉ lặp lại lệnh.
+- Chống **phân bố đều**: có vùng dày và vùng thở; chi tiết, nhiễu, trang trí phải tập trung ở chỗ chọn.
+- **Nền tối ≠ nền yên.** Cành nhỏ, gân lá, đốm sáng dày dù tối vẫn nuốt chủ thể. Ghi cái gì nét (mắt, tay, sự kiện) và cái gì chỉ là mảng.
+- Ghi vị trí bằng vùng khung: 头部位于画面右上三分之一. Cắt táo bạo vật tiền cảnh ở mép khung cộng thu nhỏ viễn cảnh là đòn bẩy chống căn giữa.
+- Mỗi ảnh chỉ một bố cục chính. Hai kiểu bố cục chính (ví dụ hai tấm ghép và một điểm tụ) thì gộp hoặc bỏ một.
 
 **Chặn:**
 - Nền chi tiết đều: chỉ định lớp nào chìm.
@@ -108,6 +121,9 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Bảng màu theo vai và tỷ lệ: nền ~45%, vùng sáng phụ ~10%, trọng tâm tối ~10%, da/trung gian ~10%, điểm nhấn ~5%. Cách này cho model biết màu nào chủ đạo, màu nào chỉ điểm xuyết.
 - Muốn chủ thể nổi mà giữ chất cảnh: **hạ độ sáng** các vật cạnh tranh, đừng hạ màu cả nền về xám. Nền có thể nhiều cấu trúc nhưng thấp bão hoà.
 - Gán màu cho từng vật (vàng cho lá, xanh cho trời, cam cho đèn) thay vì phủ một tông toàn khung.
+- Tách bốn lớp khi đọc hoặc viết màu: màu vốn có của vật, ánh sáng hiện trường, phơi sáng, hậu kỳ (mài da, hạt, nén). "Tông xanh" mà không nói lớp nào thì model đoán.
+- Giới hạn 3–4 mảng màu chính có tên. Đổi màu cho một ảnh có sẵn thì khoá bố cục, người, máy; chỉ liệt kê đúng các biến màu được đổi.
+- Màu phi tự nhiên (rời màu vật) vẫn cần khối sáng tối đúng, nếu không thành phẳng.
 
 **Chặn:**
 - Quá bão hoà: ghi bão hoà theo vùng.
@@ -134,6 +150,10 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Thứ quyết định là **phân bố điểm sáng**: bóng nhỏ chỉ ở trán và sống mũi, phần còn lại mờ; có lông tơ, có vùng hơi hồng.
 - Mẫu viết: 皮肤保留毛孔与细小纹理，额头和鼻梁有小面积柔和高光，其余区域为哑光；不磨皮，不呈蜡质。
 - Texture da khác grain/noise. Đừng thêm hạt phim để chữa da sáp; có generator còn bẩn hơn khi thêm (chưa kiểm chắc).
+- Flash thẳng thì nói flash rơi ở đâu (trán, mũi); flash mạnh không sao, phủ đều mới hỏng.
+- Trạng thái vật liệu do **hành vi vừa xảy ra** quyết định: tóc ướt hẳn hay nửa ướt, dính má, nhỏ nước. Mức độ phải hợp vật lý.
+- Chất liệu thủ công hoặc phong cách vẽ thì tả **dấu quá trình** (bụi phấn, vệt tay, đường may, nét dao khắc), không ghi nhãn "phong cách phấn".
+- Chi tiết cần chỗ đặt và chỗ dừng: mảng lớn nguyên vẹn đọc khối tốt hơn đầy linh kiện nhỏ.
 
 **Chặn:**
 - Mọi thứ bóng như nhau: chỉ định vật nào láng, vật nào nhám. Vật matte thì tả dấu chế tác (lỗ rỗng, mép vát, đường nối).
@@ -202,6 +222,13 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 
 **Viết:**
 > 宋代江南书房，直棂窗透入午后光，案上砚台墨迹未干，一卷书摊开压着镇纸；不出现明清家具与现代物品。
+
+**Mẹo đã kiểm ngoài thực tế:**
+- Kiểm ba tầng: tiền cảnh có gì, người ở đâu, hậu cảnh có gì. Thiếu tầng nào thì ảnh phẳng.
+- **Một vật cốt lõi có người dùng** + 1–2 vết tích hơn mười đạo cụ bày sẵn.
+- Thế giới giả tưởng cần logic vận hành: chức năng (lưu trữ, điều phối) phải có hệ vật thể tương ứng, không chỉ logo.
+- "中式审美" một mình kéo về khuê phòng cổ. Trung Hoa hiện đại thì ghi danh từ hiện đại cụ thể.
+- Đề tài văn hoá dễ lệch (nhân vật thần thoại): ghi cả giải phẫu đúng lẫn các hướng lệch cần tránh.
 
 **Siêu thực:**
 - Khoảng 85% thật, 15% phi lý: nơi tin được + chủ thể nhận ra + hành động quen + **một** vật sai cụ thể + người xung quanh bình thản.

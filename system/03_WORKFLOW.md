@@ -7,6 +7,8 @@ Có ảnh tham chiếu thì tách hai phần:
 - **Phần giữ:** cái làm ảnh mẫu đáng chép. Thường là quan hệ không gian (mặt lộ ra từ đâu, tiền cảnh che phía nào, chỗ cắt khung), không phải danh từ trang trí.
 - **Phần bỏ:** chữ và logo trong mẫu, các chi tiết ngẫu nhiên.
 
+Brief có phong cách, nhiều ảnh tham chiếu, nhiều người hay cần ảnh thật kiểu candid thì đọc mục tương ứng trong `05_CRAFT.md` trước khi viết.
+
 ## Bước 2 — Bảng quyết định (luôn viết ra, 6 dòng)
 ```
 CHẾ ĐỘ: poster / cinema / candid / siêu thực  ·  XEM: <1s / vài giây / lâu
@@ -43,6 +45,8 @@ Bảng quyết định → 3 khối code → tối đa 3 dòng "nhìn gì khi ra
 ---
 
 ## Vòng sửa — khi ảnh ra lỗi
+Xem thêm `05_CRAFT.md` §8 (thang sửa theo tầng, kiểm da nhựa, khuôn quen).
+
 1. **Gọi tên lỗi bằng thứ nhìn thấy**, đừng dùng "chưa đẹp". Ví dụ: "máy đứng trên mặt cầu", "nhân vật nhìn ống kính", "da bóng nhựa".
 2. **Xác định trục và loại lỗi:**
    - **Thiếu chữ:** prompt không nói gì về chỗ đó → thêm câu có bằng chứng.

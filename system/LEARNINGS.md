@@ -11,13 +11,8 @@ File này có quyền cao hơn `02_KNOWLEDGE.md` khi hai bên mâu thuẫn. Ch�
 | 2026-10-03 | GPT Image | Cảnh cầu: câu vị trí khẳng định 河岸人行道 cộng câu phủ định 相机不在桥面上, mà 3/3 ảnh máy vẫn ở trên dốc cầu. | Phủ định không đủ. Dùng hình học khiến "trên cầu" là bất khả: chụp ngang vuông góc, cầu chạy ngang khung. | cao về lỗi; cách sửa chưa kiểm |
 | 2026-10-03 | GPT Image | Tổng thể W2 chưa chứng minh "phân cấp trục" thắng bản đều tay (đo lường còn lỗi). Cái thắng rõ nằm ở từng câu có bằng chứng (ánh nhìn có đích). | Đừng tin công thức ngân sách; tin câu có bằng chứng nhìn thấy. | vừa |
 
-## Từ thực hành của người khác (chưa tự kiểm, dùng như giả thuyết mạnh)
-- Da: "真实皮肤" hay "毛孔" một mình cho ra da sáp. Phải tả phân bố điểm sáng (bóng chỉ ở trán và mũi, còn lại mờ).
-- Biểu cảm mạnh tả từng bộ phận thì ra mặt kỳ dị. Viết lý do của cảm xúc.
-- "低机位" cho ảnh chi tiết (giày) khiến model ngửa cả người. Độ cao máy tính theo tâm vùng chụp.
-- Đổi góc máy so với ảnh mẫu thì ánh sáng "đi theo máy". Cố định nguồn sáng trong cảnh.
-- Tên phong cách hoặc tên nhân vật không đảm bảo ảnh thật. Phải ghi 真人写实摄影.
-- Thêm grain/noise có thể làm ảnh bẩn hơn ở vài generator. Texture da không phải là grain.
+## Từ thực hành của người khác
+Đã chưng cất vào `05_CRAFT.md` (nhãn [đã thấy] / [nhiều nguồn] / [giả thuyết]). Khi ảnh thật của T1 xác nhận hoặc bác một mục, ghi một dòng vào bảng trên và sửa nhãn ở 05.
 
 ## Mẫu ghi mới
 ```
