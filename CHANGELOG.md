@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.6.0 — 2026-10-04
+- Thêm nhóm F của `system/06_FILM_GROUNDING.md`: FG-13 về điểm đứng máy/hình chiếu, FG-14 về tách ngang thân khi telephoto gây chồng lấp; mỗi mục có câu hỏi, dấu kiểm, giới hạn và câu mẫu 中文 [giả thuyết].
+- Hai mục được lọc qua đối chiếu prompt văn bản: bản bổ sung có dấu kiểm còn bản gốc thiếu. Nhãn nguồn [sách]; ảnh vẫn UNTESTED, ứng dụng prompt là suy luận; LEARNINGS và mắt người dùng cao hơn.
+- Cập nhật liên kết tra nhóm F và số cơ chế thành 14; giữ khuôn ba phần, brand, luật cứng và bài học đã quan sát.
+
 ## v2.5.0 — 2026-10-04
 - Thêm `system/06_FILM_GROUNDING.md`: lớp mỏng, tra khi cần; 12 cơ chế mã `FG-01`…`FG-12` (đích–cản–can thiệp–giá, hành động bị kìm, hai lớp hành động/hai đường nhìn, màu gắn vào vật mang, ngoại lệ nhóm đồng dạng), mỗi cơ chế một nguyên lý, một câu hỏi, một dấu kiểm, một giới hạn, một câu mẫu 中文 [giả thuyết].
 - Nhãn hai trục: nguồn [sách]/[nhiều sách]; ảnh UNTESTED cho cả 12 mục, câu mẫu 中文 là [giả thuyết]. LEARNINGS và mắt người dùng cao hơn. Không chép tên nguồn hay trích dẫn; gốc nguồn giữ ở kho nội bộ, không công khai.

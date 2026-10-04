@@ -87,6 +87,8 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 | Ống rộng sát mặt gây méo | lùi xa, khung hẹp |
 | Nền nhoè đều kiểu chân dung | nói rõ lớp nào nét |
 
+- Vị trí máy và hình chiếu: xem nhóm F của `06_FILM_GROUNDING.md` (nhãn sách, UNTESTED; LEARNINGS cao hơn).
+
 ---
 
 ## K3 — Bố cục
@@ -119,6 +121,8 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Nền chi tiết đều: chỉ định lớp nào chìm.
 - Quá nhiều chủ thể phụ: giới hạn số vật mang điểm nhấn.
 - Đĩa đỏ hoặc mặt trời đỏ sau nhân vật: 不出现红色圆盘或红日.
+
+- Tách thân khi telephoto gây chồng lấp: xem nhóm F của `06_FILM_GROUNDING.md` (nhãn sách, UNTESTED; LEARNINGS cao hơn).
 
 ---
 

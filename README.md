@@ -10,7 +10,7 @@ Ba tầng, mỗi tầng một file:
 | Knowledge | `system/02_KNOWLEDGE.md` | 8 trục (ánh sáng, máy, bố cục, màu, chất liệu, không khí, khoảnh khắc, thế giới): hỏi gì, viết gì, model hỏng ở đâu |
 | Workflow | `system/03_WORKFLOW.md` | 5 bước từ brief đến prompt, vòng sửa ảnh lỗi |
 | Craft | `system/05_CRAFT.md` | phong cách, tham chiếu, câu chuyện, nhiều người, độ thật, series, vệ sinh prompt, sửa lỗi |
-| Film grounding | `system/06_FILM_GROUNDING.md` | 12 cơ chế hành động, đường nhìn, màu theo vật mang; nhãn sách, chưa thử ảnh |
+| Film grounding | `system/06_FILM_GROUNDING.md` | 14 cơ chế hành động, đường nhìn, màu theo vật mang, điểm đứng máy và tách thân khi chồng lấp; nhãn sách, chưa thử ảnh |
 | Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 3 ví dụ đầy đủ |
 | Thực chiến | `system/LEARNINGS.md` | lỗi đã thấy trên ảnh thật; lớn dần theo thời gian |
 
