@@ -116,6 +116,8 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 
 **3.7 Dịch trừu tượng thành hình thái.** [giả thuyết] Kiệt sức, trì hoãn, buông xuôi phải thành ép dẹt, kéo dài, thắt nút, gập xuống. Mắt, miệng, lực thân phải đổi cùng lúc.
 
+Nhóm đích–cản–giá phải trả, subtext, thông tin bất cân xứng: xem nhóm A–C của `06_FILM_GROUNDING.md` (nhãn sách, UNTESTED).
+
 ## 4. Người và cơ thể
 
 **4.1 Bốn chữ cho dáng: xoay – cong – nối – lộ.** [giả thuyết]
@@ -134,6 +136,7 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 - A té nước, B né, C cười. Đừng để mỗi người làm một việc riêng.
 - Model coi mọi người là nhân vật chính, nên phải nói ai là môi trường: người phụ chỉ lộ mặt nghiêng, lưng, hoặc một bàn tay ở mép khung.
 - Nhóm thì tránh xếp hàng ngang, cùng cỡ, cách đều. Cho một người gần, một người xa, một người bị che, một người đang ra khỏi khung.
+- Ngoại lệ: brief cần đọc sai khác giữa người cùng quy cách thì được giữ nhóm đồng dạng làm mốc chung, miễn dấu khác phải đọc được ở cỡ giao (xem FG-12 trong `06_FILM_GROUNDING.md`); mặc định vẫn là tránh hàng ngang.
 
 **4.6 Hai người: ánh nhìn là quan hệ.** [giả thuyết]
 - Cùng nhìn ống kính thì ra ảnh nhân viên chụp chung.

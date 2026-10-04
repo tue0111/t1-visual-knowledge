@@ -14,6 +14,7 @@ Mày đã giỏi thị giác. Repo này không dạy lại nhiếp ảnh. Nó ch
 | `system/LEARNINGS.md` | luôn luôn | lỗi đã thấy trên ảnh thật; ưu tiên hơn 02 khi mâu thuẫn |
 | `system/02_KNOWLEDGE.md` | tra đúng trục cần | 8 trục: câu hỏi, công thức viết, attractor và cách chặn |
 | `system/05_CRAFT.md` | khi có phong cách, ảnh tham chiếu, nhiều người, candid, gợi cảm người lớn (§4b), series, hoặc khi sửa lỗi | tay nghề xuyên trục, chưng cất từ ~450 kinh nghiệm thực hành |
+| `system/06_FILM_GROUNDING.md` | khi brief có hành động, quan hệ giữa người, bất cân xứng thông tin, hoặc khi sửa màu theo vật mang | lớp mỏng cơ chế từ sách điện ảnh, nhãn sách, chưa thử ảnh; LEARNINGS và mắt người dùng cao hơn |
 | `system/04_TEMPLATES.md` + `examples/` | khi soạn bản cuối | khuôn 3 phần, brand, ví dụ đầy đủ |
 
 Bản repo cũ (OS v2, Knowledge_Mindset, K/M/W) nằm ở tag `legacy-v1`. Chỉ tra khi file ở đây thật sự không đủ, và không coi nó là luật.

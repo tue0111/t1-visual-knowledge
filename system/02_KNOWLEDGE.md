@@ -147,6 +147,7 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Thiếu cực tối hoặc cực sáng: 画面大部分处于暗部.
 - Teal-orange mặc định: ghi bảng màu cụ thể.
 - Da lệch màu: 肤色自然.
+- Màu gắn vào vật mang có lịch sử: xem nhóm D của `06_FILM_GROUNDING.md` (nhãn sách, UNTESTED; LEARNINGS cao hơn).
 
 ---
 
@@ -230,6 +231,7 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - [giả thuyết] Minh hoạ nét có thể dùng nhịp dày–mỏng, khoảng hở và đường thân để gợi chuyển động; không mặc định thêm motion blur vốn làm mất viền nhận dạng.
 
 - Người và sinh vật đứng cạnh nhau vô quan hệ: cần ít nhất một trong ba thứ (chạm, chức năng, ánh nhìn chung).
+- Đích, vật cản, việc bị kìm, hai đường nhìn: xem nhóm A–C của `06_FILM_GROUNDING.md` (nhãn sách, UNTESTED; LEARNINGS cao hơn).
 
 ---
 

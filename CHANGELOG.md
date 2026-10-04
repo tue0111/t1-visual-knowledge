@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.5.0 — 2026-10-04
+- Thêm `system/06_FILM_GROUNDING.md`: lớp mỏng, tra khi cần; 12 cơ chế mã `FG-01`…`FG-12` (đích–cản–can thiệp–giá, hành động bị kìm, hai lớp hành động/hai đường nhìn, màu gắn vào vật mang, ngoại lệ nhóm đồng dạng), mỗi cơ chế một nguyên lý, một câu hỏi, một dấu kiểm, một giới hạn, một câu mẫu 中文 [giả thuyết].
+- Nhãn hai trục: nguồn [sách]/[nhiều sách]; ảnh UNTESTED cho cả 12 mục, câu mẫu 中文 là [giả thuyết]. LEARNINGS và mắt người dùng cao hơn. Không chép tên nguồn hay trích dẫn; gốc nguồn giữ ở kho nội bộ, không công khai.
+- `02_KNOWLEDGE.md` K4/K7 và `05_CRAFT.md` §3 mỗi nơi thêm một dòng link; `05 §4.5` thêm một câu ngoại lệ nhóm đồng dạng theo brief (FG-12), mặc định giữ nguyên.
+
 ## v2.4.0 — 2026-10-04
 - chưng cất vòng 2 bởi Astra: bổ sung kiểm sai lệch tham chiếu, vùng chất liệu, chuyển động từng vật, silhouette và biến điều khiển độc lập.
 - Bổ sung chuyển cấu trúc đồ vật thành chức năng tạo hình; kiểm điểm neo ở kích thước xem thực tế. Mọi mục mới mang nhãn giả thuyết, chưa kiểm bằng ảnh T1.
