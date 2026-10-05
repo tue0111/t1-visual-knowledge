@@ -138,6 +138,8 @@ Nhóm đích–cản–giá phải trả, subtext, thông tin bất cân xứng:
 - Nhóm thì tránh xếp hàng ngang, cùng cỡ, cách đều. Cho một người gần, một người xa, một người bị che, một người đang ra khỏi khung.
 - Ngoại lệ: brief cần đọc sai khác giữa người cùng quy cách thì được giữ nhóm đồng dạng làm mốc chung, miễn dấu khác phải đọc được ở cỡ giao (xem FG-12 trong `06_FILM_GROUNDING.md`); mặc định vẫn là tránh hàng ngang.
 
+- Chồng lấp và tách thân trong khung dọc: xem nhóm F của `06_FILM_GROUNDING.md` (nhãn sách, UNTESTED; LEARNINGS cao hơn).
+
 **4.6 Hai người: ánh nhìn là quan hệ.** [giả thuyết]
 - Cùng nhìn ống kính thì ra ảnh nhân viên chụp chung.
 - Ba quan hệ khác nhau: nhìn nhau, nhìn vật chung, cố ý tránh nhau.

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.8.0 — 2026-10-05
+- `06_FILM_GROUNDING.md`: FG-14 thêm giới hạn khung dọc (tách ngang không phải cách duy nhất; có thể lệch sâu hoặc cao độ khi hành động chung và điểm tiếp xúc vẫn rõ). Không thêm cơ chế mới; vẫn 14 cơ chế, ảnh UNTESTED.
+- Thêm một dòng link tới nhóm F ở mục nhiều người.
+
 ## v2.6.0 — 2026-10-04
 - Thêm nhóm F của `system/06_FILM_GROUNDING.md`: FG-13 về điểm đứng máy/hình chiếu, FG-14 về tách ngang thân khi telephoto gây chồng lấp; mỗi mục có câu hỏi, dấu kiểm, giới hạn và câu mẫu 中文 [giả thuyết].
 - Hai mục được lọc qua đối chiếu prompt văn bản: bản bổ sung có dấu kiểm còn bản gốc thiếu. Nhãn nguồn [sách]; ảnh vẫn UNTESTED, ứng dụng prompt là suy luận; LEARNINGS và mắt người dùng cao hơn.

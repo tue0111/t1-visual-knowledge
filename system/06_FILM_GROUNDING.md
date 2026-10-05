@@ -1,6 +1,6 @@
 # 06 — FILM GROUNDING: lớp mỏng, tra khi cần
 
-Không dạy lại thị giác, không nạp mọi lần. Mở khi brief có hành động, quan hệ giữa người, bất cân xứng thông tin, hoặc khi sửa màu, vị trí máy hay phần thân bị che trong staging. Bỏ mục brief không dính.
+Không dạy lại thị giác, không nạp mọi lần. Mở khi brief có hành động, quan hệ giữa người, bất cân xứng thông tin, hoặc khi sửa màu, vị trí máy hay phần thân bị che trong staging, kể cả khung dọc. Bỏ mục brief không dính.
 
 ## Hai nhãn, đọc riêng
 
@@ -57,7 +57,7 @@ Mở khi vị trí máy hoặc phần thân bị che cần được diễn đạ
 | ID | Nguyên lý | Hỏi | Dấu kiểm thấy được | Giới hạn | Câu mẫu 中文 [giả thuyết] |
 |---|---|---|---|---|---|
 | FG-13 [sách] | Dựng quan hệ máy–không gian từ mặt bằng/mặt đứng rồi chuyển thành các dấu phối cảnh trong khung. | Máy ở mốc nào, hướng tới đâu; hình chiếu có tương thích điểm đứng ấy? | Với máy nhìn cầu từ bờ bên: bờ gần ở tiền cảnh, cầu chạy ngang mặt nước, không thành lối dẫn từ máy lên cầu. | Nguyên lý hình chiếu có nguồn; cấu hình bờ/cầu là suy luận prompt, UNTESTED. Các dấu trong một khung không chứng minh duy nhất điểm đứng máy; không thay bài học đã quan sát. | 相机位于桥侧的河岸步道，横向看向桥身，视轴与桥的跨河方向近乎垂直；近岸草地位于画面下缘前景，桥横跨水面，不朝镜头延伸。 |
-| FG-14 [sách] | Trong phối cảnh telephoto, tách người theo phương ngang giúp các mẫu staging không nhập vào nhau. | Người nào bị che; dịch ngang có giữ hành động phối hợp và điểm tiếp xúc? | Hai đường thân tách ngang, có khe giữa phần thân quan trọng; biên từng tay đang nắm ghế còn đọc được. | Có điều kiện telephoto gây overlap; cue chuyển ghế là suy luận, UNTESTED. Chỉ tách ngang cục bộ thân, không yêu cầu xếp hàng ngang, cùng cỡ, cách đều hoặc tách tay khỏi điểm tiếp xúc; giữ `05 §4.5`. Một khung không chứng minh cả quá trình mang. | 在长焦取景中，两人的躯干横向错开，胸腰之间留有可见窄缝；两人共同抬同一把椅子，各自抓握处的手部轮廓清楚，手与椅子保持接触。 |
+| FG-14 [sách] | Trong phối cảnh telephoto, tách người theo phương ngang giúp các mẫu staging không nhập vào nhau. | Người nào bị che; dịch ngang có giữ hành động phối hợp và điểm tiếp xúc? | Hai đường thân tách ngang, có khe giữa phần thân quan trọng; biên từng tay đang nắm ghế còn đọc được. | Có điều kiện telephoto gây overlap; cue chuyển ghế là suy luận, UNTESTED. Chỉ tách ngang cục bộ thân, không yêu cầu xếp hàng ngang, cùng cỡ, cách đều hoặc tách tay khỏi điểm tiếp xúc; giữ `05 §4.5`. Một khung không chứng minh cả quá trình mang. Trong khung dọc, tách ngang không phải lựa chọn duy nhất; lệch sâu/cao độ là suy luận thay thế chỉ khi hình chiếu, hành động chung và điểm tiếp xúc vẫn rõ. | 在长焦取景中，两人的躯干横向错开，胸腰之间留有可见窄缝；两人共同抬同一把椅子，各自抓握处的手部轮廓清楚，手与椅子保持接触。 |
 
 ## Lên [đã thấy]
 
