@@ -14,6 +14,9 @@ File này có quyền cao hơn `02_KNOWLEDGE.md` khi hai bên mâu thuẫn. Ch�
 ## Từ thực hành của người khác
 Đã chưng cất vào `05_CRAFT.md` (nhãn [đã thấy] / [nhiều nguồn] / [giả thuyết]). Khi ảnh thật của T1 xác nhận hoặc bác một mục, ghi một dòng vào bảng trên và sửa nhãn ở 05.
 
+## Từ kho Vibe Shot Club
+Kho VSC được tra lúc làm (`07_VSC.md`), không chép vào đây. Thứ được ghi vào bảng "Đã thấy" là **kết quả trên ảnh T1** khi dùng một mục VSC, viết bằng lời mình, kèm id để tra lại. Ví dụ: `film-noir (VSC): chỉ ghi tên → noir sân khấu 3/4 ảnh; thêm vật che tiền cảnh → 0/4`. Một id VSC cho kết quả tốt ≥ 3 brief thì thêm id đó vào mục phong cách tương ứng trong `05_CRAFT.md` như một gợi ý tra, không chép định nghĩa.
+
 ## Mẫu ghi mới
 ```
 | YYYY-MM-DD | <generator> | <lỗi thấy được, bao nhiêu/bao nhiêu ảnh> | <câu đã đổi → kết quả> | cao/vừa/thấp |

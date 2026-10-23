@@ -9,6 +9,8 @@ Có ảnh tham chiếu thì tách hai phần:
 
 Brief có phong cách, nhiều ảnh tham chiếu, nhiều người hay cần ảnh thật kiểu candid thì đọc mục tương ứng trong `05_CRAFT.md` trước khi viết.
 
+Phiên có tool `vsc_*` và brief nêu phong cách, động tác, MJ/sref hoặc muốn xem người khác viết thế nào: tra Vibe Shot Club theo `07_VSC.md`. Chọn một mục, đưa id vào bảng quyết định, rồi dịch `features` thành bằng chứng chứ không dán template.
+
 ## Bước 2 — Bảng quyết định (luôn viết ra, 6 dòng)
 ```
 CHẾ ĐỘ: poster / cinema / candid / siêu thực  ·  XEM: <1s / vài giây / lâu
@@ -57,7 +59,7 @@ Xem thêm `05_CRAFT.md` §8 (thang sửa theo tầng, kiểm da nhựa, khuôn q
    - **Model kéo về khuôn quen:** đã viết rõ mà vẫn lệch → đổi hình học hoặc bằng chứng khiến khuôn quen trở thành bất khả. Đừng lặp lại lệnh hay chỉ thêm câu phủ định.
 3. **Sửa tối thiểu:** đổi 1–2 câu, không viết lại toàn prompt. Lỗi nhận dạng một chi tiết thì sửa đúng dấu nhận dạng đó (màu, viền, cấu trúc).
 4. **Sinh lại 2–4 ảnh** rồi nhìn. Một ảnh đẹp chỉ chứng minh là có khả năng, chưa chứng minh ổn định.
-5. **Ghi LEARNINGS** nếu bài học dùng lại được (mẫu ở cuối `LEARNINGS.md`).
+5. **Ghi LEARNINGS** nếu bài học dùng lại được (mẫu ở cuối `LEARNINGS.md`). Prompt có dùng mục VSC thì ghi id mục đó vào cột Lỗi/phát hiện.
 
 ## Album / series
 - Một 母版锁 chung, mỗi shot một 分镜, một negative chung.

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.9.0 — 2026-10-23
+- Thêm `system/07_VSC.md`: tra kho Vibe Shot Club (connector `vsc_*`) lúc làm. Gồm bảng chọn kho, cách giữ hạn mức, bảng chuyển trường VSC (`features`, template, `negative`, `confusables`) thành bằng chứng 3 phần T1. Không chép nội dung VSC vào repo.
+- `AGENTS.md`, `03_WORKFLOW.md` Bước 1 và vòng sửa, skill `t1-visual-prompt`: thêm bước tra VSC khi có tool.
+- `LEARNINGS.md`: mục "Từ kho Vibe Shot Club", chỉ ghi kết quả trên ảnh T1 bằng lời mình, kèm id VSC.
+
 ## v2.8.0 — 2026-10-05
 - `06_FILM_GROUNDING.md`: FG-14 thêm giới hạn khung dọc (tách ngang không phải cách duy nhất; có thể lệch sâu hoặc cao độ khi hành động chung và điểm tiếp xúc vẫn rõ). Không thêm cơ chế mới; vẫn 14 cơ chế, ảnh UNTESTED.
 - Thêm một dòng link tới nhóm F ở mục nhiều người.
