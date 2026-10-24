@@ -11,6 +11,7 @@ Ba tầng, mỗi tầng một file:
 | Workflow | `system/03_WORKFLOW.md` | 5 bước từ brief đến prompt, vòng sửa ảnh lỗi |
 | Craft | `system/05_CRAFT.md` | phong cách, tham chiếu, câu chuyện, nhiều người, độ thật, series, vệ sinh prompt, sửa lỗi |
 | Film grounding | `system/06_FILM_GROUNDING.md` | 14 cơ chế hành động, đường nhìn, màu theo vật mang, điểm đứng máy và tách thân khi chồng lấp (có giới hạn khung dọc); nhãn sách, chưa thử ảnh |
+| VSC lexicon | `system/07_VSC_LEXICON.md` | keyword, dấu nhận ra, attractor theo lineage style của VSC (F12 máy và quang học); chưa thử ảnh |
 | Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 3 ví dụ đầy đủ |
 | Thực chiến | `system/LEARNINGS.md` | lỗi đã thấy trên ảnh thật; lớn dần theo thời gian |
 

@@ -7,3 +7,4 @@ pilot_gold/
 *.jpg
 *.jpeg
 *.webp
+.vsc_cache/
