@@ -2,6 +2,7 @@
 
 Nguồn: thư viện lexicon VSC (Vibe Shot Club). Keyword kỹ thuật ngắn, tên style, id giữ nguyên; giải thích viết lại bằng lời T1.
 Nhãn: mọi câu 中文 là [giả thuyết], ảnh UNTESTED. Quyền thấp hơn `LEARNINGS.md`, `02`, `05`, `06` và mắt Tuệ. Mâu thuẫn ghi ở mục "Mâu thuẫn cần Tuệ xem" của từng lineage, không tự sửa file trên.
+File này lớn dần theo brief thật (Bước 2b và Bước 6 trong `03_WORKFLOW.md`), không chưng cất cả kho. F12 là lineage duy nhất được kéo trọn, giữ làm mẫu format; không làm lại kiểu đó cho lineage khác.
 Cách dùng: tra đúng lineage theo style/thiết bị/film trong brief, không nạp hết file.
 
 ## Mục lục lineage

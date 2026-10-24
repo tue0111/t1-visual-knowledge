@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.9.0 — 2026-10-24
+- Thêm `system/07_VSC_LEXICON.md`: lexicon Vibeshot (VSC), lineage F12 相机时代与光学质感 làm mẫu format (21 style, 14 chưng cất, 7 ghi một dòng). Câu 中文 là [giả thuyết], ảnh UNTESTED; quyền thấp hơn LEARNINGS, 02, 05, 06.
+- `03_WORKFLOW.md`: thêm Bước 2b (đối chứng VSC theo brief: ≤ 3 search, ≤ 5 detail, đưa lựa chọn trước, bảng đối chứng giữ/bổ sung/bỏ) và Bước 6 (học sau khi có ảnh, đổi nhãn sang [đã thấy · ngày · generator]).
+- `AGENTS.md`: luật cứng 8 (Vibeshot chỉ tra theo brief, không duyệt/xuất thư viện, không kéo lô, không giãn giờ né giới hạn); thêm 07 vào bảng nạp. Skill `t1-visual-prompt`, README, `.gitignore` (`.vsc_cache/`) cập nhật theo.
+- `system/vsc_progress.json` thành nhật ký theo brief. Bỏ kế hoạch chưng cất hàng loạt theo lineage.
+
 ## v2.8.0 — 2026-10-05
 - `06_FILM_GROUNDING.md`: FG-14 thêm giới hạn khung dọc (tách ngang không phải cách duy nhất; có thể lệch sâu hoặc cao độ khi hành động chung và điểm tiếp xúc vẫn rõ). Không thêm cơ chế mới; vẫn 14 cơ chế, ảnh UNTESTED.
 - Thêm một dòng link tới nhóm F ở mục nhiều người.

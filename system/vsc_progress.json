@@ -1,21 +1,11 @@
 {
-  "updated": "2026-10-24",
-  "done": {
-    "F12": {
-      "styles": 21,
-      "distilled": 14,
-      "skipped": 7,
-      "file": "system/07_VSC_LEXICON.md"
+  "mode": "per-brief",
+  "log": [
+    {
+      "date": "2026-10-24",
+      "brief": "F12 mẫu (kéo trọn, không lặp lại)",
+      "search": 2,
+      "detail": 14
     }
-  },
-  "in_progress": null,
-  "quota_last_seen": {
-    "detail_day": 386,
-    "detail_month": 2979
-  },
-  "next_session": [
-    "F4",
-    "G12"
-  ],
-  "note": "Tạm dừng kéo lô: quy tắc server VSC cấm duyệt/xuất toàn lineage và kéo detail hàng loạt. Chờ Tuệ quyết."
+  ]
 }

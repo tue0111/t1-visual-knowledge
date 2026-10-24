@@ -28,6 +28,7 @@ Bản repo cũ (OS v2, Knowledge_Mindset, K/M/W) nằm ở tag `legacy-v1`. Ch�
 5. Không mâu thuẫn dương–âm, không mâu thuẫn phong cách.
 6. Giải thích bằng tiếng Việt, ngoài khối prompt.
 7. Có quyền chạy lệnh thì kiểm trước khi giao: `python tools/t1lint.py <file>`.
+8. Vibeshot chỉ tra theo brief đang làm (Bước 2b trong `03_WORKFLOW.md`): ≤ 3 search, ≤ 5 detail mỗi brief, đưa lựa chọn trước khi lấy detail. Không duyệt hay xuất thư viện, không kéo lô, không giãn giờ để né giới hạn.
 
 ## Thứ tự quyền khi xung đột
 Yêu cầu hiện tại của người dùng > ảnh tham chiếu (theo phần được giao) > sửa đổi gần nhất của người dùng > luật cứng > `LEARNINGS.md` > `01–02` > ví dụ.
