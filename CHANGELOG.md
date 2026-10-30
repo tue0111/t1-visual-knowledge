@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v2.8.1 — 2026-10-30
+- `system/LEARNINGS.md`: nạp 11 dòng thực chiến 2026-10-25→30 (SATIN, formula-illusion, Halloween CCD, Cold Denim, Hell House, vector papercut, phòng 1207, qipao, nhà rường Huế) và mục "Kinh nghiệm chung". Dòng chưa test để độ chắc "thấp". Không đổi luật cứng.
+
 ## v2.8.0 — 2026-10-05
 - `06_FILM_GROUNDING.md`: FG-14 thêm giới hạn khung dọc (tách ngang không phải cách duy nhất; có thể lệch sâu hoặc cao độ khi hành động chung và điểm tiếp xúc vẫn rõ). Không thêm cơ chế mới; vẫn 14 cơ chế, ảnh UNTESTED.
 - Thêm một dòng link tới nhóm F ở mục nhiều người.
