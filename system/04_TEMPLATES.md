@@ -42,7 +42,7 @@ Album: giữ một 母版锁 và một negative, thêm nhiều khối `【分镜
 **Ghi chú:**
 - **A:** so với bản thử W2, bản này ghi thêm ý đồ vùng tối. Bản cũ chỉ đặt mức sàn cho mặt, nên toàn bộ môi trường đen 6/6 ảnh.
 - **B:** mặt trời ở sau-phải và cáo ở gần máy, nên bóng phải đổ **về phía máy**. Trời màu mơ ấm nghĩa là mặt trời thấp.
-- **C:** câu phủ định 相机不在桥面上 đã thất bại 3/3, nên bản này đổi sang hình học khẳng định (chụp ngang, vuông góc với cầu). **Cách sửa này chưa kiểm.** Nếu máy vẫn lên cầu, thử thêm: máy ở bờ đối diện, cầu nằm ở nửa trên khung.
+- **C:** câu phủ định 相机不在桥面上 đã thất bại 3/3, nên bản này đổi sang hình học khẳng định (chụp ngang, vuông góc với cầu). **Cách sửa này đã thấy đúng 2/2 ở brief cầu ngói (2026-11-01, xem LEARNINGS).** Nếu máy vẫn lên cầu, thử thêm: máy ở bờ đối diện, cầu nằm ở nửa trên khung.
 
 ## Phản ví dụ — viết đều tay (đừng làm)
 ```text
