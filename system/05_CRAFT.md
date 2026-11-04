@@ -19,6 +19,11 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 - Mỗi cách làm kéo theo cả chuỗi logic hình: hạt, màu, độ cứng flash, lỗi cắt khung.
 - **Một logic thành ảnh chủ đạo.** Nếu phối hợp nhiều phương tiện, giao vùng rõ (§6b). Độ phân giải cao không cấm hạt film; chỉ tránh yêu cầu vừa giữ vừa xoá cùng một dấu chất ảnh.
 
+**1.1a Chất liệu viết thành chuỗi vật lý, kèm chỗ được hỏng và chỗ phải giữ.** [giả thuyết]
+- Viết đường đi của ảnh, đừng chỉ ghi tên phương tiện: "bản in cũ → scan → phóng lớn", "máy nhựa → phim âm bản → scan". Mỗi khâu sinh một dấu riêng (sợi giấy, hạt ở vùng tối, lem mực, chấm trắng).
+- Nói **mòn tập trung ở đâu** (mảng màu lớn, vùng tối) và **chỗ nào phải còn đọc được** (chữ nhỏ, đường viền chính, mắt).
+- Cấm đúng một kiểu hỏng giả: "không biến độ thô thành nhiễu đều". Nếu không có câu này, model thường rải nhiễu đều khắp khung.
+
 **1.2 Tên phong cách đã mòn kéo về khuôn sáo.** [nhiều nguồn]
 - Tên cyberpunk dễ kéo neon và mưa; editorial có thể sinh thêm hệ chữ; Y2K dễ lặp biểu tượng trang trí cùng đồ điện tử cũ; neo-noir dễ trở về phố đêm với nhân vật quay lưng.
 - Cách tránh: chốt **một mỏ neo cụ thể** (một thời kỳ, một đời máy, một loại lỗi in) hoặc nhãn phụ hiếm về chất liệu/thời đại/phương tiện.
@@ -261,6 +266,12 @@ Gọi tên thiết bị ("chụp bằng camera gốc điện thoại, tự chụ
 
 **5.7 Ít hơn thì thật hơn.** [giả thuyết] Không chất đầy cảnh, giữ tạo hình người và ánh sáng tự nhiên thì giống ảnh phố thật hơn bản "điện ảnh tinh xảo". Hai chế độ khác nhau; chọn một.
 
+**5.8 Khung không cần mặt thì đừng cho thấy mặt.** [đã thấy, 1 series]
+- Mặt cận cảnh là chỗ model "thương mại hoá" mạnh nhất (§5.6) và là chỗ lệch nhận dạng dễ thấy nhất.
+- Nếu ý đồ khung nằm ở dáng, quan hệ với cảnh hay một vật, hãy chọn hình học khiến mặt không cần rõ: quay lưng, qua vai, người nhỏ trong cảnh rộng, góc chéo trên, cận vật kèm một phần thân.
+- Cách này không thay được khung cận mặt khi khung đó là trục chính. Khung cận mặt vẫn cần §5.6 và câu da chưa tút.
+- Ở poster, cùng ý này hiện ra dưới dạng "người được xử lý trước khi lên hình": bóng trắng, ảnh đen trắng cắt rời, lồng double exposure.
+
 ## 6. Series, biến thể, album
 
 **6.1 Cặp cố định / tự do.** [nhiều nguồn] Khớp đúng 母版锁 / 分镜:
@@ -291,6 +302,12 @@ Gọi tên thiết bị ("chụp bằng camera gốc điện thoại, tự chụ
 - Thay đổi có mục đích: cảnh, trang điểm, động tác, biểu cảm, tiêu cự, lát cắt thời gian.
 
 **6.4 Kiểm tài sản trước khi dùng cho series.** [giả thuyết] Các ảnh sinh rời có thể lệch mặt, áo và tỷ lệ. Chỉ dùng bộ đã đối chiếu cùng chuẩn nhận dạng; ảnh đẹp riêng lẻ chưa đủ. Áp dụng nguyên tắc §2.5 cho mọi vòng sửa.
+
+**6.5 Series nhiều chủ đề: khoá quan hệ, không khoá giá trị.** [giả thuyết]
+- Khi một quy cách phải chạy cho nhiều chủ đề, 母版锁 viết luật: "chủ đề quyết định màu / cảnh / vật chính; đổi chủ đề thì X đổi trọn, chỉ giữ quan hệ giữa A, B, C". 分镜 chỉ còn chủ đề và ngoại lệ của kỳ đó. Khuôn ở `04_TEMPLATES.md` mục "Khuôn series có tham số".
+- Kiểm bằng hai chủ đề khác xa nhau. Nếu ra hai ảnh như một thì nền đang khoá giá trị.
+
+**6.6 Album tái dựng từ ảnh mẫu: đặt từng ảnh sinh cạnh ảnh mẫu trước khi chọn.** [đã thấy, 1 series] Soi giải phẫu từng ảnh không phát hiện được lệch chất ảnh (ảnh người mẫu thay cho ảnh chụp vội, cận thay cho rộng, trời đậm thay cho trời phai). Chỉ đặt cạnh ảnh mẫu mới thấy. Mỗi khung sinh 2–4 ảnh rồi mới chọn (03_WORKFLOW, Vòng sửa bước 4).
 
 ## 6b. Thủ pháp đặc biệt
 
@@ -354,6 +371,8 @@ Khoá quá sớm tầng tự do làm model cứng.
 **7.8 Ngân sách diện tích ≠ ngân sách chú ý.** [giả thuyết] Nền chiếm khoảng 60%, trung gian 30%, điểm nhấn 10% diện tích; nhưng thứ hút mắt có thể là 10% đó. Tỷ lệ chỉ là điểm khởi đầu.
 
 **7.9 Tách theo biến điều khiển, không theo dấu phẩy.** [giả thuyết] Muốn tái dùng một cụm, thử giữ máy mà đổi động tác, rồi giữ động tác mà đổi màu. Cụm điều khiển nhiều thứ phải tách, hoặc ghi rõ là tổ hợp cần đi cùng. Mỗi cụm giữ ba thông tin: đổi gì, xung đột với gì, dễ kéo lệch phần nào; kiểm ảnh để xác nhận, không suy từ tên mục.
+
+**7.10 Nguồn sáng trong hay ngoài khung phải nói rõ.** [đã thấy, 1 series] "太阳在画面左侧" bị hiểu là mặt trời nằm trong khung: đĩa mặt trời hiện ra và nhuộm cả ảnh sang hoàng hôn, kể cả khi ý đồ là trời ngày. Viết hẳn 画外/画内 và độ cao ("太阳在画面左侧画外，不入画"; "低垂的太阳在画面内左三分之一的海平线上").
 
 ## 8. Sửa lỗi
 
