@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## v2.9.0 — 2026-11-04
+- `04_TEMPLATES.md`:
+  - 分镜 thêm ba câu tuỳ chọn: 第一眼 (gửi điểm đọc đầu tiên thẳng cho model), một câu gọi tên chỗ căng, thứ tự đọc 3 tầng.
+  - Thêm "Khuôn series có tham số (nền + gia vị)": 母版锁 viết luật theo chủ đề, 分镜 chỉ chứa kỳ hiện tại.
+- `05_CRAFT.md`:
+  - §1.1a chất liệu theo chuỗi vật lý, có chỗ được hỏng và chỗ phải giữ.
+  - §5.8 khung không cần mặt thì đừng cho thấy mặt.
+  - §6.5 series nhiều chủ đề: khoá quan hệ, không khoá giá trị.
+  - §6.6 album tái dựng: đặt ảnh sinh cạnh ảnh mẫu trước khi chọn.
+  - §7.10 nguồn sáng trong hay ngoài khung (画外/画内) phải nói rõ.
+- `LEARNINGS.md` thêm các dòng từ album tái dựng ngày 2026-11-04: GPT Image qua Codex, 34 ảnh, A/B/C một khung.
+- Nguồn: thực hành công khai của người khác về cặp LLM viết prompt + model ảnh render, viết lại bằng lời T1, không chép prompt, không ghi tên. Phần [đã thấy] đến từ ảnh T1 tự sinh.
+- Không đổi luật cứng (tiếng Trung, 3 phần, brand), không đổi `t1lint`.
+
 ## v2.8.1 — 2026-10-30
 - `system/LEARNINGS.md`: nạp 11 dòng thực chiến 2026-10-25→30 (SATIN, formula-illusion, Halloween CCD, Cold Denim, Hell House, vector papercut, phòng 1207, qipao, nhà rường Huế) và mục "Kinh nghiệm chung". Dòng chưa test để độ chắc "thấp". Không đổi luật cứng.
 
