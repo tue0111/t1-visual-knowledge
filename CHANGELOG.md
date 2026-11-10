@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v2.10.0 — 2026-11-10
+- Thêm `system/07_ATMOSPHERE_DEVICES.md`: lớp mỏng tra khi cần, 10 thủ pháp `AD-01`…`AD-10` chia 4 nhóm (ánh sáng; không khí và khoảng trống; che và dẫn; chuyển động và góc máy). Mỗi mục: nguyên lý, câu hỏi, dấu kiểm, bẫy model, câu mẫu 中文 [giả thuyết]. Thêm bảng cặp xung đột và ghi chú vận hành (khung nghiêng ở hậu kỳ, kiếm trên Midjourney, không cộng hậu kỳ trùng lớp).
+- Nhãn: nguồn [quan sát] từ ảnh minh hoạ người khác chia sẻ và một bài tóm 4 thủ pháp, viết lại bằng lời T1, không lưu ảnh, không chép bài, không ghi tên. Ảnh T1: UNTESTED cho cả 10 mục.
+- Thêm skill `.claude/skills/t1-atmosphere-devices` (đi kèm `t1-visual-prompt`). `AGENTS.md`, `README.md` và skill `t1-visual-prompt` thêm một dòng trỏ tới `07`.
+- `LEARNINGS.md` thêm hai dòng từ ảnh T1 tự sinh: bản phim bỉ ngạn viết bằng prompt keyword (2026-11-06) và bộ hồ koi, hiên gỗ, quạt do Grok bot viết prompt từ ảnh mẫu (2026-11-09).
+- Không đổi luật cứng (tiếng Trung, 3 phần, brand), không đổi `t1lint`.
+
 ## v2.9.0 — 2026-11-04
 - `04_TEMPLATES.md`:
   - 分镜 thêm ba câu tuỳ chọn: 第一眼 (gửi điểm đọc đầu tiên thẳng cho model), một câu gọi tên chỗ căng, thứ tự đọc 3 tầng.
