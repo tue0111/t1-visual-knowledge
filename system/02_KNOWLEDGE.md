@@ -279,6 +279,8 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 
 ---
 
+- Nơi chốn có kiến trúc, bối cảnh Việt Nam, dàn cảnh hai người: xem `12_SPACE_AND_STAGING.md`.
+
 ## Hành vi model chung (mọi trục)
 
 - **Tên phong cách hoặc tên nhân vật không thay được lời khai chất liệu.** Muốn ảnh thật phải ghi rõ 真人写实摄影; chỉ ghi tên nhân vật thì model hay trả về anime, CG hoặc minh hoạ.

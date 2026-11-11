@@ -71,6 +71,7 @@ Khi người dùng xin sáng tạo, agent **được và nên** tìm thêm dữ 
 | Sự thật đời thực: trang phục theo thời, kiến trúc, nghề, lễ, cây cỏ theo mùa, vật dụng | Web search | tên vật, chất liệu, màu thật, trình tự thao tác |
 | Phong cách, phương tiện chụp, chất liệu bề mặt, kiến trúc theo vùng | VSC `lexicon` (`vsc_search` → `vsc_get_style`) | dấu hiệu nhận ra, cái model hay làm hỏng, phong cách dễ nhầm |
 | Điểm đứng máy, cặp khung nối | VSC `motion`; `09_SHOT_VOCAB.md` | tên khung và mô tả hình học |
+| Nơi chốn có kiến trúc, bối cảnh Việt, đèn trên mặt người | `12_SPACE_AND_STAGING.md`, `11_LIGHT_AND_OPTICS.md` (tra trong repo trước, không tốn lượt) | thiết bị không gian, danh từ nơi chốn, kiểu đèn |
 | Người khác đã viết chủ đề này ra sao | VSC `gallery` | **cơ chế**, không lấy câu chữ |
 | Dàn cảnh, ánh sáng, kể chuyện bằng hình | MCP `film-library` (sách điện ảnh), `06_FILM_GROUNDING.md` | nguyên lý, kèm tên sách ngắn |
 | MJ / sref | VSC `sref` | chỉ khi người dùng nhắc MJ |

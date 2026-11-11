@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v3.2.0 — 2026-11-11
+- Thêm `system/12_SPACE_AND_STAGING.md`: 8 cách lấy chiều sâu từ kiến trúc (trục lùi, khung cửa, mượn cảnh, hành lang cột, hiên sâu, giếng trời, lớp bán trong, mặt phản chiếu); danh từ nơi chốn và trang phục Việt để ảnh không trôi sang Trung Hoa hay Nhật; dàn cảnh hai người đối nhau; cảnh thật hay cảnh dựng trong trường quay; người trong nơi của họ. Viết từ kiến thức chung, chưa thử ảnh.
+- Quyết định về kho VSC: repo **không** chứa mục lục phong cách của VSC (điều khoản kho cấm xuất). Agent tra VSC trực tiếp lúc làm theo `10` §3; repo chỉ giữ nguyên lý tự viết. Bản chưng cất F12 trên nhánh cũ và bản nháp 12 mục không đưa vào main.
+- `AGENTS.md`, `README.md`, `02` K8, `10` §3: mỗi nơi một dòng trỏ tới `12`.
+
 ## v3.1.0 — 2026-11-11
 Gom kiến thức còn rải rác vào đúng chỗ, sau khi v3.0.0 dựng hai làn.
 - Thêm `system/11_LIGHT_AND_OPTICS.md`: bảy kiểu đèn trên mặt người đọc bằng bóng mũi; phía chiếu khi mặt quay ba phần tư (thon hay đầy mà không sửa mặt); cỡ nguồn, độ suy giảm theo khoảng cách (nền tối không cần phông), cái đối diện nguồn; đốm sáng trong mắt; vùng nét, nền mờ, đốm sáng nền; tiêu cự là góc thu còn phối cảnh do chỗ đứng. Chưa thử ảnh.

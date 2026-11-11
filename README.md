@@ -20,6 +20,7 @@ Ba tầng (mindset, knowledge, workflow) và các lớp mỏng tra khi cần:
 | Keyword | `system/08_KEYWORD_FORMAT.md`, `examples/keyword/` | khuôn bổ sung một dòng nối bằng `+`: hình dạng, 9 luật linter bắt, khối khoá nhân vật, cách tách ví dụ để lint không xung đột |
 | Shot vocab | `system/09_SHOT_VOCAB.md` | kho từ vựng khung để tra (không phải ma trận phải điền): 7 trục, bảng ghép máy–đầu, mẫu bảng 8 khung; nhãn quan sát, chưa thử ảnh |
 | Đèn và ống kính | `system/11_LIGHT_AND_OPTICS.md` | đèn trên mặt người đọc bằng bóng mũi, phía chiếu, cỡ nguồn và độ suy giảm, đốm sáng mắt, vùng nét, tiêu cự và chỗ máy đứng; chưa thử ảnh |
+| Không gian và dàn cảnh | `system/12_SPACE_AND_STAGING.md` | 8 thiết bị không gian (trục lùi, khung cửa, mượn cảnh, hành lang cột, hiên sâu, giếng trời, lớp bán trong, mặt phản chiếu), nơi chốn và trang phục Việt, hai người đối nhau, cảnh thật hay cảnh dựng, người trong nơi của họ; chưa thử ảnh |
 | Ví dụ sáng tạo | `examples/creative/` | hai phiếu album mẫu: G biến tấu (nhuộm chàm, keyword), H loại hình vắng người (ghế nhựa vỉa hè, văn xuôi ngắn); chưa sinh ảnh |
 | Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 4 ví dụ đầy đủ (D: ánh sáng ngược xuyên khói) |
 | Thực chiến | `system/LEARNINGS.md` | lỗi đã thấy trên ảnh thật; lớn dần theo thời gian |
