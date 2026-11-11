@@ -16,18 +16,19 @@ Mày đã giỏi thị giác. Repo này không dạy lại nhiếp ảnh. Nó ch
 | `system/05_CRAFT.md` | khi có phong cách, ảnh tham chiếu, nhiều người, candid, gợi cảm người lớn (§4b), series, hoặc khi sửa lỗi | tay nghề xuyên trục, chưng cất từ ~450 kinh nghiệm thực hành |
 | `system/06_FILM_GROUNDING.md` | khi brief có hành động, quan hệ giữa người, bất cân xứng thông tin, sửa màu theo vật mang, vị trí máy hoặc thân bị che trong staging, kể cả khung dọc | lớp mỏng cơ chế từ sách điện ảnh, nhãn sách, chưa thử ảnh; LEARNINGS và mắt người dùng cao hơn |
 | `system/07_ATMOSPHERE_DEVICES.md` | khi brief hoặc ảnh tham chiếu cần viền sáng ngược, sương, khoảng tối lớn, nguồn ấm cục bộ, tiền cảnh lấn khung, che mặt bằng vật, lụa mỏng, nhoè chuyển động, góc sát đất | 10 thủ pháp AD-01…AD-10, nhãn quan sát, chưa thử ảnh T1; LEARNINGS và mắt người dùng cao hơn |
+| `system/08_KEYWORD_FORMAT.md` | khi người dùng chọn prompt keyword một dòng nối bằng `+` (GPT Image, Grok bot) | khuôn bổ sung, luật linter bắt, cách tách ví dụ khỏi `examples/*.txt` |
 | `system/04_TEMPLATES.md` + `examples/` | khi soạn bản cuối | khuôn 3 phần, brand, ví dụ đầy đủ |
 
 Bản repo cũ (OS v2, Knowledge_Mindset, K/M/W) nằm ở tag `legacy-v1`. Chỉ tra khi file ở đây thật sự không đủ, và không coi nó là luật.
 
 ## Luật cứng (không thương lượng)
 1. Text gửi model ảnh là **tiếng Trung giản thể**. Được giữ nguyên: tên riêng bắt buộc, tỷ lệ khung, số tiêu cự, tên model/sản phẩm, `T1 to 9`.
-2. Đúng **3 phần**: 【母版锁】【分镜】【通用负面提示词】. Brand nằm trong 母版锁, không tạo phần thứ tư.
+2. Đúng **3 phần**: 【母版锁】【分镜】【通用负面提示词】. Brand nằm trong 母版锁, không tạo phần thứ tư. Ngoại lệ duy nhất: người dùng chọn **keyword một dòng** thì theo `system/08_KEYWORD_FORMAT.md` (không có brand trong prompt, chữ ký đóng hậu kỳ). Không trộn hai kiểu trong một file.
 3. Brand và câu ngoại lệ chép nguyên văn từ `system/brand_block.txt` và `system/brand_negative.txt`. Người dùng nói "không chữ" thì bỏ cả hai chỗ.
 4. Một 分镜 = một ảnh. Album: một 母版锁, nhiều 分镜, một negative chung.
 5. Không mâu thuẫn dương–âm, không mâu thuẫn phong cách.
 6. Giải thích bằng tiếng Việt, ngoài khối prompt.
-7. Có quyền chạy lệnh thì kiểm trước khi giao: `python tools/t1lint.py <file>`.
+7. Có quyền chạy lệnh thì kiểm trước khi giao: `python tools/t1lint.py <file>` (tự nhận kiểu 3 phần hoặc keyword).
 
 ## Thứ tự quyền khi xung đột
 Yêu cầu hiện tại của người dùng > ảnh tham chiếu (theo phần được giao) > sửa đổi gần nhất của người dùng > luật cứng > `LEARNINGS.md` > `01–02` > ví dụ.

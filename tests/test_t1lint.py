@@ -88,5 +88,83 @@ class TestCli(unittest.TestCase):
         self.assertEqual(t1lint.main([str(ROOT / "examples" / "A_cinema_lantern.txt")]), 0)
 
 
+KW_FILE = ROOT / "examples" / "keyword" / "E_smoke_backlight_keyword.txt"
+KW_ONE = next(l for l in KW_FILE.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#"))
+
+
+class TestKeywordStyle(unittest.TestCase):
+    def test_keyword_examples_pass_strict(self):
+        files = sorted((ROOT / "examples" / "keyword").glob("*.txt"))
+        self.assertTrue(files)
+        for f in files:
+            rep = t1lint.lint_keyword(f.read_text(encoding="utf-8"))
+            self.assertEqual(rep.errors, [], f.name)
+            self.assertEqual(rep.warnings, [], f.name)
+
+    def test_top_level_examples_stay_three_part(self):
+        for f in sorted((ROOT / "examples").glob("*.txt")):
+            self.assertEqual(t1lint.detect_style(f.read_text(encoding="utf-8")), "three", f.name)
+
+    def test_detect_style(self):
+        self.assertEqual(t1lint.detect_style(GOOD), "three")
+        self.assertEqual(t1lint.detect_style(KW_ONE), "keyword")
+        self.assertEqual(t1lint.detect_style("chỉ là chữ thường"), "unknown")
+
+    def test_one_prompt_ok(self):
+        rep = t1lint.lint_keyword(KW_ONE)
+        self.assertEqual((rep.errors, rep.warnings), ([], []))
+
+    def test_missing_separator(self):
+        rep = t1lint.lint_keyword(KW_ONE.split("——")[0])
+        self.assertTrue(any("phân cách" in e for e in rep.errors))
+
+    def test_missing_ratio(self):
+        rep = t1lint.lint_keyword(KW_ONE.replace("16:9横构图", "横构图", 1))
+        self.assertTrue(any("tỷ lệ" in e for e in rep.errors))
+
+    def test_too_few_keywords(self):
+        rep = t1lint.lint_keyword("3:4竖构图+一名成年女性——负面：文字")
+        self.assertTrue(any("keyword" in e for e in rep.errors))
+
+    def test_brand_mark_rejected(self):
+        rep = t1lint.lint_keyword(KW_ONE + "T1 to 9")
+        self.assertTrue(any("T1 to 9" in e for e in rep.errors))
+
+    def test_missing_adult_marker(self):
+        rep = t1lint.lint_keyword(KW_ONE.replace("成年", "", 1))
+        self.assertTrue(any("成年" in e for e in rep.errors))
+
+    def test_no_person_exempt(self):
+        rep = t1lint.lint_keyword("3:4竖构图+静物+无人物+一朵花+一张桌+一盏灯+一块布+一只杯+一本书+一支笔+柔光—— 负面：文字")
+        self.assertEqual(rep.errors, [])
+
+    def test_negative_dump_warns(self):
+        dump = "+".join(f"错误{i}" for i in range(20))
+        rep = t1lint.lint_keyword(KW_ONE.split("负面：")[0] + "负面：" + dump)
+        self.assertTrue(any("negative" in w for w in rep.warnings))
+
+    def test_latin_word_warns_but_f_allowed(self):
+        rep = t1lint.lint_keyword(KW_ONE.replace("浅景深", "rim light浅景深", 1))
+        self.assertTrue(any("rim" in w for w in rep.warnings))
+        self.assertFalse(any("“F”" in w for w in rep.warnings))
+
+    def test_hand_without_finger_count_warns(self):
+        rep = t1lint.lint_keyword(KW_ONE.replace("背景空无一物", "右手举起背景空无一物", 1))
+        self.assertTrue(any("五指完整" in w for w in rep.warnings))
+
+    def test_positive_negative_conflict_warns(self):
+        rep = t1lint.lint_keyword(KW_ONE + "+背景空无一物")
+        self.assertTrue(any("mâu thuẫn" in w for w in rep.warnings))
+
+    def test_lint_any_unknown_is_error(self):
+        style, rep = t1lint.lint_any("không phải prompt")
+        self.assertEqual(style, "unknown")
+        self.assertFalse(rep.ok)
+
+    def test_cli_auto_detect_both_styles(self):
+        self.assertEqual(t1lint.main([str(ROOT / "examples" / "A_cinema_lantern.txt"), str(KW_FILE)]), 0)
+        self.assertEqual(t1lint.main(["--strict", str(KW_FILE)]), 0)
+
+
 if __name__ == "__main__":
     unittest.main()

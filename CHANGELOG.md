@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.12.0 — 2026-11-11
+- Thêm `system/08_KEYWORD_FORMAT.md`: khuôn keyword một dòng nối bằng `+` như luật bổ sung (không thay khuôn 3 phần): hình dạng, 9 luật cứng, khối khoá nhân vật thay 母版锁, thói quen đã chứng minh, và bảng "Tránh xung đột lint và Git".
+- `tools/t1lint.py`: thêm kiểu keyword (`lint_keyword`, `detect_style`, `lint_any`), cờ `--style auto|three|keyword`, mặc định tự nhận. Lệnh cũ `t1lint --strict examples/*.txt` giữ nguyên hành vi.
+- Thêm `examples/keyword/E_smoke_backlight_keyword.txt` (3 prompt của album khói đỏ). Ví dụ keyword ở thư mục con để glob `examples/*.txt` và test cũ không bao giờ chạm tới.
+- `tests/test_t1lint.py`: thêm 16 test (32 test tổng): ví dụ keyword PASS strict; mọi file trực tiếp trong `examples/` phải là kiểu 3 phần; từng luật keyword; tự nhận kiểu qua CLI.
+- `AGENTS.md`: luật cứng số 2 có ngoại lệ keyword, thêm dòng nạp `08`. `CLAUDE.md`: thêm lệnh lint keyword. `README.md`, skill `t1-visual-prompt`: một dòng trỏ tới `08`.
+- Không đổi luật khuôn 3 phần, brand, hay bốn ví dụ A, B, C, D. Cần áp v2.11.0 trước.
+
 ## v2.11.0 — 2026-11-11
 - Thêm `examples/D_smoke_backlight_hanfu.txt`: ví dụ đầy đủ khuôn 3 phần cho album "ánh sáng trước" (nguồn sáng mạnh sau người, khói chỉ sáng nơi ánh chạm, nền trống, tiền cảnh lụa có hướng): 3 khung (xoay trong khói 16:9, cổng vòm đối xứng 9:16, đàn tranh trong đại điện 16:9). PASS `t1lint --strict`.
 - `system/07_ATMOSPHERE_DEVICES.md`: thêm bảng "Trạng thái thử". AD-01, AD-04, AD-06, AD-08 đã thử và đạt; AD-07 và AD-09 thử một phần; AD-02, AD-03, AD-05, AD-10 vẫn UNTESTED.
