@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.11.0 — 2026-11-11
+- Thêm `examples/D_smoke_backlight_hanfu.txt`: ví dụ đầy đủ khuôn 3 phần cho album "ánh sáng trước" (nguồn sáng mạnh sau người, khói chỉ sáng nơi ánh chạm, nền trống, tiền cảnh lụa có hướng): 3 khung (xoay trong khói 16:9, cổng vòm đối xứng 9:16, đàn tranh trong đại điện 16:9). PASS `t1lint --strict`.
+- `system/07_ATMOSPHERE_DEVICES.md`: thêm bảng "Trạng thái thử". AD-01, AD-04, AD-06, AD-08 đã thử và đạt; AD-07 và AD-09 thử một phần; AD-02, AD-03, AD-05, AD-10 vẫn UNTESTED.
+- `system/LEARNINGS.md`: thêm hai dòng: album v1 phẳng và rối (2026-11-10), album khói đỏ cung điện 8/8 trúng (2026-11-11).
+- Không đổi luật cứng và `t1lint`. Cần áp v2.10.0 trước.
+
 ## v2.10.0 — 2026-11-10
 - Thêm `system/07_ATMOSPHERE_DEVICES.md`: lớp mỏng tra khi cần, 10 thủ pháp `AD-01`…`AD-10` chia 4 nhóm (ánh sáng; không khí và khoảng trống; che và dẫn; chuyển động và góc máy). Mỗi mục: nguyên lý, câu hỏi, dấu kiểm, bẫy model, câu mẫu 中文 [giả thuyết]. Thêm bảng cặp xung đột và ghi chú vận hành (khung nghiêng ở hậu kỳ, kiếm trên Midjourney, không cộng hậu kỳ trùng lớp).
 - Nhãn: nguồn [quan sát] từ ảnh minh hoạ người khác chia sẻ và một bài tóm 4 thủ pháp, viết lại bằng lời T1, không lưu ảnh, không chép bài, không ghi tên. Ảnh T1: UNTESTED cho cả 10 mục.

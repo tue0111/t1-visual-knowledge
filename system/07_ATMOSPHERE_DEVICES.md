@@ -5,7 +5,7 @@ Lớp mỏng như `06`. Không nạp mọi lần. Mở khi brief hay ảnh tham 
 ## Hai nhãn, đọc riêng
 
 - `source_support`: **[quan sát]** = thấy trên ảnh minh hoạ người khác chia sẻ (cổ trang, tiên hiệp, 12 ảnh) cùng một bài tóm 4 thủ pháp, viết lại bằng lời T1. Ảnh và bài gốc không lưu ở repo.
-- `image_evidence`: mọi mục là **UNTESTED** trên ảnh T1. Khi T1 tự sinh và thấy kết quả, ghi `LEARNINGS.md` rồi đổi nhãn ở đây.
+- `image_evidence`: xem bảng "Trạng thái thử" cuối file. Mục chưa có dòng trong bảng là **UNTESTED** trên ảnh T1. Khi T1 tự sinh và thấy kết quả, ghi `LEARNINGS.md` rồi cập nhật bảng.
 
 Theo người chia sẻ, ảnh của họ ra từ model ảnh gọi thẳng qua API (không qua skill sinh ảnh mặc định của agent). T1 không dùng đường đó, nên mọi câu mẫu dưới đây phải chạy được bằng prompt thường. `LEARNINGS.md` và mắt người dùng ghi đè file này.
 
@@ -62,3 +62,17 @@ Theo người chia sẻ, ảnh của họ ra từ model ảnh gọi thẳng qua 
 - **Khung nghiêng:** sinh thẳng, nghiêng ở hậu kỳ. Nghiêng 15° mất khoảng 24% cạnh, 30° mất khoảng 35%.
 - **Vật cầm là kiếm, dao:** Midjourney từng review tài khoản vì các chữ này, kể cả trong negative. Chạy MJ thì đổi sang quạt xếp, ô gập, dải lụa. GPT Image giữ được.
 - **Sương và hậu kỳ:** đã viết sương, viền sáng, rò sáng trong prompt thì hậu kỳ chỉ chỉnh nhẹ, đừng cộng thêm cùng lớp.
+
+## Trạng thái thử (cập nhật 2026-11-11)
+
+Bằng chứng: album khói đỏ và cung điện, GPT Image, 8 khung, mỗi khung 1 ảnh, người dùng duyệt bằng mắt. Chi tiết trong `LEARNINGS.md` và `examples/D_smoke_backlight_hanfu.txt`.
+
+| ID | Trạng thái | Khung đã thử và ghi chú |
+|---|---|---|
+| AD-01 viền sáng ngược qua sương | **ĐÃ THỬ, đạt** | 6/6 khung dùng (xoay trong khói, cận viền sáng, ô ngược sáng, cổng vòm, bậc đá, lối tường đỏ). Viền sáng bám mép tóc, vai, tay áo; mặt vẫn đọc được khi ghi "不补光" cùng "五官可辨". |
+| AD-04 sương nhiều tầng | **ĐÃ THỬ, đạt** | Sương chỉ sáng nơi ánh chạm khi viết "烟雾只在光照到的地方发亮其余隐入黑暗"; sương thành cột sáng ở khung đại điện. |
+| AD-06 tiền cảnh lấn khung có hướng | **ĐÃ THỬ, đạt** | Dải lụa đỏ mờ ở góc dưới hoặc một bên, đường chéo chỉ về người; không che mặt. |
+| AD-07 che mặt bằng vật | **ĐÃ THỬ một phần** | Ô giấy dầu hạ thấp che gần hết mặt, chừa cằm và môi, ô được rọi sáng từ sau: đạt. Mặt nạ + cử chỉ chưa thử. |
+| AD-08 lụa mỏng uốn lượn | **ĐÃ THỬ, đạt** | Đuôi váy trải thành một dải chữ S hoặc một vòng tròn ở khung nhìn từ trên; lụa có lớp xuyên sáng. |
+| AD-09 nhoè chuyển động cục bộ | **ĐÃ THỬ một phần** | Khung xoay: tay áo và tóc bay, thân và mặt vẫn nét. Chưa thử vật cầm đang vung. |
+| AD-02, AD-03, AD-05, AD-10 | UNTESTED | Chưa có khung nào: nguồn ấm sát mắt, vật tự sáng làm nguồn, người tí hon, sát đất. |
