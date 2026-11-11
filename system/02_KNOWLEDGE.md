@@ -48,6 +48,8 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 | Người hoặc vật lơ lửng | bóng đổ + bóng tiếp xúc |
 | Bóng lệch hướng | [giả thuyết] 投影与对应光源的位置相符；多光源分别检查。 |
 
+- Kiểu đèn trên mặt người (đọc bằng bóng mũi), cỡ nguồn và độ suy giảm, đốm sáng trong mắt: xem `11_LIGHT_AND_OPTICS.md` §1–§3.
+
 ---
 
 ## K2 — Máy ảnh
@@ -88,6 +90,7 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 | Nền nhoè đều kiểu chân dung | nói rõ lớp nào nét |
 
 - Vị trí máy và hình chiếu: xem nhóm F của `06_FILM_GROUNDING.md` (nhãn sách, UNTESTED; LEARNINGS cao hơn).
+- Vùng nét, nền mờ, đốm sáng nền, tiêu cự và chỗ máy đứng: xem `11_LIGHT_AND_OPTICS.md` §4–§5.
 
 ---
 
@@ -145,6 +148,11 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Tách bốn lớp khi đọc hoặc viết màu: màu vốn có của vật, ánh sáng hiện trường, phơi sáng, hậu kỳ (mài da, hạt, nén). "Tông xanh" mà không nói lớp nào thì model đoán.
 - Giới hạn 3–4 mảng màu chính có tên. Đổi màu cho một ảnh có sẵn thì khoá bố cục, người, máy; chỉ liệt kê đúng các biến màu được đổi.
 - [giả thuyết] Màu phi tự nhiên phải đi cùng cách dựng hình đã chọn: ảnh tả thực giữ logic ánh sáng; tranh mảng phẳng có thể tạo hình bằng viền và quan hệ nóng–lạnh, không ép đổ khối như ảnh chụp.
+
+- **Sáng một màu, tối một màu** (split toning). [giả thuyết] Vùng sáng nghiêng về một sắc, vùng tối nghiêng về sắc khác, trung tông nối hai đầu; chất liệu vẫn phân biệt được. Viết: `暗部偏冷且低饱和，高光偏克制的暖色，中间调过渡自然`. Đã thấy một dạng chạy được: đen nâng xanh olive cộng highlight hồng đào (LEARNINGS 2026-11-09). Hỏng thành hai mảng màu bệt hoặc da cam → `不要双色色块化，肤色自然`.
+- **Đêm đáng tin nhờ quan hệ, không nhờ màu xanh.** [giả thuyết] Trời tối hơn mặt đất được rọi; có **một** hướng sáng rõ (trăng, đèn hiên); highlight nhỏ còn giữ; vùng tối chỉ giữ đủ chi tiết để đọc hành động. Viết: `天空压暗，一束清楚的单向月光，只保留少量小高光`. Hỏng thành ảnh ngày phủ xanh, da xanh đều, bóng lệch hướng.
+- **Bạc màu kiểu giữ bạc** (bleach bypass). [giả thuyết] Giảm bão hoà **cùng lúc** tăng tương phản, bóng đặc lại, hạt rõ hơn; da và vật liệu vẫn còn sắc. Viết: `彩度降低，暗部浓厚，受光与背光分离明确，皮肤色调仍可辨`. Khác ảnh phai (đen nâng, tương phản thấp): hai thứ ngược nhau, đừng gọi cả hai.
+- Nhịp màu qua nhiều khung của một album: xem `10_CREATIVE_ALBUM.md` §5 "bảng mốc màu".
 
 **Chặn:**
 - Quá bão hoà: ghi bão hoà theo vùng.

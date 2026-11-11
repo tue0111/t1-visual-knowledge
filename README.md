@@ -10,7 +10,7 @@ Ba tầng (mindset, knowledge, workflow) và các lớp mỏng tra khi cần:
 
 | Tầng | File | Nội dung |
 |---|---|---|
-| Mindset | `system/01_MINDSET.md` | 10 nguyên lý, 4 chế độ ảnh, chọn trục chính |
+| Mindset | `system/01_MINDSET.md` | 12 nguyên lý, 4 chế độ ảnh, chọn trục chính |
 | Knowledge | `system/02_KNOWLEDGE.md` | 8 trục (ánh sáng, máy, bố cục, màu, chất liệu, không khí, khoảnh khắc, thế giới): hỏi gì, viết gì, model hỏng ở đâu |
 | Workflow | `system/03_WORKFLOW.md` | làn chính xác: 5 bước từ brief đến prompt, vòng sửa ảnh lỗi |
 | Workflow sáng tạo | `system/10_CREATIVE_ALBUM.md` | làn sáng tạo: chống lối mòn, 10 động cơ sinh ý niệm, tra cứu mở rộng có ngân sách, 8 hình dạng album, việc của từng khung, nhịp album, chọn khuôn sau cùng |
@@ -19,6 +19,8 @@ Ba tầng (mindset, knowledge, workflow) và các lớp mỏng tra khi cần:
 | Atmosphere devices | `system/07_ATMOSPHERE_DEVICES.md` | 10 thủ pháp không khí: viền sáng ngược, sương nhiều lớp, khoảng tối, nguồn ấm cục bộ, vật tự sáng, tiền cảnh có hướng, che mặt kể bằng cử chỉ, lụa mỏng, nhoè cục bộ, sát đất; nhãn quan sát, chưa thử ảnh |
 | Keyword | `system/08_KEYWORD_FORMAT.md`, `examples/keyword/` | khuôn bổ sung một dòng nối bằng `+`: hình dạng, 9 luật linter bắt, khối khoá nhân vật, cách tách ví dụ để lint không xung đột |
 | Shot vocab | `system/09_SHOT_VOCAB.md` | kho từ vựng khung để tra (không phải ma trận phải điền): 7 trục, bảng ghép máy–đầu, mẫu bảng 8 khung; nhãn quan sát, chưa thử ảnh |
+| Đèn và ống kính | `system/11_LIGHT_AND_OPTICS.md` | đèn trên mặt người đọc bằng bóng mũi, phía chiếu, cỡ nguồn và độ suy giảm, đốm sáng mắt, vùng nét, tiêu cự và chỗ máy đứng; chưa thử ảnh |
+| Ví dụ sáng tạo | `examples/creative/` | hai phiếu album mẫu: G biến tấu (nhuộm chàm, keyword), H loại hình vắng người (ghế nhựa vỉa hè, văn xuôi ngắn); chưa sinh ảnh |
 | Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 4 ví dụ đầy đủ (D: ánh sáng ngược xuyên khói) |
 | Thực chiến | `system/LEARNINGS.md` | lỗi đã thấy trên ảnh thật; lớn dần theo thời gian |
 

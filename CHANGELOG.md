@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## v3.1.0 — 2026-11-11
+Gom kiến thức còn rải rác vào đúng chỗ, sau khi v3.0.0 dựng hai làn.
+- Thêm `system/11_LIGHT_AND_OPTICS.md`: bảy kiểu đèn trên mặt người đọc bằng bóng mũi; phía chiếu khi mặt quay ba phần tư (thon hay đầy mà không sửa mặt); cỡ nguồn, độ suy giảm theo khoảng cách (nền tối không cần phông), cái đối diện nguồn; đốm sáng trong mắt; vùng nét, nền mờ, đốm sáng nền; tiêu cự là góc thu còn phối cảnh do chỗ đứng. Chưa thử ảnh.
+- Thêm `examples/creative/`: G "Chàm ăn dần" (biến tấu, keyword, 3 prompt qua lint) và H "Ghế chờ chủ" (loại hình vắng người, văn xuôi ngắn). Ví dụ quy trình, chưa sinh ảnh.
+- `system/09_SHOT_VOCAB.md`: trục B thêm 7 điểm đứng máy, trục D thêm 6 kiểu chiều sâu, **trục H mới** (khung nối: sổ trạng thái, hướng nhìn nối, insert, nhìn qua vai và cảnh ngược), mục "Theo tỷ lệ khung" có cổng crop, bẫy chữ chuyển động máy, mẫu bảng khung có cột VIỆC.
+- `system/02_KNOWLEDGE.md`: K4 thêm sáng một màu tối một màu, đêm đáng tin nhờ quan hệ trời–bóng–nguồn, bạc màu kiểu giữ bạc; K1, K2 trỏ sang `11`.
+- `system/10_CREATIVE_ALBUM.md`: bảng mốc màu cho album; cách đưa kết quả tra vào prompt; không mở album bằng cận cơ thể; giao theo đợt khi nơi nhận giới hạn số tin.
+- `system/LEARNINGS.md`: lấy về 14 dòng từ hai nhánh cũ chưa merge (2026-10-25 đến 2026-11-01: SATIN, Cold Denim, Hell House, Phòng 1207, Qipao, nhà rường Huế, cầu ngói Thanh Toàn…) và mục "Kinh nghiệm chung" 9 điểm. `04_TEMPLATES.md`: ghi chú ví dụ C cập nhật theo bằng chứng cầu ngói.
+- `system/05_CRAFT.md`: bảng chỉ mục "gặp chuyện gì → đọc mục nào" (23 tình huống), §4.11 chân trụ và điểm tì, §6 trỏ sang `10`. Không xoá nội dung cũ.
+- `tests/test_docs_links.py`: 3 test kiểm đường dẫn trong `AGENTS.md`/`README.md`, mọi file `system/NN_` được nhắc tên, mọi skill có `name` khớp thư mục (35 test tổng).
+- Chưa vào repo: lexicon VSC (điều khoản kho cấm xuất; agent tra trực tiếp lúc làm theo `10` §3).
+
 ## v3.0.0 — 2026-11-11
 Hệ thống có hai làn. Trước đây mọi yêu cầu đi qua một cái phễu (bảng quyết định 6 dòng → 3 phần), album chỉ có ba dòng hướng dẫn, nên album sáng tạo bị rập theo album trước.
 - Thêm `system/10_CREATIVE_ALBUM.md` (làn sáng tạo): đọc độ mở; chống lối mòn (khác album trước ở ≥ 3/5 thứ); 10 động cơ sinh ý niệm; tra cứu mở rộng có ngân sách (web, VSC, film-library) gom thành bảng vật liệu; phiếu ý niệm; 8 hình dạng album, mỗi hình dạng một luật đa dạng riêng; việc của từng khung và nhịp album; chọn khuôn đóng gói sau cùng theo generator; tự soát cấp album. Nhãn giả thuyết, chưa chạy album nào theo quy trình này.

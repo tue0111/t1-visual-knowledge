@@ -35,6 +35,8 @@ Không chắc thì hỏi một câu: "Mày đã có hình trong đầu chưa, ha
 | `system/06_FILM_GROUNDING.md` | khi brief có hành động, quan hệ giữa người, bất cân xứng thông tin, sửa màu theo vật mang, vị trí máy hoặc thân bị che trong staging, kể cả khung dọc | lớp mỏng cơ chế từ sách điện ảnh, nhãn sách, chưa thử ảnh; LEARNINGS và mắt người dùng cao hơn |
 | `system/07_ATMOSPHERE_DEVICES.md` | khi brief hoặc ảnh tham chiếu cần viền sáng ngược, sương, khoảng tối lớn, nguồn ấm cục bộ, tiền cảnh lấn khung, che mặt bằng vật, lụa mỏng, nhoè chuyển động, góc sát đất | 10 thủ pháp AD-01…AD-10, nhãn quan sát; xem bảng trạng thái thử cuối file |
 | `system/09_SHOT_VOCAB.md` | khi cần từ vựng cho điểm đứng máy, cỡ cảnh, đầu theo máy, bố cục | kho từ để **tra**, không phải ma trận phải điền kín; luật "khác ≥ 3 trục" chỉ áp cho album hình dạng khám phá |
+| `system/11_LIGHT_AND_OPTICS.md` | khi cần điều khiển khối mặt bằng đèn, độ mềm của bóng, nền tối không cần phông, đốm sáng mắt, vùng nét và nền mờ, tiêu cự và chỗ máy đứng | từ vựng đèn chân dung đọc bằng bóng mũi, cỡ nguồn và suy giảm, nét và mờ, phối cảnh theo chỗ đứng; chưa thử ảnh |
+| `examples/creative/` | khi lần đầu chạy làn sáng tạo | hai phiếu album mẫu ở hai hình dạng khác nhau; chép cách đi, không chép thế giới |
 | `system/04_TEMPLATES.md` + `examples/` | khi đóng gói bằng khuôn 3 phần | khuôn 3 phần, brand, ví dụ đầy đủ |
 | `system/08_KEYWORD_FORMAT.md` + `examples/keyword/` | khi đóng gói bằng keyword một dòng nối `+` | khuôn keyword, luật linter bắt |
 

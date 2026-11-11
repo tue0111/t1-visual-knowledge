@@ -4,6 +4,8 @@ Dùng khi người dùng xin **album / bộ ảnh sáng tạo**, nói "tự do",
 
 **Khác biệt gốc.** Làn chính xác đi từ một ý đồ đã có tới một prompt: nó là cái phễu. Làn này phải **tạo ra ý đồ** trước, nên nó mở rộng rồi mới thu hẹp. Khuôn prompt (3 phần, keyword, văn xuôi) là bước **cuối cùng**, chỉ là cách đóng gói. Đừng để khuôn chọn hộ ý tưởng.
 
+**Ví dụ:** `examples/creative/G_cham_an_dan.md` (biến tấu, keyword) và `H_ghe_cho_chu.md` (loại hình vắng người, văn xuôi ngắn). Hai ví dụ cố ý không giống nhau và không giống album nào T1 đã làm; chép cách đi, đừng chép thế giới.
+
 **Nhãn.** Quy trình này là thiết kế [giả thuyết], dựa trên thực hành dựng sách ảnh, dựng phim và những gì `LEARNINGS.md` đã thấy. Mỗi album chạy xong ghi lại một dòng: bước nào giúp, bước nào thừa.
 
 **Ba luật của làn này**
@@ -88,6 +90,7 @@ Cách làm:
 4. Điều gì quan trọng mà chỉ có một nguồn thì ghi "một nguồn". Không chắc thì nói không chắc; đừng bịa tên vật.
 5. **Luật kho và bản quyền:** VSC là nguồn tra lúc làm, điều khoản của họ cấm xuất kho, nên không chép mục VSC hàng loạt vào repo. Web và sách: rút ý, viết lại bằng lời mình, không ghi tên tác giả kèm nội dung. Không tải ảnh về repo. Không đưa thông tin riêng của người dùng vào truy vấn.
 6. Không có công cụ tra (phiên không nối VSC, không có web) thì nói một dòng rồi dùng kiến thức sẵn có. Đừng giả vờ đã tra.
+7. **Đưa kết quả tra vào prompt:** không dán nguyên template hay đoạn văn tìm được. Tên phong cách đi kèm một hai **dấu hiệu nhận ra** (tên đứng một mình là nhãn mòn, `05_CRAFT.md` §1). Danh sách "model hay hỏng" chỉ lấy hai ba mục đúng với khung đang viết. Phong cách dễ nhầm thì thành một câu chặn. Sự thật đời thực thì thành danh từ trong bảng vật liệu.
 
 ## §4. Chốt ý niệm và chọn hình dạng album
 
@@ -122,7 +125,7 @@ Không điền ma trận trục. Trước hết giao **việc** cho từng khung
 
 | Việc của khung | Nó làm gì cho album |
 |---|---|
-| **Mở** | cho biết đang ở đâu và luật là gì; thường rộng, có thể chưa có người |
+| **Mở** | cho biết đang ở đâu và luật là gì; thường rộng, có thể chưa có người. Không mở bằng cận một phần cơ thể (LEARNINGS, kinh nghiệm chung 2026-10-30) |
 | **Lộ** | cho thấy thứ khung trước giấu |
 | **Chất** | cận một bề mặt, một vật, một bàn tay; không cần mặt |
 | **Thở** | khung yên, ít thông tin, nhiều khoảng trống; để hai khung mạnh không đè nhau |
@@ -137,6 +140,7 @@ Mặc định cho album 8 khung, bỏ được nếu hình dạng không cần: 
 - **Cỡ cảnh** lên xuống, không đứng yên ba khung liền (trừ biến tấu, loại hình).
 - **Sáng tối**: khung đậm cạnh khung nhạt. Cả album cùng một mức xám trung bình thì mệt.
 - **Nhiệt màu** có đường đi (lạnh dần, hoặc một khung ấm duy nhất).
+  **Bảng mốc màu** (viết trước khi viết khung, 3 dòng là đủ): màu chủ và mức sáng ở khung **mở**, khung **rẽ**, khung **kết**; cộng **một vật mốc** giữ nguyên màu và chất liệu xuyên album (cái khăn, cái chum, vạt áo) để mắt có chỗ so. Khoá vật mốc và danh tính; **không khoá một tông cho cả album**: nguồn sáng đổi thì da và nền được đổi theo, miễn hai khung liền nhau còn chung một màu hoặc một mức sáng làm cầu.
 - **Mật độ**: khung đầy cạnh khung trống.
 - **Hình vần**: một hình khối lặp lại ở hai khung xa nhau (vòng cung ô giấy và vầng trăng; khe cửa và vệt sáng trên sàn). Đây là thứ làm album thành một bài chứ không phải tám tấm.
 - **Cái thứ ba**: hai khung đặt cạnh nhau sinh ra một nghĩa không khung nào có riêng. Xếp thứ tự là một phần của sáng tác.
@@ -182,6 +186,6 @@ Tối thiểu bắt buộc dù khuôn nào: tiếng Trung giản thể · có t�
 
 ## §8. Giao và học
 
-Giao theo thứ tự: phiếu ý niệm → bảng khung → prompt từng khung → tối đa 3 dòng "nhìn gì khi ra ảnh". Người dùng chỉ xin prompt thì đưa prompt, phiếu ý niệm rút còn một dòng.
+Giao theo thứ tự: phiếu ý niệm → bảng khung → prompt từng khung → tối đa 3 dòng "nhìn gì khi ra ảnh". Nơi nhận giới hạn số tin mỗi lượt (chat nhóm sinh ảnh chỉ nhận 3 tin) thì chia album theo đợt 3+3+2. Người dùng chỉ xin prompt thì đưa prompt, phiếu ý niệm rút còn một dòng.
 
 Sau khi có ảnh, ghi `LEARNINGS.md` một dòng như thường lệ **và** cập nhật đoạn "lối mòn hiện tại" ở §1 nếu album vừa xong đã thành khuôn mới. Ghi cả phần quy trình: động cơ ý tưởng nào cho ra hướng được chọn, lượt tra nào thật sự đổi được album.

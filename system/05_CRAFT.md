@@ -10,6 +10,34 @@ Mỗi mục có nhãn độ tin:
 
 Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 
+**Gặp chuyện gì → đọc mục nào**
+
+| Gặp chuyện | Đọc |
+|---|---|
+| Người dùng đưa tên phong cách, tên hoạ sĩ | §1.1, §1.2, §1.3 |
+| Muốn trộn hai ba phong cách hoặc phương tiện | §1.4, §6b (ranh giới chất liệu) |
+| Cần chất phim, in, scan cũ mà không ra nhiễu đều | §1.1a |
+| Ra anime/CG trong khi cần ảnh thật | §1.6 |
+| Có ảnh tham chiếu mặt, bố cục hoặc màu | §2.1, §2.2, §2.7 |
+| Sửa một chỗ trên ảnh có sẵn, giữ nguyên phần còn lại | §2.5a, §2.3 |
+| Tái dựng theo ảnh mẫu | §2.4, §2.5b, §6.6 |
+| Đạo cụ nhiều mà ảnh không có chuyện | §3.1, §3.2 |
+| Biểu cảm phẳng hoặc mặt nhờn | §3.4, §3.4a, §3.5 |
+| Dáng cứng, đang "tạo dáng" | §4.1, §4.2, §4.11 |
+| Nhiều người trong khung, hai người nhìn nhau | §4.5, §4.6 |
+| Đánh nhau, va chạm, hành động mạnh | §4.10 |
+| Gợi cảm người lớn | §4b |
+| Candid giả, ai cũng nhìn máy; hiện REC, khung lấy nét | §5.1, §5.2, §5.4, §5.5 |
+| Ảnh thiếu sáng bị model làm sáng, bóng bẩy | §5.6, §5.8 |
+| Series bị lặp cảnh, sáng, đồ | §6.2 |
+| Nhân vật trôi qua các ảnh | §6.3, §6.3a, §6.4 |
+| Một quy cách chạy cho nhiều chủ đề | §6.5 |
+| Prompt dài, giọng chọi nhau, sai số đếm | §7.1, §7.4 |
+| Mặt trời hoặc đèn tự hiện vào khung | §7.10 |
+| Da ra bóng nhựa | §8.3, §8.2a |
+| Một chi tiết cứ rớt hoặc cứ quay về khuôn quen | §8.4, §8.5 |
+| Ảnh chưa đạt, chưa biết sai đâu | §8.1, §8.2 |
+
 ---
 
 ## 1. Phong cách
@@ -160,6 +188,8 @@ Nhóm đích–cản–giá phải trả, subtext, thông tin bất cân xứng:
 
 **4.10 Hành động mạnh:** viết chuỗi nhân quả (chuẩn bị → tiếp xúc → phản ứng): ai ra lực, hướng nào, chạm ở đâu, thân kia phản ứng ra sao. [nhiều nguồn] Hiệu ứng chỉ bám vào chi thể thật; chạm trước, rung sau.
 
+**4.11 Ghi chân trụ và điểm tì.** [giả thuyết] Trọng tâm dồn lên một chân hoặc một điểm tì (vai tựa tường, khuỷu chống bàn) kéo lệch đường vai–hông; thiếu câu này model hay trả về dáng đứng đều hai chân. Ghi rõ chân nào trụ, chỗ nào tì. Ví dụ: 重心压在右腿，左肩靠墙，肩线与胯线反向倾斜.
+
 ## 4b. Gợi cảm người lớn, an toàn
 
 **Phạm vi.**
@@ -274,11 +304,13 @@ Gọi tên thiết bị ("chụp bằng camera gốc điện thoại, tự chụ
 
 ## 6. Series, biến thể, album
 
+Album sáng tạo với chủ đề mở đi theo `10_CREATIVE_ALBUM.md`; mục này là tay nghề giữ nhất quán, dùng cho cả hai làn.
+
 **6.1 Cặp cố định / tự do.** [nhiều nguồn] Khớp đúng 母版锁 / 分镜:
 - **Cố định:** danh tính, chất liệu, hệ màu, phong cách, một ảnh đơn.
 - **Tự do:** máy, bố cục, động tác, biểu cảm, ánh nhìn.
 
-**6.2 Ép đa dạng.** [nhiều nguồn]
+**6.2 Ép đa dạng.** [nhiều nguồn] Luật đa dạng phụ thuộc hình dạng album (`10_CREATIVE_ALBUM.md` §4); các gạch dưới đây là cho album khám phá. Biến tấu và loại hình cố ý giữ khung giống nhau.
 - n biến thể cùng chủ đề sẽ tự sao chép (cùng phòng, cùng ánh sáng, cùng đồ).
 - Mỗi bản phải khác nhiều chiều: vị trí máy, tiêu cự, vật che, động tác, hướng người, khoảng cách, cảnh, ánh sáng, có phát hiện máy hay không.
 - Với album khám phá, tránh chỉ đổi một chiều; với cặp kiểm một can thiệp hoặc chuỗi liên tục, chủ động giữ các chiều còn lại.
