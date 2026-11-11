@@ -13,6 +13,7 @@ Ba tầng, mỗi tầng một file:
 | Film grounding | `system/06_FILM_GROUNDING.md` | 14 cơ chế hành động, đường nhìn, màu theo vật mang, điểm đứng máy và tách thân khi chồng lấp (có giới hạn khung dọc); nhãn sách, chưa thử ảnh |
 | Atmosphere devices | `system/07_ATMOSPHERE_DEVICES.md` | 10 thủ pháp không khí: viền sáng ngược, sương nhiều lớp, khoảng tối, nguồn ấm cục bộ, vật tự sáng, tiền cảnh có hướng, che mặt kể bằng cử chỉ, lụa mỏng, nhoè cục bộ, sát đất; nhãn quan sát, chưa thử ảnh |
 | Keyword | `system/08_KEYWORD_FORMAT.md`, `examples/keyword/` | khuôn bổ sung một dòng nối bằng `+`: hình dạng, 9 luật linter bắt, khối khoá nhân vật, cách tách ví dụ để lint không xung đột |
+| Shot vocab | `system/09_SHOT_VOCAB.md` | từ vựng khung cho album sáng tạo: 7 trục, bảng ghép máy–đầu, mẫu bảng 8 khung; nhãn quan sát, chưa thử ảnh |
 | Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 4 ví dụ đầy đủ (D: ánh sáng ngược xuyên khói) |
 | Thực chiến | `system/LEARNINGS.md` | lỗi đã thấy trên ảnh thật; lớn dần theo thời gian |
 

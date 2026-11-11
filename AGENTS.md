@@ -17,6 +17,7 @@ Mày đã giỏi thị giác. Repo này không dạy lại nhiếp ảnh. Nó ch
 | `system/06_FILM_GROUNDING.md` | khi brief có hành động, quan hệ giữa người, bất cân xứng thông tin, sửa màu theo vật mang, vị trí máy hoặc thân bị che trong staging, kể cả khung dọc | lớp mỏng cơ chế từ sách điện ảnh, nhãn sách, chưa thử ảnh; LEARNINGS và mắt người dùng cao hơn |
 | `system/07_ATMOSPHERE_DEVICES.md` | khi brief hoặc ảnh tham chiếu cần viền sáng ngược, sương, khoảng tối lớn, nguồn ấm cục bộ, tiền cảnh lấn khung, che mặt bằng vật, lụa mỏng, nhoè chuyển động, góc sát đất | 10 thủ pháp AD-01…AD-10, nhãn quan sát, chưa thử ảnh T1; LEARNINGS và mắt người dùng cao hơn |
 | `system/08_KEYWORD_FORMAT.md` | khi người dùng chọn prompt keyword một dòng nối bằng `+` (GPT Image, Grok bot) | khuôn bổ sung, luật linter bắt, cách tách ví dụ khỏi `examples/*.txt` |
+| `system/09_SHOT_VOCAB.md` | khi người dùng xin album sáng tạo nhiều khung cần danh sách khung không lặp | từ vựng khung theo 7 trục (cỡ cảnh, máy, đầu theo máy, bố cục, kể chuyện, không khí, chất ảnh), bảng ghép máy–đầu, mẫu bảng khung; nhãn quan sát, chưa thử ảnh |
 | `system/04_TEMPLATES.md` + `examples/` | khi soạn bản cuối | khuôn 3 phần, brand, ví dụ đầy đủ |
 
 Bản repo cũ (OS v2, Knowledge_Mindset, K/M/W) nằm ở tag `legacy-v1`. Chỉ tra khi file ở đây thật sự không đủ, và không coi nó là luật.

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.13.0 — 2026-11-11
+- Thêm `system/09_SHOT_VOCAB.md`: từ vựng khung để dựng album sáng tạo: 7 trục (cỡ cảnh, điểm đứng máy, đầu và ánh nhìn theo máy, bố cục, kể chuyện nhỏ, không khí, chất ảnh) với keyword tiếng Trung, bảng ghép máy–đầu, luật "khác nhau ít nhất 3 trục", mẫu bảng 8 khung, bẫy.
+- Nguồn: 5 clip khẩu quyết chụp chân dung, viết lại bằng lời T1. Nhãn quan sát, chưa thử ảnh. Không có ảnh, khung hình hay preset số của người khác trong repo.
+- `AGENTS.md`, `README.md`: một dòng trỏ tới `09`.
+
 ## v2.12.0 — 2026-11-11
 - Thêm `system/08_KEYWORD_FORMAT.md`: khuôn keyword một dòng nối bằng `+` như luật bổ sung (không thay khuôn 3 phần): hình dạng, 9 luật cứng, khối khoá nhân vật thay 母版锁, thói quen đã chứng minh, và bảng "Tránh xung đột lint và Git".
 - `tools/t1lint.py`: thêm kiểu keyword (`lint_keyword`, `detect_style`, `lint_any`), cờ `--style auto|three|keyword`, mặc định tự nhận. Lệnh cũ `t1lint --strict examples/*.txt` giữ nguyên hành vi.
