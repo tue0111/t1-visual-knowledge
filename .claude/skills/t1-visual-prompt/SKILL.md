@@ -1,6 +1,6 @@
 ---
 name: t1-visual-prompt
-description: Viết hoặc sửa prompt ảnh T1 to 9 (tiếng Trung, 3 phần 母版锁/分镜/通用负面提示词). Dùng khi người dùng đưa ý tưởng ảnh, ảnh tham chiếu, hoặc ảnh lỗi cần sửa prompt.
+description: Viết hoặc sửa prompt ảnh T1 to 9 (tiếng Trung, 3 phần 母版锁/分镜/通用负面提示词). Dùng khi người dùng đưa một ý đồ ảnh đã rõ, ảnh tham chiếu, hoặc ảnh lỗi cần sửa prompt. Album mở hay yêu cầu sáng tạo thì dùng t1-creative-album.
 ---
 
 1. Đọc `AGENTS.md`, `system/01_MINDSET.md`, `system/03_WORKFLOW.md`, `system/LEARNINGS.md`.

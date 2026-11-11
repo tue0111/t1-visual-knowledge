@@ -1,4 +1,6 @@
-# 09 — SHOT VOCAB: từ vựng khung để dựng album đa dạng
+# 09 — SHOT VOCAB: kho từ vựng khung
+
+**Đây là kho để tra, không phải ma trận phải điền kín.** Quy trình dựng album nằm ở `10_CREATIVE_ALBUM.md`: giao việc cho từng khung trước, rồi mới sang đây lấy máy và bố cục phục vụ việc đó.
 
 Lớp mỏng như `06`, `07`. Mở khi người dùng xin **album sáng tạo** (nhiều khung, cùng một người hoặc một thế giới) và cần danh sách khung không lặp nhau. Không nạp mọi lần.
 
@@ -7,7 +9,7 @@ Lớp mỏng như `06`, `07`. Mở khi người dùng xin **album sáng tạo** 
 ## Cách dùng: lập bảng khung trước khi viết prompt
 
 1. Chọn số khung n. Mỗi khung điền **một giá trị cho mỗi trục** dưới đây.
-2. Hai khung bất kỳ trong album phải khác nhau ở **ít nhất 3 trục**, trong đó có trục A (cỡ cảnh) hoặc B (máy). Đổi một trục là hai ảnh sinh đôi.
+2. Với album **hình dạng khám phá** (`10` §4): hai khung bất kỳ khác nhau ở **ít nhất 3 trục**, trong đó có trục A (cỡ cảnh) hoặc B (máy). Các hình dạng khác có luật riêng: biến tấu chỉ đổi một biến, loại hình giữ máy giống hệt, chuỗi kể chuyện giữ hướng và mốc.
 3. Mỗi khung chọn **một lệnh chính** ở trục C (đầu/ánh nhìn) khớp với B (xem bảng ghép). Đừng chọn ngẫu nhiên: máy và đầu phải đi cùng nhau.
 4. Chỉ 母版锁 giữ người, ánh sáng, nền. Mọi trục dưới đây thuộc 分镜 (xem `05 §6.1`). Với keyword thì lặp khối khoá ở đầu mỗi dòng (`08`).
 5. Tối đa 1 giá trị mỗi trục mỗi khung, và tối đa 2 trục "kể chuyện" (E, F) mỗi khung. Nhiều hơn thì giành nhau.
@@ -30,7 +32,7 @@ Lớp mỏng như `06`, `07`. Mở khi người dùng xin **album sáng tạo** 
 | Sát đất | xem `07 AD-10` | |
 | Sau lưng | 背面拍摄 | bí ẩn, đang đi |
 | Nghiêng ba phần tư | 侧前方四分之三 | tự nhiên |
-Ghi gần/xa bằng tiêu cự (`35毫米`, `85毫米`). Góc thấp kèm nền cao (toà nhà, cổng, cây) cho phối cảnh vút lên; có thể thêm `广角` để vật gần phóng đại.
+Tiêu cự (`35毫米`, `85毫米`) chỉ là **góc thu**. Phối cảnh (vật gần phình hay nền dồn sát) đổi theo **chỗ máy đứng**: muốn nền dồn sát thì ghi máy ở xa cộng tiêu cự dài, muốn không gian vút sâu thì ghi máy sát người cộng tiêu cự ngắn, và giữ cỡ người trong khung làm mốc. Góc thấp kèm nền cao (toà nhà, cổng, cây) cho phối cảnh vút lên; có thể thêm `广角` để vật gần phóng đại.
 
 ## Trục C. Đầu, vai và ánh nhìn theo máy (bảng ghép)
 Mỗi mẫu là một cặp "máy → tư thế đầu". Dùng đúng cặp để tránh cứng.

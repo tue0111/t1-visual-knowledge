@@ -1,26 +1,31 @@
 # T1 Visual Knowledge
 
-Hệ agent viết prompt ảnh cho dự án **T1 to 9**: tiếng Trung, 3 phần 【母版锁】【分镜】【通用负面提示词】, ra ảnh đúng ý ngay lần đầu và sửa đúng chỗ khi hỏng.
+Hệ agent viết prompt ảnh cho dự án **T1 to 9**, tiếng Trung. Hai làn:
+- **Chính xác:** ý đồ đã rõ thì viết cho ra ảnh đúng ngay lần đầu, hỏng thì sửa đúng chỗ (`system/03_WORKFLOW.md`).
+- **Sáng tạo:** chủ đề mở thì tự tìm ý niệm, tra thêm dữ liệu, chọn hình dạng album rồi mới viết (`system/10_CREATIVE_ALBUM.md`).
 
-Ba tầng, mỗi tầng một file:
+Khuôn prompt (3 phần 【母版锁】【分镜】【通用负面提示词】, keyword một dòng, văn xuôi ngắn) là bước đóng gói cuối, chọn theo generator.
+
+Ba tầng (mindset, knowledge, workflow) và các lớp mỏng tra khi cần:
 
 | Tầng | File | Nội dung |
 |---|---|---|
 | Mindset | `system/01_MINDSET.md` | 10 nguyên lý, 4 chế độ ảnh, chọn trục chính |
 | Knowledge | `system/02_KNOWLEDGE.md` | 8 trục (ánh sáng, máy, bố cục, màu, chất liệu, không khí, khoảnh khắc, thế giới): hỏi gì, viết gì, model hỏng ở đâu |
-| Workflow | `system/03_WORKFLOW.md` | 5 bước từ brief đến prompt, vòng sửa ảnh lỗi |
+| Workflow | `system/03_WORKFLOW.md` | làn chính xác: 5 bước từ brief đến prompt, vòng sửa ảnh lỗi |
+| Workflow sáng tạo | `system/10_CREATIVE_ALBUM.md` | làn sáng tạo: chống lối mòn, 10 động cơ sinh ý niệm, tra cứu mở rộng có ngân sách, 8 hình dạng album, việc của từng khung, nhịp album, chọn khuôn sau cùng |
 | Craft | `system/05_CRAFT.md` | phong cách, tham chiếu, câu chuyện, nhiều người, độ thật, series, vệ sinh prompt, sửa lỗi |
 | Film grounding | `system/06_FILM_GROUNDING.md` | 14 cơ chế hành động, đường nhìn, màu theo vật mang, điểm đứng máy và tách thân khi chồng lấp (có giới hạn khung dọc); nhãn sách, chưa thử ảnh |
 | Atmosphere devices | `system/07_ATMOSPHERE_DEVICES.md` | 10 thủ pháp không khí: viền sáng ngược, sương nhiều lớp, khoảng tối, nguồn ấm cục bộ, vật tự sáng, tiền cảnh có hướng, che mặt kể bằng cử chỉ, lụa mỏng, nhoè cục bộ, sát đất; nhãn quan sát, chưa thử ảnh |
 | Keyword | `system/08_KEYWORD_FORMAT.md`, `examples/keyword/` | khuôn bổ sung một dòng nối bằng `+`: hình dạng, 9 luật linter bắt, khối khoá nhân vật, cách tách ví dụ để lint không xung đột |
-| Shot vocab | `system/09_SHOT_VOCAB.md` | từ vựng khung cho album sáng tạo: 7 trục, bảng ghép máy–đầu, mẫu bảng 8 khung; nhãn quan sát, chưa thử ảnh |
+| Shot vocab | `system/09_SHOT_VOCAB.md` | kho từ vựng khung để tra (không phải ma trận phải điền): 7 trục, bảng ghép máy–đầu, mẫu bảng 8 khung; nhãn quan sát, chưa thử ảnh |
 | Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 4 ví dụ đầy đủ (D: ánh sáng ngược xuyên khói) |
 | Thực chiến | `system/LEARNINGS.md` | lỗi đã thấy trên ảnh thật; lớn dần theo thời gian |
 
 ## Dùng
 
 - **Codex:** mở repo, `AGENTS.md` tự nạp. Đưa ý tưởng ảnh.
-- **Claude Code:** `CLAUDE.md` trỏ về `AGENTS.md`; skill `.claude/skills/t1-visual-prompt` tự kích hoạt khi xin prompt ảnh; skill `.claude/skills/t1-atmosphere-devices` thêm vào khi cần không khí, che mặt, chuyển động.
+- **Claude Code:** `CLAUDE.md` trỏ về `AGENTS.md`; skill `.claude/skills/t1-visual-prompt` tự kích hoạt khi xin prompt ảnh; skill `.claude/skills/t1-creative-album` kích hoạt khi xin album mở hoặc yêu cầu sáng tạo; skill `.claude/skills/t1-atmosphere-devices` thêm vào khi cần không khí, che mặt, chuyển động.
 - **Chat khác (ChatGPT, Claude.ai):** dán `AGENTS.md` + `system/01`, `03`, `LEARNINGS` làm ngữ cảnh; tra `02` khi cần.
 
 Kiểm luật cứng của một prompt (chỉ cần Python 3.9+, không thư viện ngoài):

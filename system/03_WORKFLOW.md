@@ -1,4 +1,6 @@
-# 03 — WORKFLOW: từ ý tưởng đến ảnh đúng
+# 03 — WORKFLOW: làn chính xác, từ ý đồ đến ảnh đúng
+
+File này là **làn chính xác**: ý đồ đã có, việc là viết cho trúng và sửa cho đúng. Người dùng xin album mở hay "sáng tạo đi" thì sang `10_CREATIVE_ALBUM.md`; làn đó tự tìm ý niệm trước, rồi quay lại dùng Bước 3–4 và Vòng sửa ở đây cho từng khung.
 
 ## Bước 1 — Hiểu brief (≤ 1 phút)
 Đọc yêu cầu và ảnh tham chiếu nếu có. Chỉ hỏi lại khi thiếu thứ làm đổi hẳn bức ảnh: chủ thể là ai, ảnh dùng để làm gì, tỷ lệ khung. Còn lại tự chọn phương án hợp gu T1 và ghi giả định trong bảng quyết định.
@@ -20,6 +22,7 @@ CHẶN: attractor ___ ở trục ___
 ```
 
 ## Bước 3 — Viết 3 phần
+Mặc định là khuôn 3 phần. Người dùng chọn keyword thì theo `08_KEYWORD_FORMAT.md`; cách chọn khuôn theo generator xem `10_CREATIVE_ALBUM.md` §6.
 1. **母版锁:** những gì ổn định qua mọi shot: chế độ và quan hệ với người xem, danh tính, chất liệu và vai màu, luật thế giới, ngôn ngữ ánh sáng chung, khối brand, câu "chỉ một ảnh".
 2. **分镜:**
    - Câu tỷ lệ khung và máy (vị trí, độ cao, khoảng cách, cỡ cảnh).
@@ -39,7 +42,7 @@ CHẶN: attractor ___ ở trục ___
 - [ ] Ý đồ vùng tối đã ghi rõ?
 - [ ] Có cụm tính từ rỗng không? (高品质, 大师作品, 8K, 氛围感, 电影感 đứng một mình) Có thì xoá hoặc thay bằng bằng chứng.
 - [ ] Có mâu thuẫn không? (dương và âm; phong cách với phong cách; dấu vết sinh ra chữ trong khi brand cấm chữ)
-- [ ] Đủ luật cứng: tiếng Trung, 3 phần, brand nguyên văn, một shot một ảnh.
+- [ ] Đủ luật cứng: tiếng Trung, đúng khuôn đã chọn, brand nguyên văn (nếu khuôn 3 phần), một prompt một ảnh.
 
 ## Bước 5 — Giao
 Bảng quyết định → 3 khối code → tối đa 3 dòng "nhìn gì khi ra ảnh" (các rủi ro attractor).
@@ -60,9 +63,9 @@ Xem thêm `05_CRAFT.md` §8 (thang sửa theo tầng, kiểm da nhựa, khuôn q
 5. **Ghi LEARNINGS** nếu bài học dùng lại được (mẫu ở cuối `LEARNINGS.md`).
 
 ## Album / series
-- Một 母版锁 chung, mỗi shot một 分镜, một negative chung.
-- Mỗi ảnh đổi ≥ 2 trong 4 biến: khoảng cách, góc máy, hành động, chủ tiêu điểm. Nếu không, cả series thành một ảnh lặp lại.
-- Ghi rõ trong 母版锁 những biến nào được phép đổi.
+Hai trường hợp khác nhau, đừng lẫn:
+- **Series theo quy cách có sẵn** (bộ poster theo mùa, tái dựng một bộ ảnh mẫu, làm tiếp album cũ): ở lại làn này. Một 母版锁 chung, mỗi shot một 分镜, một negative chung; ghi rõ trong 母版锁 biến nào được phép đổi; mặc định mỗi ảnh đổi ≥ 2 trong 4 biến (khoảng cách, góc máy, hành động, chủ tiêu điểm).
+- **Album sáng tạo** (chủ đề mở, người dùng muốn được đề xuất): sang `10_CREATIVE_ALBUM.md`. Ở đó luật đa dạng do **hình dạng album** quyết định, có hình dạng đòi các khung giống hệt nhau.
 
 ## Chế độ nhanh
 Người dùng chỉ cần thăm dò ý tưởng: viết một prompt nén (vài khái niệm dày nghĩa, mỗi cái một việc + chủ thể + luật cứng; xem `05_CRAFT.md` §1.6a). Muốn tìm hướng mới thì sinh nhiều tổ hợp theo §1.6b. Khi ra ảnh ưng, giải mã cái gì làm nó đẹp rồi khoá lại bằng bảng quyết định.

@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v3.0.0 — 2026-11-11
+Hệ thống có hai làn. Trước đây mọi yêu cầu đi qua một cái phễu (bảng quyết định 6 dòng → 3 phần), album chỉ có ba dòng hướng dẫn, nên album sáng tạo bị rập theo album trước.
+- Thêm `system/10_CREATIVE_ALBUM.md` (làn sáng tạo): đọc độ mở; chống lối mòn (khác album trước ở ≥ 3/5 thứ); 10 động cơ sinh ý niệm; tra cứu mở rộng có ngân sách (web, VSC, film-library) gom thành bảng vật liệu; phiếu ý niệm; 8 hình dạng album, mỗi hình dạng một luật đa dạng riêng; việc của từng khung và nhịp album; chọn khuôn đóng gói sau cùng theo generator; tự soát cấp album. Nhãn giả thuyết, chưa chạy album nào theo quy trình này.
+- `AGENTS.md`: bảng chọn làn; luật cứng số 2 viết lại (khuôn là bước cuối, ba khuôn: 3 phần, keyword, văn xuôi ngắn); luật tối thiểu chung cho mọi khuôn; mục "Tra cứu mở rộng"; đầu ra mặc định cho làn sáng tạo; thứ tự quyền thêm lớp mỏng và kết quả tra cứu.
+- `system/03_WORKFLOW.md`: ghi rõ là làn chính xác; mục Album tách series theo quy cách khỏi album sáng tạo.
+- `system/09_SHOT_VOCAB.md`: là kho để tra, không phải ma trận; luật "≥ 3 trục" chỉ áp cho hình dạng khám phá; sửa câu sai về tiêu cự (tiêu cự là góc thu, phối cảnh đổi theo chỗ máy đứng).
+- Skill mới `.claude/skills/t1-creative-album`; skill `t1-visual-prompt` trỏ sang khi gặp yêu cầu mở. `README.md` cập nhật.
+- Không đổi: khuôn 3 phần, khuôn keyword, brand, linter, 6 ví dụ, `01`, `02`, `05`–`08`.
+
 ## v2.13.0 — 2026-11-11
 - Thêm `system/09_SHOT_VOCAB.md`: từ vựng khung để dựng album sáng tạo: 7 trục (cỡ cảnh, điểm đứng máy, đầu và ánh nhìn theo máy, bố cục, kể chuyện nhỏ, không khí, chất ảnh) với keyword tiếng Trung, bảng ghép máy–đầu, luật "khác nhau ít nhất 3 trục", mẫu bảng 8 khung, bẫy.
 - Nguồn: 5 clip khẩu quyết chụp chân dung, viết lại bằng lời T1. Nhãn quan sát, chưa thử ảnh. Không có ảnh, khung hình hay preset số của người khác trong repo.
