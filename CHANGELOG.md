@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v3.2.1 — 2026-11-11
+Dọn dẹp, không thêm kiến thức.
+- `system/05_CRAFT.md`: §1.6 đưa lên trước §1.6a, §1.6b (giữ nguyên số để mọi tham chiếu cũ còn đúng); §3.6 chỉ còn là cách chọn shot cho ảnh đơn hoặc một đoạn của album chuỗi kể chuyện, không còn là cách chia cả album; §1.6b, §7.3a trỏ sang `10` để hai nơi không nói hai luật.
+- Xoá bốn nhánh remote cũ đã lấy hết bài học về `main` ở v3.1.0 (`ccr-508e05c2-3t9gyt`, `ccr-55a9da20-wcprko`, `ccr-e01bac73-z7m4vs`, `claude/wonderful-dijkstra-yufh61`). Phần quy trình VSC của hai nhánh `ccr-508e05c2` và `ccr-e01bac73` không lấy (xung đột nhau và trái quyết định ở v3.2.0); đầu mỗi nhánh được giữ lại bằng một tag `archive/<tên nhánh>` để tra lại khi cần.
+
 ## v3.2.0 — 2026-11-11
 - Thêm `system/12_SPACE_AND_STAGING.md`: 8 cách lấy chiều sâu từ kiến trúc (trục lùi, khung cửa, mượn cảnh, hành lang cột, hiên sâu, giếng trời, lớp bán trong, mặt phản chiếu); danh từ nơi chốn và trang phục Việt để ảnh không trôi sang Trung Hoa hay Nhật; dàn cảnh hai người đối nhau; cảnh thật hay cảnh dựng trong trường quay; người trong nơi của họ. Viết từ kiến thức chung, chưa thử ảnh.
 - Quyết định về kho VSC: repo **không** chứa mục lục phong cách của VSC (điều khoản kho cấm xuất). Agent tra VSC trực tiếp lúc làm theo `10` §3; repo chỉ giữ nguyên lý tự viết. Bản chưng cất F12 trên nhánh cũ và bản nháp 12 mục không đưa vào main.

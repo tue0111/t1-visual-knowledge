@@ -63,6 +63,8 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 
 **1.5 Phong cách "thô cố ý" phải tách ba tầng:** phong cách nét, biến dạng hình, nội dung. [giả thuyết] Lệnh "thô một chút" thì model vẽ bẩn; "biến dạng cơ thể" thì mọc thêm tay.
 
+**1.6 Ghi rõ "ảnh thật" khi cần ảnh thật.** [giả thuyết] Tên phong cách hay tên nhân vật không đổi được chất liệu ảnh. Thiếu câu 真人写实摄影 thì model hay trả về anime, CG hoặc minh hoạ.
+
 **1.6a Khái niệm dày nghĩa là "bản brief nén".** [giả thuyết]
 - Vài cụm đúng loại có thể thay cả trăm chữ. Ví dụ: một cụm lo cách chụp người (editorial), một cụm lo cách dàn trang (bìa tạp chí tối giản), một cụm lo lý do tồn tại (key visual của một dự án nghệ thuật), cộng một danh tính rõ.
 - Chúng hiệu quả vì **không tranh cùng một chiều**. Dấu × hay dấu phẩy không có phép màu.
@@ -72,13 +74,11 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
   3. hai thứ hợp nhau.
 - Đây là cách nén cao, dao động cao. Lặp nhiều lần, đổi nhân vật mà vẫn đứng thì mới là hướng ổn định.
 
-**1.6b Khám phá phong cách có hệ thống.** [giả thuyết]
+**1.6b Khám phá phong cách có hệ thống.** [giả thuyết] Khám phá ở cấp album (ý niệm, hình dạng, việc của từng khung) nằm ở `10_CREATIVE_ALBUM.md` §2–§5; mục này chỉ lo khám phá **phong cách** cho một chủ thể.
 - Công thức: chủ thể + **1** phong cách gốc + 0–1 lớp bề mặt/ánh sáng + 0–1 lớp dàn trang/không gian + 0–1 lớp lỗi phương tiện + câu chống trôi (giữ nhận dạng chủ thể, không chữ thừa).
 - Kho nhãn hiếm lấy từ tám ngăn: chất liệu, thời đại, phương tiện, ánh sáng, không gian, cách in, lỗi hình ảnh, tiểu văn hoá.
 - Câu hỏi đúng không phải "làm sao đẹp hơn" mà là "chủ thể này còn vào được những hệ hình nào": đồ chơi, poster phim cũ, quảng cáo tạp chí cũ, đồ vật trong game đa giác thấp.
 - Tên tác giả hoặc người nổi tiếng (nhiếp ảnh gia, nhà thiết kế, nhà văn) là công cụ **khám phá** nén rất mạnh. Khi khoá bản sản xuất thì giải mã ra cơ chế (§1.3).
-
-**1.6 Ghi rõ "ảnh thật" khi cần ảnh thật.** [giả thuyết] Tên phong cách hay tên nhân vật không đổi được chất liệu ảnh. Thiếu câu 真人写实摄影 thì model hay trả về anime, CG hoặc minh hoạ.
 
 ## 2. Ảnh tham chiếu
 
@@ -145,7 +145,7 @@ Gặp ảnh thật trái với nhãn thì ghi vào `LEARNINGS.md`.
 
 **3.5 Từ trạng thái mơ hồ cần từ chặn đi kèm.** [giả thuyết] Chồng "mơ màng, chếnh choáng, ngập ngừng" làm mặt nhờn và trượt. Viết dấu hiệu: ánh mắt khựng lại, miệng mở rồi dừng.
 
-**3.6 Một sự kiện tách thành ba shot:** xa = hoàn cảnh, trung = quyết định, đặc tả = bằng chứng. [giả thuyết] Dùng cho album hoặc chọn shot đắt nhất cho ảnh đơn.
+**3.6 Một sự kiện tách thành ba shot:** xa = hoàn cảnh, trung = quyết định, đặc tả = bằng chứng. [giả thuyết] Dùng để chọn shot đắt nhất cho ảnh đơn, hoặc cho một đoạn ba khung trong album **chuỗi kể chuyện**. Không dùng làm cách chia cả album: album sáng tạo giao **việc** cho từng khung trước rồi mới chọn cỡ cảnh (`10_CREATIVE_ALBUM.md` §5).
 
 **3.7 Dịch trừu tượng thành hình thái.** [giả thuyết] Kiệt sức, trì hoãn, buông xuôi phải thành ép dẹt, kéo dài, thắt nút, gập xuống. Mắt, miệng, lực thân phải đổi cùng lúc.
 
@@ -390,7 +390,7 @@ Khoá quá sớm tầng tự do làm model cứng.
 - **Khoá:** giải mã cái làm ảnh đẹp, tách thành quyết định, viết lại đầy đủ.
 - Đừng khoá khi chưa biết mình muốn gì.
 
-**7.3a Rộng trước, sâu sau.** [giả thuyết] Khám phá nhiều hướng thì rẻ. Giá trị thật đến khi chọn 1–2 hướng có sức sống rồi đào sâu thành series và giọng riêng. Hôm nay làm khác tháng trước được thì mới là sáng tác.
+**7.3a Rộng trước, sâu sau.** [giả thuyết] Quy trình cụ thể cho album: `10_CREATIVE_ALBUM.md` §2. Khám phá nhiều hướng thì rẻ. Giá trị thật đến khi chọn 1–2 hướng có sức sống rồi đào sâu thành series và giọng riêng. Hôm nay làm khác tháng trước được thì mới là sáng tác.
 
 **7.4 Số đếm phải ghi tường minh:** "đúng chín cái đuôi tách rời", "một sinh vật duy nhất", "không có chân thừa". [nhiều nguồn] Nhiều chi tiết nhỏ không đảm bảo đúng số lượng: bàn cờ vẫn sai số quân, sơ đồ vẫn sai nhãn.
 
