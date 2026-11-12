@@ -38,6 +38,7 @@ Không chắc thì hỏi một câu: "Mày đã có hình trong đầu chưa, ha
 | `system/11_LIGHT_AND_OPTICS.md` | khi cần điều khiển khối mặt bằng đèn, độ mềm của bóng, nền tối không cần phông, đốm sáng mắt, vùng nét và nền mờ, tiêu cự và chỗ máy đứng | từ vựng đèn chân dung đọc bằng bóng mũi, cỡ nguồn và suy giảm, nét và mờ, phối cảnh theo chỗ đứng; chưa thử ảnh |
 | `system/12_SPACE_AND_STAGING.md` | khi ảnh cần một nơi chốn có thật (cung điện, vườn, nhà cổ, phố, làng), bối cảnh Việt Nam, hai người đối nhau, hoặc chân dung trong nơi làm việc | 8 cách lấy chiều sâu từ kiến trúc, danh từ nơi chốn và trang phục Việt để ảnh không trôi sang nước khác, dàn cảnh đối đầu, cảnh thật hay cảnh dựng; chưa thử ảnh |
 | `system/13_WORLD_AND_TELLING.md` | khi nhiều khung phải cùng một căn phòng, một bộ đồ, một thời kỳ; khi bối cảnh đẹp mà vô chủ; khi album có ý niệm mà chưa có giọng kể; khi cảm xúc phải đọc được mà không dựa vào mặt | ba câu hỏi của bối cảnh, sơ đồ nơi chốn, vật mang chuyện ba trạng thái, vết mòn có nguyên nhân, màu để dành, mốc thời kỳ, bảy lối kể, cảm xúc bằng thân; chưng từ kho phim `film-craft`, chưa thử ảnh |
+| `system/14_DEPTH_AND_PARALLAX.md` | khi ảnh phẳng dù đủ chi tiết, người dính vào nền, sương khói làm đục ảnh; khi album cứ ra nền tối giống nhau; khi brief nhắc thị sai, ảo giác thị giác, nhiều lớp; khi ảnh sẽ đem làm clip có máy chuyển động | chỗ ghép `07`, `11`, `12`: mười dấu sâu, bản đồ lớp, **sáu chìa sáng** (tối ngược sáng, sáng trắng, nắng gắt, sáng đều bằng màu, đêm nhiều màu đèn, phẳng), tám dạng không khí, một đỉnh tương phản, mười lăm phép thị sai đóng băng, **bảng xoay chống lối mòn**; skill `t1-depth-layers`; mới thử một phần, xem §11 |
 | `examples/creative/` | khi lần đầu chạy làn sáng tạo | hai phiếu album mẫu ở hai hình dạng khác nhau; chép cách đi, không chép thế giới |
 | `system/04_TEMPLATES.md` + `examples/` | khi đóng gói bằng khuôn 3 phần | khuôn 3 phần, brand, ví dụ đầy đủ |
 | `system/08_KEYWORD_FORMAT.md` + `examples/keyword/` | khi đóng gói bằng keyword một dòng nối `+` | khuôn keyword, luật linter bắt |
@@ -61,7 +62,7 @@ Bản repo cũ (OS v2, Knowledge_Mindset, K/M/W) nằm ở tag `legacy-v1`. Ch�
 Khi người dùng xin sáng tạo, hoặc khi thiếu danh từ cụ thể để viết, agent **được phép và nên** tra thêm: web (sự thật đời thực), VSC `vsc_*` (phong cách, khung máy, cách người khác viết), MCP `film-library` (sách điện ảnh). Cách tra, ngân sách và luật bản quyền nằm ở `system/10_CREATIVE_ALBUM.md` §3. Làn chính xác chỉ tra khi brief có tên phong cách, tên phương tiện hoặc một sự thật cần kiểm. Không có công cụ thì nói một dòng rồi làm bằng kiến thức sẵn có.
 
 ## Thứ tự quyền khi xung đột
-Yêu cầu hiện tại của người dùng > ảnh tham chiếu (theo phần được giao) > sửa đổi gần nhất của người dùng > luật cứng > `LEARNINGS.md` > `01–02` > lớp mỏng `05–13` > kết quả tra cứu ngoài > ví dụ.
+Yêu cầu hiện tại của người dùng > ảnh tham chiếu (theo phần được giao) > sửa đổi gần nhất của người dùng > luật cứng > `LEARNINGS.md` > `01–02` > lớp mỏng `05–14` > kết quả tra cứu ngoài > ví dụ.
 
 ## Đầu ra mặc định
 

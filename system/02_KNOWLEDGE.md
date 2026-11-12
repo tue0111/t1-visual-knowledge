@@ -213,6 +213,7 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 - Trời đục mà bóng sắc: 阴天，无清晰投影.
 - Tuyết xám: 积雪洁白保留纹理，阴影呈淡蓝色.
 - Bão mà yên ắng: tóc, áo, lá bay cùng một hướng gió.
+- Xếp lớp theo khoảng cách, gọi đúng dạng không khí (mù mỏng, khói có hình, sương sát đất, hạt trong tia), tương phản giữa các lớp, và cách dựng sâu khi ảnh sáng hoặc không có khói: xem `14_DEPTH_AND_PARALLAX.md` §2–§5.
 
 ---
 

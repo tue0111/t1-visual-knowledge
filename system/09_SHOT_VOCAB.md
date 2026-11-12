@@ -73,6 +73,7 @@ Mỗi mẫu là một cặp "máy → tư thế đầu". Dùng đúng cặp đ�
 | Nhìn qua vai | 从人物肩后看向另一侧对象+前景肩部与主体分层 |
 | Hai người, vai che gần | 近处保留一人肩部轮廓+远处完整呈现另一人 |
 Mỗi khung chọn một. Khung có đường dẫn cần nền sạch, không thì đường dẫn thành nhiễu.
+Ảnh vẫn phẳng sau khi chọn: soát lớp theo `14_DEPTH_AND_PARALLAX.md` §2 và §9. Ảo giác (gương, bóng, tỷ lệ, tranh thành vật, khúc xạ): `14` §6. Album cứ ra cùng một kiểu khung: bảng xoay `14` §7.
 
 ## Trục E. Kể chuyện nhỏ (chọn tối đa một)
 Tóc bay vài sợi 风吹起几缕发丝 · tà áo hoặc lụa bay 衣袖与纱向一侧飞扬 · đang bước đi 正走向…… · quay đầu 回眸 · tay chạm vật 指尖轻触…… · dừng lại giữa việc 动作停在半途. Chọn cái hợp thế giới, và khoá chiều của gió trong 母版锁 nếu album có gió.

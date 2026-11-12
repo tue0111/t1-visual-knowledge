@@ -21,6 +21,8 @@ CHẶN: attractor ___ ở trục ___
 Ý ĐỒ VÙNG TỐI: ___ phải đọc được / ___ được phép chìm
 ```
 
+Ảnh cần chiều sâu rõ, có sương khói, hoặc có ảo giác thị giác: thêm bảng năm dòng của `14_DEPTH_AND_PARALLAX.md` §9 ngay dưới bảng này (chọn chìa sáng trước, không mặc định nền tối).
+
 ## Bước 3 — Viết 3 phần
 Mặc định là khuôn 3 phần. Người dùng chọn keyword thì theo `08_KEYWORD_FORMAT.md`; cách chọn khuôn theo generator xem `10_CREATIVE_ALBUM.md` §6.
 1. **母版锁:** những gì ổn định qua mọi shot: chế độ và quan hệ với người xem, danh tính, chất liệu và vai màu, luật thế giới, ngôn ngữ ánh sáng chung, khối brand, câu "chỉ một ảnh".

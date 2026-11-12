@@ -73,6 +73,7 @@ Khi người dùng xin sáng tạo, agent **được và nên** tìm thêm dữ 
 | Điểm đứng máy, cặp khung nối | VSC `motion`; `09_SHOT_VOCAB.md` | tên khung và mô tả hình học |
 | Nơi chốn có kiến trúc, bối cảnh Việt, đèn trên mặt người | `12_SPACE_AND_STAGING.md`, `11_LIGHT_AND_OPTICS.md` (tra trong repo trước, không tốn lượt) | thiết bị không gian, danh từ nơi chốn, kiểu đèn |
 | Giọng kể của album, thế giới giữ nguyên qua nhiều khung, cảm xúc không dựa vào mặt | `13_WORLD_AND_TELLING.md` (tra trong repo, không tốn lượt) | một lối kể ghi vào LUẬT ALBUM, sơ đồ nơi chốn, vật mang chuyện |
+| Chiều sâu bằng lớp, khói và tương phản; ảo giác thị giác làm ý niệm album (hai không gian trong một khung) | `14_DEPTH_AND_PARALLAX.md` (tra trong repo, không tốn lượt) | một chìa sáng cho mỗi khung (sáu chìa, không mặc định nền tối), một phép P1 đến P15, bảng xoay §7 để các khung không trùng nhau |
 | Người khác đã viết chủ đề này ra sao | VSC `gallery` | **cơ chế**, không lấy câu chữ |
 | Dàn cảnh, ánh sáng, kể chuyện bằng hình | MCP `film-library` (sách điện ảnh), `06_FILM_GROUNDING.md` | nguyên lý, kèm tên sách ngắn |
 | MJ / sref | VSC `sref` | chỉ khi người dùng nhắc MJ |

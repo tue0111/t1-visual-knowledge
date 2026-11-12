@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v3.4.0 — 2026-11-12
+- Thêm `system/14_DEPTH_AND_PARALLAX.md`, chỗ ghép của `07`, `11`, `12`, viết theo nguyên tắc **không có mặc định** (chiều sâu không thuộc về nền tối, khói, một kiểu người hay một góc máy): mười dấu sâu của ảnh tĩnh; bản đồ lớp L0 đến L4 và ba luật (có khe, kề nhau khác ít nhất hai trong sáu thứ, so le theo một thuộc tính); **sáu chìa sáng** (tối ngược sáng, sáng trắng, nắng gắt, sáng đều bằng màu, đêm nhiều màu đèn, phẳng có chủ đích); tám dạng không khí; bốn loại tương phản và một đỉnh; **mười lăm phép thị sai đóng băng** P1 đến P15 trong bốn nhóm (hai chỗ nhìn, tỷ lệ, mặt phẳng thành khối, bóng và khúc xạ); **bảng xoay bảy trục chống lối mòn**; chuẩn bị ảnh cho clip; quy trình và bảng năm dòng; cặp xung đột; trạng thái thử.
+- Đã thử 11 ảnh qua Codex CLI (hai đợt, 1 ảnh mỗi khung), ghi ở `LEARNINGS.md` và `14` §11. Đạt: mảnh gương, bóng phản chiếu lệch, sương trắng, sâu bằng màu, bóng làm việc khác, kính vừa soi vừa xuyên, sân khấu giấy. Đạt một phần: tranh tràn ra phòng, khúc xạ qua cốc. Không thấy tác dụng: chép câu luật lớp vào cảnh đã đủ lớp. Đợt một 5/5 ảnh ra nền tối vì 母版锁 khoá tông; đợt hai bỏ khoá thì 6/6 thoát.
+- Skill mới `.claude/skills/t1-depth-layers/`: 12 bước, chọn chìa sáng và đi qua bảng xoay trước khi viết.
+- Ví dụ mới `examples/I_depth_layers.txt`: sáu khung, sáu thế giới (ruộng muối sương trắng, hái hồng, cửa kính, bóng chạy trên tường vàng, cốc nước, sân khấu giấy); qua lint, đã sinh ảnh.
+- `AGENTS.md`, `README.md`, `02` K6, `03` Bước 2, `07`, `09` trục D, `10` §3, hai skill cũ: mỗi nơi một dòng trỏ tới `14`. Thứ tự quyền: lớp mỏng là `05–14`.
+
 ## v3.3.0 — 2026-11-12
 - Thêm `system/13_WORLD_AND_TELLING.md`: ba câu hỏi một bối cảnh phải trả lời; sơ đồ nơi chốn để nhiều khung cùng một căn phòng và một bộ đồ; vật mang chuyện ba trạng thái; vết mòn có vị trí và nguyên nhân; màu để dành; mốc thời kỳ; bảy lối kể cho album (khung như tranh, tay và vật thay mặt, sự việc ngoài khung, nguyên tố và thời gian, người xem biết trước, lặp và một vết vỡ, phi lý điềm tĩnh); cảm xúc bằng thân. Chưng từ skill `film-craft` của repo `code-motion-video-skill`, chỉ giữ phần dùng cho ảnh tĩnh; phần thuộc thời gian (dựng, âm, i2v) nằm lại bên đó. Chưa thử ảnh.
 - `AGENTS.md`, `README.md`, `02` K8, `10` §3 và §4: mỗi nơi một dòng trỏ tới `13`. Thứ tự quyền: lớp mỏng là `05–13`.

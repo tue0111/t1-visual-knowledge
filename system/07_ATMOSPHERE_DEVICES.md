@@ -2,6 +2,8 @@
 
 Lớp mỏng như `06`. Không nạp mọi lần. Mở khi brief hay ảnh tham chiếu cần: viền sáng ngược, sương, khoảng tối lớn, một nguồn ấm giữa nền lạnh, tiền cảnh lấn khung, che mặt mà vẫn kể chuyện, lụa mỏng, chuyển động, góc máy sát đất. Bỏ mục brief không dính.
 
+Thủ pháp ở đây là từng món rời. Cách xếp chúng thành các lớp từ sát máy ra xa, và việc của khói trên từng lớp: `14_DEPTH_AND_PARALLAX.md` §2, §4. Các thủ pháp ở đây nghiêng về nền tối; muốn sâu mà sáng, rực hay phẳng đèn thì xem `14` §3.
+
 ## Hai nhãn, đọc riêng
 
 - `source_support`: **[quan sát]** = thấy trên ảnh minh hoạ người khác chia sẻ (cổ trang, tiên hiệp, 12 ảnh) cùng một bài tóm 4 thủ pháp, viết lại bằng lời T1. Ảnh và bài gốc không lưu ở repo.

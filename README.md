@@ -22,8 +22,9 @@ Ba tầng (mindset, knowledge, workflow) và các lớp mỏng tra khi cần:
 | Đèn và ống kính | `system/11_LIGHT_AND_OPTICS.md` | đèn trên mặt người đọc bằng bóng mũi, phía chiếu, cỡ nguồn và độ suy giảm, đốm sáng mắt, vùng nét, tiêu cự và chỗ máy đứng; chưa thử ảnh |
 | Không gian và dàn cảnh | `system/12_SPACE_AND_STAGING.md` | 8 thiết bị không gian (trục lùi, khung cửa, mượn cảnh, hành lang cột, hiên sâu, giếng trời, lớp bán trong, mặt phản chiếu), nơi chốn và trang phục Việt, hai người đối nhau, cảnh thật hay cảnh dựng, người trong nơi của họ; chưa thử ảnh |
 | Thế giới và lối kể | `system/13_WORLD_AND_TELLING.md` | ba câu hỏi của bối cảnh, giữ một nơi chốn qua nhiều khung, vật mang chuyện ba trạng thái, vết mòn có nguyên nhân, màu để dành, mốc thời kỳ, bảy lối kể cho album, cảm xúc bằng thân; chưng từ kho phim `film-craft`, chưa thử ảnh |
+| Lớp sâu và thị sai | `system/14_DEPTH_AND_PARALLAX.md` | mười dấu sâu, bản đồ lớp, sáu chìa sáng (không mặc định nền tối), tám dạng không khí, đỉnh tương phản, mười lăm phép thị sai đóng băng, bảng xoay chống lối mòn (skill `t1-depth-layers`, ví dụ `examples/I_depth_layers.txt`) |
 | Ví dụ sáng tạo | `examples/creative/` | hai phiếu album mẫu: G biến tấu (nhuộm chàm, keyword), H loại hình vắng người (ghế nhựa vỉa hè, văn xuôi ngắn); chưa sinh ảnh |
-| Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 4 ví dụ đầy đủ (D: ánh sáng ngược xuyên khói) |
+| Khuôn | `system/04_TEMPLATES.md`, `examples/` | khuôn 3 phần, brand, 5 ví dụ đầy đủ (D: ánh sáng ngược xuyên khói; I: sáu khung sáu thế giới cho lớp sâu và thị sai) |
 | Thực chiến | `system/LEARNINGS.md` | lỗi đã thấy trên ảnh thật; lớn dần theo thời gian |
 
 ## Dùng
