@@ -72,6 +72,7 @@ Khi người dùng xin sáng tạo, agent **được và nên** tìm thêm dữ 
 | Phong cách, phương tiện chụp, chất liệu bề mặt, kiến trúc theo vùng | VSC `lexicon` (`vsc_search` → `vsc_get_style`) | dấu hiệu nhận ra, cái model hay làm hỏng, phong cách dễ nhầm |
 | Điểm đứng máy, cặp khung nối | VSC `motion`; `09_SHOT_VOCAB.md` | tên khung và mô tả hình học |
 | Nơi chốn có kiến trúc, bối cảnh Việt, đèn trên mặt người | `12_SPACE_AND_STAGING.md`, `11_LIGHT_AND_OPTICS.md` (tra trong repo trước, không tốn lượt) | thiết bị không gian, danh từ nơi chốn, kiểu đèn |
+| Giọng kể của album, thế giới giữ nguyên qua nhiều khung, cảm xúc không dựa vào mặt | `13_WORLD_AND_TELLING.md` (tra trong repo, không tốn lượt) | một lối kể ghi vào LUẬT ALBUM, sơ đồ nơi chốn, vật mang chuyện |
 | Người khác đã viết chủ đề này ra sao | VSC `gallery` | **cơ chế**, không lấy câu chữ |
 | Dàn cảnh, ánh sáng, kể chuyện bằng hình | MCP `film-library` (sách điện ảnh), `06_FILM_GROUNDING.md` | nguyên lý, kèm tên sách ngắn |
 | MJ / sref | VSC `sref` | chỉ khi người dùng nhắc MJ |
@@ -119,6 +120,8 @@ KHÁC ALBUM TRƯỚC Ở: ___ / ___ / ___
 | **Vắng người** | nơi và vật kể thay người | dấu vết của người | — | thành ảnh nội thất vô chủ |
 
 Được phép lai (chuỗi kể chuyện có một đoạn biến tấu). Nói rõ hình dạng nào làm chủ.
+
+Hình dạng là cấu trúc. **Giọng kể** (máy, người, ánh sáng giữ suốt album theo một lối) chọn ở `13_WORLD_AND_TELLING.md` §6 và ghi thành một dòng trong LUẬT ALBUM.
 
 ## §5. Bảng khung: mỗi khung một việc
 

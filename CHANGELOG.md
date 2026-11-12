@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v3.3.0 — 2026-11-12
+- Thêm `system/13_WORLD_AND_TELLING.md`: ba câu hỏi một bối cảnh phải trả lời; sơ đồ nơi chốn để nhiều khung cùng một căn phòng và một bộ đồ; vật mang chuyện ba trạng thái; vết mòn có vị trí và nguyên nhân; màu để dành; mốc thời kỳ; bảy lối kể cho album (khung như tranh, tay và vật thay mặt, sự việc ngoài khung, nguyên tố và thời gian, người xem biết trước, lặp và một vết vỡ, phi lý điềm tĩnh); cảm xúc bằng thân. Chưng từ skill `film-craft` của repo `code-motion-video-skill`, chỉ giữ phần dùng cho ảnh tĩnh; phần thuộc thời gian (dựng, âm, i2v) nằm lại bên đó. Chưa thử ảnh.
+- `AGENTS.md`, `README.md`, `02` K8, `10` §3 và §4: mỗi nơi một dòng trỏ tới `13`. Thứ tự quyền: lớp mỏng là `05–13`.
+
 ## v3.2.1 — 2026-11-11
 Dọn dẹp, không thêm kiến thức.
 - `system/05_CRAFT.md`: §1.6 đưa lên trước §1.6a, §1.6b (giữ nguyên số để mọi tham chiếu cũ còn đúng); §3.6 chỉ còn là cách chọn shot cho ảnh đơn hoặc một đoạn của album chuỗi kể chuyện, không còn là cách chia cả album; §1.6b, §7.3a trỏ sang `10` để hai nơi không nói hai luật.

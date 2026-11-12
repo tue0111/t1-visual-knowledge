@@ -280,6 +280,7 @@ Mọi câu trục chính kết thúc bằng một **mức sàn**: điều kiện
 ---
 
 - Nơi chốn có kiến trúc, bối cảnh Việt Nam, dàn cảnh hai người: xem `12_SPACE_AND_STAGING.md`.
+- Giữ một nơi chốn qua nhiều khung, vật mang chuyện, tuổi của vật, thời kỳ, cảm xúc bằng thân: xem `13_WORLD_AND_TELLING.md`.
 
 ## Hành vi model chung (mọi trục)
 
